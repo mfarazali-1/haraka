@@ -24,10 +24,10 @@ export default function Footer() {
             <h3 className="text-[11px] tracking-[0.18em] uppercase text-cream/60 mb-4">Firm</h3>
             <ul className="space-y-2.5">
               <li>
-                <Link href="/about" className="text-sm text-paper/85 hover:text-cream transition-colors">About</Link>
+                <Link href="/about-us" className="text-sm text-paper/85 hover:text-cream transition-colors">About Us</Link>
               </li>
               <li>
-                <Link href="/haraka-cares" className="text-sm text-paper/85 hover:text-cream transition-colors">Haraka Cares</Link>
+                <Link href="/about" className="text-sm text-paper/85 hover:text-cream transition-colors">Our Team</Link>
               </li>
               <li>
                 <Link href="/contact" className="text-sm text-paper/85 hover:text-cream transition-colors">Contact</Link>

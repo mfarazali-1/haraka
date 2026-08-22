@@ -15,7 +15,7 @@ role accordions, the placed-lawyers counter, the contact form) reimplemented as 
 - `/about` — team, with click-to-open bio dialogs
 - `/testimonials` — all 20 LinkedIn recommendations
 - `/careers` — 10 open roles, each an expandable `<details>` accordion
-- `/haraka-cares` — placeholder philanthropy page (marked `[Placeholder]` in the original)
+- `/about-us` — firm overview and office location (`/haraka-cares` redirects here)
 - `/contact` — contact form
 
 ## Getting started

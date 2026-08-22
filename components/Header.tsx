@@ -8,7 +8,7 @@ const navLinks = [
   { href: "/about", label: "Our Team" },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/careers", label: "Careers" },
-  { href: "/haraka-cares", label: "Haraka Cares" },
+  { href: "/about-us", label: "About Us" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -43,7 +43,7 @@ export default function Header() {
 
         <div className="flex md:hidden items-center gap-3">
           <nav className="flex items-center gap-3" aria-label="Quick links">
-            {navLinks.filter((l) => l.href !== "/haraka-cares").map((l) => (
+            {navLinks.filter((l) => l.href !== "/about-us").map((l) => (
               <Link key={l.href} href={l.href} className="text-xs whitespace-nowrap transition-colors text-cream/65 hover:text-cream">
                 {l.label}
               </Link>
