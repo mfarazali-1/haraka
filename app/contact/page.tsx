@@ -57,8 +57,8 @@ const infoItems = [
   {
     label: "Phone",
     icon: <PhoneIcon />,
-    href: "tel:+12125550100",
-    text: "(212) 555-0100",
+    href: "tel:+19293195922",
+    text: "+1 (929) 319-5922",
     external: false,
   },
   {

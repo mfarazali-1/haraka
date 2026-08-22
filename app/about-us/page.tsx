@@ -132,12 +132,19 @@ export default function AboutUsPage() {
                 Whether you&rsquo;re hiring or looking, Tiffany reads every message personally, usually within one
                 business day.
               </p>
-              <a
-                href="mailto:Tiffany.Meikle@HarakaHeadhunters.com"
-                className="mt-4 inline-flex link-underline text-charcoal-deep text-sm"
-              >
-                Tiffany.Meikle@HarakaHeadhunters.com
-              </a>
+              <div>
+                <a
+                  href="mailto:Tiffany.Meikle@HarakaHeadhunters.com"
+                  className="mt-4 inline-flex link-underline text-charcoal-deep text-sm"
+                >
+                  Tiffany.Meikle@HarakaHeadhunters.com
+                </a>
+              </div>
+              <div>
+                <a href="tel:+19293195922" className="mt-3 inline-flex link-underline text-charcoal-deep text-sm">
+                  +1 (929) 319-5922
+                </a>
+              </div>
               <div>
                 <Link href="/contact" className="mt-6 inline-flex link-underline text-charcoal-deep text-sm">
                   Or use the contact form →
