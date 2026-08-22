@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SkylineArt from "@/components/SkylineArt";
+import DiamondPattern from "@/components/DiamondPattern";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -7,7 +9,7 @@ export const metadata: Metadata = {
 
 function PinIcon() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s-7-6.1-7-11.5a7 7 0 1 1 14 0C19 14.9 12 21 12 21z" />
       <circle cx="12" cy="9.5" r="2.5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
@@ -16,7 +18,7 @@ function PinIcon() {
 
 function MailIcon() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
       <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l9 7 9-7M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" />
     </svg>
   );
@@ -24,20 +26,45 @@ function MailIcon() {
 
 const directionsHref = "https://www.google.com/maps/search/?api=1&query=250+Park+Avenue+New+York+NY+10016";
 
+const facts = [
+  { value: "2023", label: "Founded" },
+  { value: "Midtown Manhattan", label: "Headquartered" },
+  { value: "Legal only", label: "Specialization" },
+];
+
 export default function AboutUsPage() {
   return (
     <>
-      <section className="bg-paper">
-        <div className="container-x pt-20 md:pt-28 pb-16">
-          <p className="eyebrow">About Us</p>
-          <h1 className="mt-6 font-serif text-[clamp(2.4rem,5.5vw,4.5rem)] leading-[1.05] tracking-tight max-w-4xl">
-            A legal recruiting firm built for speed, specialization, and care.
-          </h1>
-          <p className="mt-8 max-w-2xl text-lg text-muted leading-relaxed">
-            Haraka Headhunters is a boutique staffing &amp; consulting firm headquartered in Midtown Manhattan,
-            working with law firms and in-house teams across the country. We do one thing — legal recruiting —
-            and we do it faster than a New York minute.
-          </p>
+      <section className="relative overflow-hidden bg-paper">
+        <div className="container-x pt-20 md:pt-28 pb-16 md:pb-20">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+            <div className="lg:col-span-7">
+              <p className="eyebrow">About Us</p>
+              <h1 className="mt-6 font-serif text-[clamp(2.4rem,5.5vw,4.5rem)] leading-[1.05] tracking-tight max-w-4xl">
+                A legal recruiting firm built for speed, specialization, and care.
+              </h1>
+              <p className="mt-8 max-w-xl text-lg text-muted leading-relaxed">
+                Haraka Headhunters is a boutique staffing &amp; consulting firm headquartered in Midtown
+                Manhattan, working with law firms and in-house teams across the country. We do one thing —
+                legal recruiting — and we do it faster than a New York minute.
+              </p>
+              <div className="mt-10 flex flex-wrap gap-x-10 gap-y-6">
+                {facts.map((f) => (
+                  <div key={f.label}>
+                    <span className="font-serif text-2xl text-charcoal-deep">{f.value}</span>
+                    <div className="mt-2 flex items-center gap-2">
+                      <span className="hairline w-6 bg-slate" style={{ height: "1px" }} />
+                      <span className="text-xs uppercase tracking-[0.14em] text-muted">{f.label}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="lg:col-span-5">
+              <SkylineArt className="w-full h-auto max-h-[380px] [mask-image:linear-gradient(to_bottom,black_78%,transparent)]" />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -48,17 +75,21 @@ export default function AboutUsPage() {
               <p className="eyebrow">Who we are</p>
               <h2 className="mt-5 font-serif text-3xl md:text-4xl leading-tight">A small firm, on purpose.</h2>
             </div>
-            <div className="lg:col-span-8 space-y-6 text-base md:text-lg leading-relaxed text-charcoal-deep">
-              <p>
-                Haraka means &ldquo;speed&rdquo; in Swahili — and it&rsquo;s the whole thesis of the firm. We
-                stay small and specialized on purpose, because a boutique team that only works legal placements
-                can move faster and know its market deeper than a generalist shop ever could.
+            <div className="lg:col-span-8">
+              <p className="font-serif italic text-2xl md:text-3xl leading-snug text-charcoal-deep">
+                &ldquo;Haraka&rdquo; means speed in Swahili — and it&rsquo;s the whole thesis of the firm.
               </p>
-              <p>
-                We&rsquo;re not trying to be the biggest legal recruiting firm in New York. We&rsquo;re trying to
-                be the one attorneys and firms actually want to work with twice — built on real relationships,
-                straight answers, and a bias toward moving quickly once we know what a search actually needs.
-              </p>
+              <div className="mt-8 space-y-6 text-base md:text-lg leading-relaxed text-charcoal-deep max-w-2xl">
+                <p>
+                  We stay small and specialized on purpose, because a boutique team that only works legal
+                  placements can move faster and know its market deeper than a generalist shop ever could.
+                </p>
+                <p>
+                  We&rsquo;re not trying to be the biggest legal recruiting firm in New York. We&rsquo;re trying to
+                  be the one attorneys and firms actually want to work with twice — built on real relationships,
+                  straight answers, and a bias toward moving quickly once we know what a search actually needs.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -71,8 +102,10 @@ export default function AboutUsPage() {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-px bg-line-strong border border-line-strong">
             <div className="bg-paper p-8 md:p-10">
-              <span className="text-slate-deep"><PinIcon /></span>
-              <h3 className="mt-4 font-serif text-xl text-charcoal-deep">Address</h3>
+              <span className="inline-flex items-center justify-center w-11 h-11 rounded-full border border-line-strong text-slate-deep">
+                <PinIcon />
+              </span>
+              <h3 className="mt-5 font-serif text-xl text-charcoal-deep">Address</h3>
               <p className="mt-3 text-base text-charcoal-deep leading-relaxed">
                 250 Park Avenue
                 <br />
@@ -91,8 +124,10 @@ export default function AboutUsPage() {
               </a>
             </div>
             <div className="bg-paper p-8 md:p-10">
-              <span className="text-slate-deep"><MailIcon /></span>
-              <h3 className="mt-4 font-serif text-xl text-charcoal-deep">Say hello</h3>
+              <span className="inline-flex items-center justify-center w-11 h-11 rounded-full border border-line-strong text-slate-deep">
+                <MailIcon />
+              </span>
+              <h3 className="mt-5 font-serif text-xl text-charcoal-deep">Say hello</h3>
               <p className="mt-3 text-base text-charcoal-deep leading-relaxed">
                 Whether you&rsquo;re hiring or looking, Tiffany reads every message personally, usually within one
                 business day.
@@ -113,8 +148,9 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <section className="bg-charcoal text-cream">
-        <div className="container-x py-20 md:py-24 text-center">
+      <section className="relative overflow-hidden bg-charcoal text-cream">
+        <DiamondPattern className="absolute inset-0 w-full h-full" />
+        <div className="relative container-x py-20 md:py-24 text-center">
           <h2 className="font-serif text-3xl md:text-4xl text-cream max-w-2xl mx-auto leading-tight">
             Hiring? Looking? Either way, let&rsquo;s talk.
           </h2>
