@@ -1,32 +1,10 @@
 import Link from "next/link";
 import Counter from "@/components/Counter";
-import TestimonialCard from "@/components/TestimonialCard";
+import TestimonialsMarquee from "@/components/TestimonialsMarquee";
+import { testimonials } from "@/lib/testimonials";
 
-const featured = [
-  {
-    avatar: "/testimonials/avatars/aliya-rampersad.jpg",
-    name: "Aliya Rampersad",
-    title: "Undergraduate at John Jay College of Criminal Justice",
-    quote:
-      "She creates a work environment that feels supportive, motivating, and genuinely collaborative. Anyone would be lucky to have her as a boss.",
-    date: "Dec 2025",
-  },
-  {
-    avatar: "/testimonials/avatars/sherwin-primo.jpg",
-    name: "Sherwin Primo",
-    title: "President at Primo Arch Drafting + Design, Inc.",
-    quote: "Tiffany is probably one of the best sources for attorneys of all kinds to find their place in the world.",
-    date: "Jun 2025",
-  },
-  {
-    avatar: "/testimonials/avatars/christina-davis.jpg",
-    name: "CHRISTINA DAVIS",
-    title: "With God all things are possible 🙏",
-    quote:
-      "Tiffany and her team are devoted to finding top-notch candidates who are not only highly qualified and motivated but also an excellent cultural fit.",
-    date: "Apr 2025",
-  },
-];
+const marqueeRow1 = testimonials.filter((_, i) => i % 2 === 0);
+const marqueeRow2 = testimonials.filter((_, i) => i % 2 !== 0);
 
 export default function Home() {
 
@@ -129,7 +107,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-paper">
+      <section className="bg-paper overflow-hidden">
         <div className="container-x py-20 md:py-28">
           <div className="flex items-end justify-between flex-wrap gap-6 mb-12 md:mb-16">
             <div>
@@ -138,13 +116,22 @@ export default function Home() {
                 Trusted by the candidates and clients we&rsquo;ve placed.
               </h2>
             </div>
-            <Link href="/testimonials" className="link-underline text-sm text-charcoal-deep">Read all recommendations</Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-line-strong border border-line-strong">
-            {featured.map((t) => (
-              <TestimonialCard key={t.name} t={t} compact />
-            ))}
-          </div>
+        </div>
+
+        <div className="space-y-6">
+          <TestimonialsMarquee items={marqueeRow1} direction="forward" duration={70} />
+          <TestimonialsMarquee items={marqueeRow2} direction="reverse" duration={80} />
+        </div>
+
+        <div className="container-x mt-14 md:mt-16 flex justify-center">
+          <Link
+            href="/testimonials"
+            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium tracking-wide transition-all duration-300 border border-charcoal-deep text-charcoal-deep hover:bg-charcoal-deep hover:text-cream group"
+          >
+            View all testimonials
+            <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
+          </Link>
         </div>
       </section>
 

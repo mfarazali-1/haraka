@@ -148,3 +148,24 @@ details.role[open] .role-caret {
 html:has(dialog.member-dialog[open]) {
   overflow: hidden;
 }
+
+/* Homepage testimonials marquee */
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee-scroll var(--marquee-duration, 60s) linear infinite;
+}
+.marquee-track[data-direction="reverse"] {
+  animation-direction: reverse;
+}
+.marquee-row:hover .marquee-track,
+.marquee-row:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}

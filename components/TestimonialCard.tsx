@@ -10,8 +10,37 @@ export default function TestimonialCard({
 }: {
   t: Testimonial;
   compact?: boolean;
-  variant?: "grid" | "masonry";
+  variant?: "grid" | "masonry" | "marquee";
 }) {
+  if (variant === "marquee") {
+    return (
+      <article className="group relative shrink-0 w-[320px] sm:w-[360px] h-[280px] bg-paper border border-line-strong p-6 md:p-7 flex flex-col transition-colors duration-300 hover:border-slate">
+        <LinkedInBadge className="absolute top-6 right-6" />
+        <header className="flex items-start gap-3 pr-10">
+          <Image
+            src={t.avatar}
+            alt=""
+            width={44}
+            height={44}
+            className="w-11 h-11 rounded-full object-cover bg-paper-deep border border-line-strong shrink-0"
+          />
+          <div className="min-w-0 pt-0.5">
+            <p className="text-sm font-medium text-charcoal-deep leading-tight">{t.name}</p>
+            <p className="mt-1 text-xs text-muted leading-snug line-clamp-2">{t.title}</p>
+          </div>
+        </header>
+        <p className="mt-5 flex-1 text-sm leading-relaxed text-charcoal-deep line-clamp-5">{t.quote}</p>
+        <footer className="mt-4 pt-4 border-t border-line-strong flex items-center justify-between gap-4">
+          <span className="text-xs text-muted">{t.date}</span>
+          <span className="inline-flex items-center gap-1.5 text-xs font-medium text-[#0A66C2]">
+            <LinkedInIcon className="text-[#0A66C2] opacity-100" />
+            LinkedIn
+          </span>
+        </footer>
+      </article>
+    );
+  }
+
   if (variant === "masonry") {
     return (
       <article className="group relative mb-6 break-inside-avoid bg-paper border border-line-strong p-7 md:p-8 transition-all duration-300 hover:border-slate hover:shadow-[0_8px_30px_rgba(26,29,30,0.07)]">
