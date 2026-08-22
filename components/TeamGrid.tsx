@@ -4,9 +4,9 @@ import Image from "next/image";
 import { useRef } from "react";
 import type { TeamMember } from "@/lib/team";
 
-function ArrowIcon() {
+function ArrowIcon({ className = "" }: { className?: string }) {
   return (
-    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" className="transition-transform group-hover:translate-x-0.5">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" className={`transition-transform group-hover:translate-x-0.5 ${className}`}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 5l7 7-7 7" />
     </svg>
   );
@@ -28,31 +28,32 @@ export default function TeamGrid({ members }: { members: TeamMember[] }) {
 
   return (
     <>
-      <ul className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-line-strong border border-line-strong">
+      <ul className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
         {members.map((m) => (
-          <li key={m.id} className="bg-paper">
+          <li key={m.id}>
             <button
               type="button"
               aria-label={`Read ${m.name}'s full bio`}
               onClick={() => open(m.id)}
-              className="member-card group w-full text-left bg-paper hover:bg-paper-deep/30 transition-colors flex flex-col h-full"
+              className="member-card group w-full text-left bg-paper border border-line-strong hover:border-slate-deep transition-all duration-300 hover:shadow-[0_16px_40px_rgba(26,29,30,0.09)] flex flex-col h-full"
             >
-              <div className="aspect-[4/5] overflow-hidden bg-paper-deep">
+              <div className="relative aspect-[4/5] overflow-hidden bg-paper-deep">
                 <Image
                   src={m.img}
                   alt={m.alt}
                   width={640}
                   height={800}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-              </div>
-              <div className="p-6 flex flex-col flex-1">
-                <h4 className="font-serif text-xl text-charcoal-deep">{m.name}</h4>
-                <p className="mt-1 text-xs uppercase tracking-[0.18em] text-slate-deep">{m.role}</p>
-                <span className="mt-auto pt-6 text-xs text-charcoal-deep inline-flex items-center gap-2 group-hover:text-slate-deep transition-colors">
+                <div className="absolute inset-0 bg-gradient-to-t from-charcoal-deep/80 via-charcoal-deep/0 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <span className="absolute bottom-4 left-5 flex items-center gap-1.5 text-xs font-medium text-cream opacity-0 translate-y-1.5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                   Read full bio
-                  <ArrowIcon />
+                  <ArrowIcon className="text-cream" />
                 </span>
+              </div>
+              <div className="p-5 md:p-6">
+                <h4 className="font-serif text-lg md:text-xl text-charcoal-deep">{m.name}</h4>
+                <p className="mt-1 text-xs uppercase tracking-[0.16em] text-slate-deep">{m.role}</p>
               </div>
             </button>
           </li>
