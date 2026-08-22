@@ -28,7 +28,7 @@ const directionsHref = "https://www.google.com/maps/search/?api=1&query=250+Park
 
 const facts = [
   { value: "2023", label: "Founded" },
-  { value: "Midtown Manhattan", label: "Headquartered" },
+  { value: "New York City", label: "Headquartered" },
   { value: "Legal only", label: "Specialization" },
 ];
 
@@ -44,9 +44,9 @@ export default function AboutUsPage() {
                 A legal recruiting firm built for speed, specialization, and care.
               </h1>
               <p className="mt-8 max-w-xl text-lg text-muted leading-relaxed">
-                Haraka Headhunters is a boutique staffing &amp; consulting firm headquartered in Midtown
-                Manhattan, working with law firms and in-house teams across the country. We do one thing —
-                legal recruiting — and we do it faster than a New York minute.
+                Haraka Headhunters is a boutique staffing &amp; consulting firm headquartered in New York City,
+                working with law firms and in-house teams across the country. We do one thing — legal
+                recruiting — and we do it faster than a New York minute.
               </p>
               <div className="mt-10 flex flex-wrap gap-x-10 gap-y-6">
                 {facts.map((f) => (
@@ -98,7 +98,7 @@ export default function AboutUsPage() {
       <section className="bg-paper">
         <div className="container-x py-20 md:py-28">
           <p className="eyebrow">Our office</p>
-          <h2 className="mt-5 font-serif text-3xl md:text-4xl leading-tight max-w-2xl">Based in Midtown Manhattan.</h2>
+          <h2 className="mt-5 font-serif text-3xl md:text-4xl leading-tight max-w-2xl">Based in New York City.</h2>
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-px bg-line-strong border border-line-strong">
             <div className="bg-paper p-8 md:p-10">

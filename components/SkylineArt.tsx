@@ -4,10 +4,10 @@ export default function SkylineArt({ className = "" }: { className?: string }) {
       viewBox="0 0 600 600"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Illustration of the Midtown Manhattan skyline"
+      aria-label="Illustration of the New York City skyline"
       className={className}
     >
-      <title>Midtown Manhattan skyline</title>
+      <title>New York City skyline</title>
 
       {/* chevrons echoing the wordmark, standing in for birds / motion */}
       <g fill="none" stroke="var(--color-slate)" strokeWidth="6" strokeLinecap="round" opacity="0.55">
