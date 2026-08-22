@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact Us",
 };
 
 function MailIcon() {
@@ -29,6 +29,23 @@ function BriefcaseIcon() {
   );
 }
 
+function PinIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s-7-6.1-7-11.5a7 7 0 1 1 14 0C19 14.9 12 21 12 21z" />
+      <circle cx="12" cy="9.5" r="2.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function PhoneIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C9.16 21 3 14.84 3 7a2 2 0 0 1 1-1.73V4z" />
+    </svg>
+  );
+}
+
 const infoItems = [
   {
     label: "Direct",
@@ -36,6 +53,20 @@ const infoItems = [
     href: "mailto:Tiffany.Meikle@HarakaHeadhunters.com",
     text: "Tiffany.Meikle@HarakaHeadhunters.com",
     external: false,
+  },
+  {
+    label: "Phone",
+    icon: <PhoneIcon />,
+    href: "tel:+12125550100",
+    text: "(212) 555-0100",
+    external: false,
+  },
+  {
+    label: "Office",
+    icon: <PinIcon />,
+    href: "https://www.google.com/maps/search/?api=1&query=250+Park+Avenue+New+York+NY+10016",
+    text: "250 Park Avenue, New York, NY 10016",
+    external: true,
   },
   {
     label: "LinkedIn",
@@ -58,7 +89,7 @@ export default function ContactPage() {
     <>
       <section className="bg-paper">
         <div className="container-x pt-20 md:pt-28 pb-12">
-          <p className="eyebrow">Contact</p>
+          <p className="eyebrow">Contact Us</p>
           <h1 className="mt-6 font-serif text-[clamp(2.4rem,5.5vw,4.5rem)] leading-[1.05] tracking-tight max-w-4xl">
             Tell us what you&rsquo;re looking for.
           </h1>

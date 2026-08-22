@@ -5,11 +5,11 @@ import { useState } from "react";
 import Logo from "./Logo";
 
 const navLinks = [
+  { href: "/about-us", label: "About Us" },
   { href: "/about", label: "Our Team" },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/careers", label: "Careers" },
-  { href: "/about-us", label: "About Us" },
-  { href: "/contact", label: "Contact" },
+  { href: "/contact", label: "Contact Us" },
 ];
 
 export default function Header() {
