@@ -5,6 +5,54 @@ export const metadata: Metadata = {
   title: "Contact",
 };
 
+function MailIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l9 7 9-7M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" />
+    </svg>
+  );
+}
+
+function LinkedInGlyph() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.48-.9 1.65-1.85 3.39-1.85 3.62 0 4.29 2.38 4.29 5.48v6.26zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm1.78 13.02H3.56V9h3.55v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45C23.21 24 24 23.23 24 22.28V1.72C24 .77 23.21 0 22.22 0z" />
+    </svg>
+  );
+}
+
+function BriefcaseIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 21V8a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v13M3 21h18M9 21V7a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v14" />
+    </svg>
+  );
+}
+
+const infoItems = [
+  {
+    label: "Direct",
+    icon: <MailIcon />,
+    href: "mailto:Tiffany.Meikle@HarakaHeadhunters.com",
+    text: "Tiffany.Meikle@HarakaHeadhunters.com",
+    external: false,
+  },
+  {
+    label: "LinkedIn",
+    icon: <LinkedInGlyph />,
+    href: "https://www.linkedin.com/company/haraka-headhunters/",
+    text: "Haraka Headhunters",
+    external: true,
+  },
+  {
+    label: "Open roles",
+    icon: <BriefcaseIcon />,
+    href: "https://www.linkedin.com/company/haraka-headhunters/jobs/",
+    text: "View on LinkedIn",
+    external: true,
+  },
+];
+
 export default function ContactPage() {
   return (
     <>
@@ -23,47 +71,34 @@ export default function ContactPage() {
 
       <section className="bg-paper-deep border-y border-line-strong">
         <div className="container-x py-16 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
             <div className="lg:col-span-7">
               <ContactForm />
             </div>
 
-            <aside className="lg:col-span-5 space-y-10">
-              <div>
-                <p className="eyebrow">Direct</p>
-                <p className="mt-4 text-lg">
-                  <a href="mailto:Tiffany.Meikle@HarakaHeadhunters.com" className="link-underline text-charcoal-deep">
-                    Tiffany.Meikle@HarakaHeadhunters.com
-                  </a>
-                </p>
-              </div>
-              <div>
-                <p className="eyebrow">LinkedIn</p>
-                <p className="mt-4 text-lg">
-                  <a
-                    href="https://www.linkedin.com/company/haraka-headhunters/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="link-underline text-charcoal-deep"
-                  >
-                    Haraka Headhunters
-                  </a>
-                </p>
-              </div>
-              <div>
-                <p className="eyebrow">Open roles</p>
-                <p className="mt-4 text-lg">
-                  <a
-                    href="https://www.linkedin.com/company/haraka-headhunters/jobs/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="link-underline text-charcoal-deep"
-                  >
-                    View on LinkedIn
-                  </a>
-                </p>
-              </div>
-              <div className="border-t border-line pt-8">
+            <aside className="lg:col-span-5 border border-line-strong bg-paper p-8 md:p-10 space-y-8">
+              {infoItems.map((item) => (
+                <div key={item.label} className="flex items-start gap-4">
+                  <span className="mt-0.5 shrink-0 w-9 h-9 inline-flex items-center justify-center border border-line-strong text-slate-deep">
+                    {item.icon}
+                  </span>
+                  <div>
+                    <p className="eyebrow">{item.label}</p>
+                    <p className="mt-1.5 text-base md:text-lg">
+                      <a
+                        href={item.href}
+                        target={item.external ? "_blank" : undefined}
+                        rel={item.external ? "noreferrer noopener" : undefined}
+                        className="link-underline text-charcoal-deep break-all"
+                      >
+                        {item.text}
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              ))}
+
+              <div className="border-t border-line pt-7">
                 <p className="text-sm text-muted leading-relaxed">
                   Every search begins with a confidential conversation. Whether you&rsquo;re actively hiring,
                   quietly exploring, or somewhere in between — your privacy is the first thing we protect.
