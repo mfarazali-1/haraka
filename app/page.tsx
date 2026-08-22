@@ -108,8 +108,8 @@ export default function Home() {
       </section>
 
       <section className="bg-paper overflow-hidden">
-        <div className="container-x py-20 md:py-28">
-          <div className="flex items-end justify-between flex-wrap gap-6 mb-12 md:mb-16">
+        <div className="container-x pt-20 md:pt-28">
+          <div className="flex items-end justify-between flex-wrap gap-6 mb-8 md:mb-10">
             <div>
               <p className="eyebrow">Recommendations</p>
               <h2 className="mt-5 font-serif text-3xl md:text-4xl text-charcoal-deep leading-tight max-w-2xl">
@@ -124,7 +124,7 @@ export default function Home() {
           <TestimonialsMarquee items={marqueeRow2} direction="reverse" duration={80} />
         </div>
 
-        <div className="container-x mt-14 md:mt-16 flex justify-center">
+        <div className="container-x pb-20 md:pb-28 mt-14 md:mt-16 flex justify-center">
           <Link
             href="/testimonials"
             className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium tracking-wide transition-all duration-300 border border-charcoal-deep text-charcoal-deep hover:bg-charcoal-deep hover:text-cream group"
