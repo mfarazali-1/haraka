@@ -72,44 +72,6 @@ export default function Home() {
 
       <TextMarquee text="Providing Top Candidates Faster Than A New York Minute." />
 
-      <section className="bg-paper-deep border-y border-line-strong">
-        <div className="container-x py-20 md:py-28">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
-            <div className="lg:col-span-4">
-              <p className="eyebrow">How we work</p>
-              <h2 className="mt-5 font-serif text-3xl md:text-4xl text-charcoal-deep leading-tight">
-                Three things we get right, every time.
-              </h2>
-            </div>
-            <div className="lg:col-span-8">
-              <ul className="grid grid-cols-1 md:grid-cols-3 gap-px bg-line-strong border border-line-strong">
-                <li className="bg-paper p-7 md:p-8 flex flex-col gap-4">
-                  <h3 className="font-serif text-2xl text-charcoal-deep">Speed</h3>
-                  <p className="text-sm md:text-[15px] text-muted leading-relaxed">
-                    Placements measured in days, not months. Two-interview turnarounds inside a single week, when
-                    the moment calls for it.
-                  </p>
-                </li>
-                <li className="bg-paper p-7 md:p-8 flex flex-col gap-4">
-                  <h3 className="font-serif text-2xl text-charcoal-deep">Specialization</h3>
-                  <p className="text-sm md:text-[15px] text-muted leading-relaxed">
-                    Legal recruiting is all we do. Associates, partners, in-house counsel — across practice areas,
-                    with a network built relationship by relationship.
-                  </p>
-                </li>
-                <li className="bg-paper p-7 md:p-8 flex flex-col gap-4">
-                  <h3 className="font-serif text-2xl text-charcoal-deep">Discretion</h3>
-                  <p className="text-sm md:text-[15px] text-muted leading-relaxed">
-                    Confidential candidate searches handled with care. Your name is shared only where it should be,
-                    when it should be.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="bg-paper overflow-hidden">
         <div className="container-x pt-20 md:pt-28">
           <div className="flex items-end justify-between flex-wrap gap-6 mb-8 md:mb-10">
