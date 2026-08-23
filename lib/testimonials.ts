@@ -127,13 +127,6 @@ export const testimonials: Testimonial[] = [
     "date": "Jul 2023"
   },
   {
-    "avatar": "/testimonials/avatars/aliya-rampersad.jpg",
-    "name": "Aliya Rampersad",
-    "title": "Undergraduate at John Jay College of Criminal Justice",
-    "quote": "I had the pleasure of working under Tiffany as a legal intern, and I can confidently say she is one of the best leaders I've ever had. She creates a work environment that feels supportive, motivating, and genuinely collaborative. Her communication is always clear, her expectations are fair, and she treats her team with respect and kindness.\n\nWhat I appreciated most was how she encouraged growth. She gives constructive feedback in a way that helps you improve without ever feeling discouraged. She also leads by example: organized, professional, and always willing to jump in and help when needed.\n\nI'm grateful for everything I learned while working with her and for the positive atmosphere she created every day. Anyone would be lucky to have her as a boss. Highly recommended!",
-    "date": "Dec 2025"
-  },
-  {
     "avatar": "/testimonials/avatars/sherwin-primo.jpg",
     "name": "Sherwin Primo",
     "title": "President at Primo Arch Drafting + Design, Inc.",
