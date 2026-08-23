@@ -39,11 +39,11 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "ngozi",
     "img": "/about/ngozi.png",
-    "alt": "Ngozi, Business Development Manager at Haraka Headhunters",
-    "name": "Ngozi",
+    "alt": "Ngozi Bosah, Business Development Manager at Haraka Headhunters",
+    "name": "Ngozi Bosah",
     "role": "Business Development Manager",
     "paras": [
-      "Ngozi is a law graduate of the University of East Anglia in the United Kingdom and is currently enrolled at the Nigerian Law School, where she is pursuing qualification as a Barrister and Solicitor, with an anticipated call to the Nigerian Bar in July 2027.",
+      "Ngozi Bosah is a law graduate of the University of East Anglia in the United Kingdom and is currently enrolled at the Nigerian Law School, where she is pursuing qualification as a Barrister and Solicitor, with an anticipated call to the Nigerian Bar in July 2027.",
       "She began her journey with Haraka Headhunters LLC as a part-time team member and now serves as a Business Development Manager, where she plays an integral role in driving business development, cultivating relationships, and supporting the continued growth of our attorney-recruitment practice.",
       "At Haraka, Ngozi has had the privilege of working closely with our CEO and Founder, Tiffany Meikle, whose leadership, work ethic, and wonderfully sociable spirit she greatly admires. For Ngozi, the experience has been an invaluable opportunity to learn, grow, and contribute within an ambitious and people-focused organization.",
       "Outside of work and law, Ngozi enjoys spending time with family and friends, embracing new experiences, and, naturally, indulging in a little good entertainment. Her current all-time favorite read is After: The Series on Wattpad, while XO, Kitty holds the crown as her favorite series. And when it comes to movies, High School Musical 3 has her heart—because some classics simply cannot be topped."
