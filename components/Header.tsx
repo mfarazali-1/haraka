@@ -73,6 +73,7 @@ export default function Header() {
           <span className="flex flex-col leading-tight min-w-0">
             <span className="font-serif text-[11px] sm:text-[15px] md:text-[17px] tracking-tight text-cream truncate">Haraka Headhunters</span>
             <span className="text-[7px] sm:text-[10px] md:text-[11px] tracking-[0.14em] sm:tracking-[0.18em] uppercase text-cream/55 truncate">Staffing &amp; Consulting</span>
+            <span className="hidden md:block mt-0.5 text-[9px] italic text-cream/45 truncate">Providing Top Candidates Faster Than A New York Minute!</span>
           </span>
         </Link>
 
