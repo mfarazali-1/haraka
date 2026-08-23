@@ -87,17 +87,17 @@ export default function TeamGrid({ members }: { members: TeamMember[] }) {
               <CloseIcon />
             </button>
             <div className="grid grid-cols-1 md:grid-cols-12">
-              <div className="md:col-span-5 bg-paper-deep md:flex md:items-stretch">
+              <div className="md:col-span-5 bg-paper-deep">
                 {m.img ? (
                   <Image
                     src={m.img}
                     alt={m.alt}
                     width={640}
                     height={800}
-                    className="w-full aspect-[4/5] md:aspect-auto md:h-full object-cover object-top"
+                    className="w-full aspect-[4/5] object-cover object-top md:sticky md:top-0"
                   />
                 ) : (
-                  <PlaceholderPortrait className="w-full aspect-[4/5] md:aspect-auto md:h-full" />
+                  <PlaceholderPortrait className="w-full aspect-[4/5] md:sticky md:top-0" />
                 )}
               </div>
               <div className="md:col-span-7 p-7 md:p-9">
