@@ -108,53 +108,26 @@ export default function ContactPage() {
             </div>
 
             <aside className="order-1 lg:order-2 lg:col-span-5 border border-line-strong bg-paper p-8 md:p-10 space-y-8">
-              <div className="grid grid-cols-2 gap-x-6 gap-y-8">
-                {infoItems
-                  .filter((item) => item.label === "Direct" || item.label === "Office")
-                  .map((item) => (
-                    <div key={item.label} className="flex items-start gap-3 min-w-0">
-                      <span className="mt-0.5 shrink-0 w-9 h-9 inline-flex items-center justify-center border border-line-strong text-slate-deep">
-                        {item.icon}
-                      </span>
-                      <div className="min-w-0">
-                        <p className="eyebrow">{item.label}</p>
-                        <p className="mt-1.5 text-base md:text-lg">
-                          <a
-                            href={item.href}
-                            target={item.external ? "_blank" : undefined}
-                            rel={item.external ? "noreferrer noopener" : undefined}
-                            className="link-underline text-charcoal-deep break-all"
-                          >
-                            {item.text}
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-              </div>
-
-              {infoItems
-                .filter((item) => item.label !== "Direct" && item.label !== "Office")
-                .map((item) => (
-                  <div key={item.label} className="flex items-start gap-4">
-                    <span className="mt-0.5 shrink-0 w-9 h-9 inline-flex items-center justify-center border border-line-strong text-slate-deep">
-                      {item.icon}
-                    </span>
-                    <div>
-                      <p className="eyebrow">{item.label}</p>
-                      <p className="mt-1.5 text-base md:text-lg">
-                        <a
-                          href={item.href}
-                          target={item.external ? "_blank" : undefined}
-                          rel={item.external ? "noreferrer noopener" : undefined}
-                          className="link-underline text-charcoal-deep break-all"
-                        >
-                          {item.text}
-                        </a>
-                      </p>
-                    </div>
+              {infoItems.map((item) => (
+                <div key={item.label} className="flex items-start gap-4">
+                  <span className="mt-0.5 shrink-0 w-9 h-9 inline-flex items-center justify-center border border-line-strong text-slate-deep">
+                    {item.icon}
+                  </span>
+                  <div>
+                    <p className="eyebrow">{item.label}</p>
+                    <p className="mt-1.5 text-base md:text-lg">
+                      <a
+                        href={item.href}
+                        target={item.external ? "_blank" : undefined}
+                        rel={item.external ? "noreferrer noopener" : undefined}
+                        className="link-underline text-charcoal-deep break-all"
+                      >
+                        {item.text}
+                      </a>
+                    </p>
                   </div>
-                ))}
+                </div>
+              ))}
 
               <div className="border-t border-line pt-7">
                 <p className="text-sm text-muted leading-relaxed">
