@@ -44,7 +44,7 @@ export default function AboutUsPage() {
                 A legal recruiting firm built for speed, specialization, and care.
               </h1>
               <p className="mt-8 max-w-xl text-lg text-muted leading-relaxed">
-                Haraka Headhunters is a boutique staffing &amp; consulting firm headquartered in New York City,
+                Haraka Headhunters LLC is a boutique staffing &amp; consulting firm headquartered in New York City,
                 working with law firms and in-house teams across the country. We do one thing — legal
                 recruiting — and we do it faster than a New York minute.
               </p>

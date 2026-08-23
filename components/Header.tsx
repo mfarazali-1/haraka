@@ -68,7 +68,7 @@ export default function Header() {
       </div>
 
       <div className="container-x pl-[2px] pr-4 md:px-10 flex items-center justify-between gap-2 h-16 md:h-20">
-        <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0" aria-label="Haraka Headhunters home">
+        <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0" aria-label="Haraka Headhunters LLC home">
           <Logo className="w-[60px] h-[60px] md:w-[76px] md:h-[76px] shrink-0 transition-transform duration-500 group-hover:rotate-[8deg]" />
           <span className="flex flex-col leading-tight">
             <span className="font-serif font-bold sm:font-semibold text-[14px] sm:text-[19px] md:text-[22px] tracking-tight text-cream whitespace-nowrap">Haraka Headhunters LLC</span>

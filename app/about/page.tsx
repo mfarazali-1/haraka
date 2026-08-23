@@ -12,7 +12,7 @@ const tiffanyBio = [
   "Tiffany is the Founder and CEO of Haraka Headhunters LLC, bringing a strong foundation in business and a proven track record in recruitment. She holds a Bachelor’s degree in Business Administration from City College and an MBA from Thomas Edison State University. She also pursued an Associate’s degree in journalism at Herkimer County Community College directly after graduating high school.",
   "Her career spans leading staffing and corporate environments, including Brook Street (UK), where she specialized in business development, and Robert Half, where she worked as an Attorney Recruiter. Tiffany has also held technical recruiting roles with The Depository Trust & Clearing Corporation and Panasonic Avionics, giving her a well-rounded perspective across industries.",
   "Outside of work, Tiffany enjoys swimming and unwinding with great stories — whether it’s binge-watching series like Game of Thrones or reading her favorite novel, Sycamore Row. She’s equally drawn to compelling true stories, with All the Money in the World among her favorite films.",
-  "With a sharp eye for talent and a passion for connecting people with opportunity, Tiffany leads Haraka Headhunters with energy, insight, and purpose.",
+  "With a sharp eye for talent and a passion for connecting people with opportunity, Tiffany leads Haraka Headhunters LLC with energy, insight, and purpose.",
 ];
 
 export default function AboutPage() {
@@ -28,7 +28,7 @@ export default function AboutPage() {
               <div className="md:col-span-4 lg:col-span-3 p-7 md:p-8 md:border-r border-line-strong flex flex-col">
                 <Image
                   src="/about/tiffany-meikle.jpg"
-                  alt="Tiffany Meikle, Founder & CEO of Haraka Headhunters"
+                  alt="Tiffany Meikle, Founder & CEO of Haraka Headhunters LLC"
                   width={640}
                   height={800}
                   className="aspect-[4/5] w-full object-cover border border-line-strong"

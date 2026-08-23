@@ -108,7 +108,7 @@ export default function TestimonialCard({
             &ldquo;
           </span>
           <p className="relative text-base md:text-[17px] leading-relaxed text-charcoal-deep whitespace-pre-line">
-            {t.quote}
+            &ldquo;{t.quote}&rdquo;
           </p>
         </div>
 

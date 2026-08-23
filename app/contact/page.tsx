@@ -72,7 +72,7 @@ const infoItems = [
     label: "LinkedIn",
     icon: <LinkedInGlyph />,
     href: "https://www.linkedin.com/company/haraka-headhunters/",
-    text: "Haraka Headhunters",
+    text: "Haraka Headhunters LLC",
     external: true,
   },
   {

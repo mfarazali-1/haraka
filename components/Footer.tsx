@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="container-x py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16">
           <div className="md:col-span-5">
-            <Link href="/" className="inline-flex items-center gap-3" aria-label="Haraka Headhunters home">
+            <Link href="/" className="inline-flex items-center gap-3" aria-label="Haraka Headhunters LLC home">
               <Logo className="w-12 h-12" />
               <span className="flex flex-col leading-tight">
-                <span className="font-serif text-lg text-cream">Haraka Headhunters</span>
+                <span className="font-serif text-lg text-cream">Haraka Headhunters LLC</span>
                 <span className="text-[11px] tracking-[0.18em] uppercase text-cream/60">Staffing &amp; Consulting</span>
               </span>
             </Link>
@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 pt-8 border-t border-paper/15 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <p className="text-xs text-paper/55">© {new Date().getFullYear()} Haraka Headhunters. All rights reserved.</p>
+          <p className="text-xs text-paper/55">© {new Date().getFullYear()} Haraka Headhunters LLC. All rights reserved.</p>
           <p className="text-xs text-paper/55 italic">Providing top candidates faster than a New York minute.</p>
         </div>
       </div>

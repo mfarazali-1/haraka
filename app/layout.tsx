@@ -6,19 +6,19 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL("https://harakaheadhunters.example.com"),
   title: {
-    default: "Haraka Headhunters — Top Legal Talent, Faster Than A New York Minute",
-    template: "%s — Haraka Headhunters",
+    default: "Haraka Headhunters LLC — Top Legal Talent, Faster Than A New York Minute",
+    template: "%s — Haraka Headhunters LLC",
   },
   description:
-    "Haraka Headhunters is a legal staffing & consulting firm placing top attorneys with speed and precision. 200+ lawyers placed since January 2023.",
+    "Haraka Headhunters LLC is a legal staffing & consulting firm placing top attorneys with speed and precision. 200+ lawyers placed since January 2023.",
   icons: {
     icon: "/haraka-logo.svg",
   },
   openGraph: {
     type: "website",
-    title: "Haraka Headhunters — Top Legal Talent, Faster Than A New York Minute",
+    title: "Haraka Headhunters LLC — Top Legal Talent, Faster Than A New York Minute",
     description:
-      "Haraka Headhunters is a legal staffing & consulting firm placing top attorneys with speed and precision. 200+ lawyers placed since January 2023.",
+      "Haraka Headhunters LLC is a legal staffing & consulting firm placing top attorneys with speed and precision. 200+ lawyers placed since January 2023.",
     images: ["/og-image.png"],
   },
   twitter: {

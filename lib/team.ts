@@ -12,7 +12,7 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "emmanuel-ojo",
     "img": "/about/emmanuel-ojo.png",
-    "alt": "Emmanuel Ojo, Regional Recruitment & Business Development Manager at Haraka Headhunters",
+    "alt": "Emmanuel Ojo, Regional Recruitment & Business Development Manager at Haraka Headhunters LLC",
     "name": "Emmanuel Ojo",
     "role": "Regional Recruitment & Business Development Manager",
     "paras": [
@@ -25,13 +25,13 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "abdullah-ashfaq",
     "img": "/about/abdullah-ashfaq.png",
-    "alt": "Abdullah Ashfaq, Attorney Recruiter at Haraka Headhunters",
+    "alt": "Abdullah Ashfaq, Attorney Recruiter at Haraka Headhunters LLC",
     "name": "Abdullah Ashfaq",
     "role": "Attorney Recruiter",
     "paras": [
       "Abdullah Ashfaq is a recruiter specializing in U.S. attorney placements and executive search at Haraka Headhunters LLC. With a background spanning legal recruiting, technical hiring, and HR operations, he brings a people-first approach to connecting high-caliber talent with the right opportunities.",
       "He holds a Bachelor of Business Administration (BBA) from UVAS Business School, Lahore. During his academic journey, Abdullah was actively involved in leadership and extracurricular activities, serving as a Coordinator for the UVAS Sports Society while also representing the university in national-level boxing championships.",
-      "Abdullah’s recruitment experience includes attorney recruiting for U.S.-based law firms at Haraka Headhunters and full-cycle technical recruitment at WADIC, where he managed sourcing, screening, interview coordination, and onboarding across a variety of roles. His experience extends across the U.S., Pakistan, and Bangladesh markets, giving him a strong understanding of cross-border hiring dynamics and talent acquisition strategies.",
+      "Abdullah’s recruitment experience includes attorney recruiting for U.S.-based law firms at Haraka Headhunters LLC and full-cycle technical recruitment at WADIC, where he managed sourcing, screening, interview coordination, and onboarding across a variety of roles. His experience extends across the U.S., Pakistan, and Bangladesh markets, giving him a strong understanding of cross-border hiring dynamics and talent acquisition strategies.",
       "Known for his communication skills, active headhunting techniques, and relationship-driven recruiting style, Abdullah focuses on building strong candidate networks and streamlining hiring processes to help organizations secure top-tier professionals efficiently.",
       "Outside of recruiting, Abdullah enjoys traveling, networking, combat sports, and engaging in conversations around career growth, hiring trends, and professional development."
     ]
@@ -39,7 +39,7 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "ngozi",
     "img": "/about/ngozi.png",
-    "alt": "Ngozi Bosah, Business Development Manager at Haraka Headhunters",
+    "alt": "Ngozi Bosah, Business Development Manager at Haraka Headhunters LLC",
     "name": "Ngozi Bosah",
     "role": "Business Development Manager",
     "paras": [
@@ -52,7 +52,7 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "mariano",
     "img": "/about/mariano.png",
-    "alt": "Mariano Rudolf, Business Development Manager at Haraka Headhunters",
+    "alt": "Mariano Rudolf, Business Development Manager at Haraka Headhunters LLC",
     "name": "Mariano Rudolf",
     "role": "Business Development Manager",
     "paras": [
@@ -65,20 +65,20 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "kingsley",
     "img": "/about/kingsley.jpg",
-    "alt": "Kingsley, Business Development Associate at Haraka Headhunters",
+    "alt": "Kingsley, Business Development Associate at Haraka Headhunters LLC",
     "name": "Kingsley",
     "role": "Business Development Associate",
     "paras": [
-      "Kingsley is a Business Development Associate at Haraka Headhunters LLC, with over 9 years of experience in administration and a proven track record in virtual staff recruitment and human resources. He holds a Bachelor’s degree in Civil Engineering from the Federal University of Technology, Owerri, Imo State, Nigeria, and possesses two certifications in Virtual Assistance and Data Analysis. Kingsley is at home at Haraka Headhunters and is confident in the leadership of the ever competent, patient, and resourceful CEO, Tiffany.",
+      "Kingsley is a Business Development Associate at Haraka Headhunters LLC, with over 9 years of experience in administration and a proven track record in virtual staff recruitment and human resources. He holds a Bachelor’s degree in Civil Engineering from the Federal University of Technology, Owerri, Imo State, Nigeria, and possesses two certifications in Virtual Assistance and Data Analysis. Kingsley is at home at Haraka Headhunters LLC and is confident in the leadership of the ever competent, patient, and resourceful CEO, Tiffany.",
       "His career includes serving as Head of Staff for Tasktide Virtual Staffing Agency, UK, where he managed staff operations and conducted end-to-end recruitment, as well as serving as Lead Virtual Assistant for Yogi Group Massachusetts. Kingsley also has years of experience as an Executive Assistant to the Chief Technical Officer of Enugu Electricity Distribution Company, the power distribution company in Nigeria, which makes him well-rounded and resourceful.",
       "Outside of work, Kingsley enjoys singing and playing the guitar in addition to watching and playing football on the weekends. He is an ardent supporter of Chelsea F.C. He is also a fan of all the series in the Power Universe, the Game of Thrones Universe, and the Vampire Diaries Universe.",
-      "With a knack for general administration and a penchant for proactivity and problem-solving, Kingsley is poised to be a great asset for Haraka Headhunters."
+      "With a knack for general administration and a penchant for proactivity and problem-solving, Kingsley is poised to be a great asset for Haraka Headhunters LLC."
     ]
   },
   {
     "id": "eric-adams",
     "img": "/about/eric.jpg",
-    "alt": "Eric Adams, Attorney Recruiter at Haraka Headhunters",
+    "alt": "Eric Adams, Attorney Recruiter at Haraka Headhunters LLC",
     "name": "Eric Adams",
     "role": "Attorney Recruiter",
     "paras": [
@@ -90,7 +90,7 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "victor",
     "img": "/about/victor.jpg",
-    "alt": "Victor Hussain, Attorney Recruiter at Haraka Headhunters",
+    "alt": "Victor Hussain, Attorney Recruiter at Haraka Headhunters LLC",
     "name": "Victor Hussain",
     "role": "Attorney Recruiter",
     "paras": [

@@ -4,10 +4,10 @@ export default function Logo({ className = "w-9 h-9 md:w-10 md:h-10" }: { classN
       viewBox="0 0 240 240"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Haraka Headhunters"
+      aria-label="Haraka Headhunters LLC"
       className={className}
     >
-      <title>Haraka Headhunters</title>
+      <title>Haraka Headhunters LLC</title>
       <g data-part="marks">
         <path
           data-part="diamond-fill"
