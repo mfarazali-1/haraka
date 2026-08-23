@@ -9,6 +9,25 @@ const navLinks = [
   { href: "/contact", label: "Contact Us" },
 ];
 
+const directionsHref = "https://www.google.com/maps/search/?api=1&query=250+Park+Avenue+New+York+NY+10016";
+
+function PhoneIcon() {
+  return (
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true" className="shrink-0">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C9.16 21 3 14.84 3 7a2 2 0 0 1 1-1.73V4z" />
+    </svg>
+  );
+}
+
+function PinIcon() {
+  return (
+    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true" className="shrink-0">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 21s-7-6.1-7-11.5a7 7 0 1 1 14 0C19 14.9 12 21 12 21z" />
+      <circle cx="12" cy="9.5" r="2.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 export default function Header() {
   return (
     <header className="sticky top-0 z-40 bg-charcoal text-cream backdrop-blur-md shadow-[0_1px_0_rgba(0,0,0,0.4)]">
@@ -36,20 +55,39 @@ export default function Header() {
           </Link>
         </nav>
 
-        <nav className="flex md:hidden items-center justify-between flex-1 min-w-0" aria-label="Primary">
+        <div className="flex md:hidden flex-col items-end gap-1 min-w-0">
+          <a
+            href="tel:+19293195922"
+            className="inline-flex items-center gap-1 text-[10px] font-semibold text-cream/90 hover:text-cream transition-colors whitespace-nowrap"
+          >
+            <PhoneIcon />
+            +1 (929) 319-5922
+          </a>
+          <a
+            href={directionsHref}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="inline-flex items-center gap-1 text-[8px] text-cream/60 hover:text-cream/80 transition-colors whitespace-nowrap"
+          >
+            <PinIcon />
+            250 Park Avenue, New York, NY 10016
+          </a>
+        </div>
+      </div>
+
+      <nav className="md:hidden border-t border-cream/15 bg-charcoal" aria-label="Primary">
+        <div className="flex items-center justify-between px-4 py-2.5">
           {navLinks.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className="flex flex-col items-center justify-center text-center px-0.5 text-[10px] font-bold uppercase leading-[1.15] text-cream/80 hover:text-cream transition-colors"
+              className="text-[10px] font-bold uppercase whitespace-nowrap text-cream/80 hover:text-cream transition-colors"
             >
-              {l.label.split(" ").map((word, i) => (
-                <span key={i} className="block">{word}</span>
-              ))}
+              {l.label}
             </Link>
           ))}
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   );
 }
