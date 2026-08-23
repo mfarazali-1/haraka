@@ -19,45 +19,7 @@ export default function AboutPage() {
   return (
     <>
       <section className="bg-paper">
-        <div className="container-x pt-20 md:pt-28 pb-16">
-          <p className="eyebrow">About</p>
-          <h1 className="mt-6 font-serif text-[clamp(2.4rem,5.5vw,4.5rem)] leading-[1.05] tracking-tight max-w-4xl">
-            A boutique legal recruiting firm built on speed, specialization, and care.
-          </h1>
-          <p className="mt-8 max-w-2xl text-lg text-muted leading-relaxed">
-            Haraka Headhunters partners with law firms and in-house teams to place attorneys whose track records,
-            temperaments, and ambitions match the brief. We do one thing — and we do it faster than a New York
-            minute.
-          </p>
-        </div>
-      </section>
-
-      <section className="bg-paper-deep border-y border-line-strong">
-        <div className="container-x py-20 md:py-28">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
-            <div className="lg:col-span-4">
-              <p className="eyebrow">Our story</p>
-              <h2 className="mt-5 font-serif text-3xl md:text-4xl leading-tight">Built for how legal hiring really works.</h2>
-            </div>
-            <div className="lg:col-span-8 space-y-6 text-base md:text-lg leading-relaxed text-charcoal-deep">
-              <p>
-                We launched Haraka Headhunters in early 2023 with a deliberately narrow focus: legal recruiting,
-                end to end, with a velocity the industry rarely delivers. Two interviews in a single week. Offers
-                negotiated in days. Long relationships protected through every search.
-              </p>
-              <p>
-                Today we partner with boutiques and growing firms across the country — from immigration and IP to
-                litigation, estate planning, and insurance defense — matching attorneys to the practices where
-                they&rsquo;ll do their best work. We measure success not by transactions closed, but by placements
-                that last.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-paper">
-        <div className="container-x py-20 md:py-28">
+        <div className="container-x pt-20 md:pt-28 pb-20 md:pb-28">
           <p className="eyebrow">Our team</p>
           <h2 className="mt-5 font-serif text-3xl md:text-4xl leading-tight max-w-2xl">The people behind every placement.</h2>
 
