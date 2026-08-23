@@ -1,11 +1,17 @@
 import Link from "next/link";
 import Counter from "@/components/Counter";
 import TestimonialsMarquee from "@/components/TestimonialsMarquee";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import TextMarquee from "@/components/TextMarquee";
 import { testimonials } from "@/lib/testimonials";
 
 const marqueeRow1 = testimonials.filter((_, i) => i % 2 === 0);
 const marqueeRow2 = testimonials.filter((_, i) => i % 2 !== 0);
+
+const carouselNames = ["Colleen Canning", "Henry Achiron", "Richard M. Hunter", "Stuart B. Wolfe", "Jean Francois Bahier"];
+const carouselItems = carouselNames
+  .map((name) => testimonials.find((t) => t.name === name))
+  .filter((t): t is (typeof testimonials)[number] => Boolean(t));
 
 export default function Home() {
 
@@ -72,11 +78,24 @@ export default function Home() {
 
       <TextMarquee text="Providing Top Candidates Faster Than A New York Minute." />
 
+      <section className="bg-paper-deep border-y border-line-strong">
+        <div className="container-x py-20 md:py-28">
+          <div className="text-center mb-12 md:mb-16">
+            <p className="eyebrow">Recommendations · Option A</p>
+            <h2 className="mt-5 font-serif text-3xl md:text-4xl text-charcoal-deep leading-tight">
+              In their own words.
+            </h2>
+            <p className="mt-3 text-sm text-muted">A carousel, click-through — for comparison against the auto-scroll version below.</p>
+          </div>
+          <TestimonialsCarousel items={carouselItems} />
+        </div>
+      </section>
+
       <section className="bg-paper overflow-hidden">
         <div className="container-x pt-20 md:pt-28">
           <div className="flex items-end justify-between flex-wrap gap-6 mb-8 md:mb-10">
             <div>
-              <p className="eyebrow">Recommendations</p>
+              <p className="eyebrow">Recommendations · Option B</p>
               <h2 className="mt-5 font-serif text-3xl md:text-4xl text-charcoal-deep leading-tight max-w-2xl">
                 Trusted by the candidates and clients we&rsquo;ve placed.
               </h2>
