@@ -94,10 +94,10 @@ export default function TeamGrid({ members }: { members: TeamMember[] }) {
                     alt={m.alt}
                     width={640}
                     height={800}
-                    className="ml-3 w-[calc(100%-0.75rem)] aspect-[4/5] object-cover object-top rounded-lg border border-line-strong"
+                    className="m-3 w-[calc(100%-1.5rem)] aspect-[4/5] object-cover object-top rounded-lg border border-line-strong"
                   />
                 ) : (
-                  <PlaceholderPortrait className="ml-3 w-[calc(100%-0.75rem)] aspect-[4/5] rounded-lg border border-line-strong" />
+                  <PlaceholderPortrait className="m-3 w-[calc(100%-1.5rem)] aspect-[4/5] rounded-lg border border-line-strong" />
                 )}
               </div>
               <div className="md:col-span-7 md:max-h-[90vh] md:overflow-y-auto p-7 md:p-9">
