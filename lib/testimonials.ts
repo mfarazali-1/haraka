@@ -146,29 +146,5 @@ export const testimonials: Testimonial[] = [
     "title": "Revenue Cycle Management",
     "quote": "Efficient is the word that comes to mind when I think about Tiffany! I had the pleasure of working with Tiffany who placed me in my current role. One of the things that impressed me most was the fact that she got me my first interview on a Monday and a second interview on Friday of the same week. I was hired right after the second interview! I highly recommend her skills and expertise as a recruiter.",
     "date": "Jan 2023"
-  },
-  {
-    "name": "Colleen Canning",
-    "title": "Assistant Vice President at Chubb (f/k/a ACE Medical Risk)",
-    "quote": "Tiffany and Haraka Headhunters are exceptional and have been an incredible asset in my career transition. Informative, insightful and responsive (even texting at 6:30 AM with updates), her assistance has been invaluable as I re-enter the legal industry. Recommend her without reservation - you won't be disappointed!",
-    "date": "Jul 2024"
-  },
-  {
-    "name": "Henry Achiron",
-    "title": "Partner / Senior Trial Counsel",
-    "quote": "I have had the pleasure working with Tiffany in my efforts to hire experienced attorneys. She has been very helpful, professional and organized.\n\nHenry Achiron",
-    "date": "Jan 2024"
-  },
-  {
-    "name": "Richard M. Hunter",
-    "title": "Partner at Silverman Shin & Schneider PLLC",
-    "quote": "Tiffany contacted me very soon after I responded with interest in a position. We discussed multiple possible placements, each of which aligned with my background and requirements. Within a day she scheduled an on-line interview and an offer resulted. The process was efficient and very well handled. I highly recommend Tiffany if you are thinking about a career move or if you are looking to hire talent!",
-    "date": "Dec 2023"
-  },
-  {
-    "name": "Stuart B. Wolfe",
-    "title": "Chair, Financial Services & Real Property Practice Group at Wolfe & Wyman LLP",
-    "quote": "It has been an absolute pleasure working with Tiffany and her team at Haraka Headhunters LLC over the past 18 months. During that time, they have become a trusted recruiting partner to Wolfe & Wyman LLP, successfully placing a number of senior litigation attorneys across our firm's practice areas and offices.\n\nTiffany distinguishes herself through her responsiveness, professionalism, and keen understanding of the urgency that accompanies attorney recruitment. She consistently presents well-qualified candidates who align with both our technical requirements and firm culture, making the hiring process efficient and effective.\n\nI wholeheartedly recommend Tiffany and Haraka Headhunters LLC for firms seeking a highly capable and results-driven legal search partner.",
-    "date": "Jul 2026"
   }
 ];
