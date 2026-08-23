@@ -12,8 +12,8 @@ const navLinks = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-40 bg-charcoal text-cream backdrop-blur-md shadow-[0_1px_0_rgba(0,0,0,0.4)]">
-      <div className="container-x px-4 md:px-10 flex items-center justify-between h-16 md:h-20">
-        <Link href="/" className="flex items-center gap-3 group" aria-label="Haraka Headhunters home">
+      <div className="container-x px-4 md:px-10 flex items-center justify-between gap-2 h-16 md:h-20">
+        <Link href="/" className="flex items-center gap-3 group shrink-0" aria-label="Haraka Headhunters home">
           <Logo className="w-[60px] h-[60px] md:w-[76px] md:h-[76px] transition-transform duration-500 group-hover:rotate-[8deg]" />
           <span className="hidden sm:flex flex-col leading-tight">
             <span className="font-serif text-[15px] md:text-[17px] tracking-tight text-cream">Haraka Headhunters</span>
@@ -36,28 +36,20 @@ export default function Header() {
           </Link>
         </nav>
 
-        <Link
-          href="/contact"
-          className="md:hidden inline-flex items-center gap-1.5 text-xs font-medium border border-cream/40 text-cream px-3 py-2 hover:bg-cream hover:text-charcoal-deep hover:border-cream transition-colors shrink-0"
-        >
-          Get in touch
-          <span aria-hidden="true">→</span>
-        </Link>
-      </div>
-
-      <nav className="md:hidden no-scrollbar overflow-x-auto border-t border-cream/15 bg-charcoal" aria-label="Primary">
-        <div className="flex items-center gap-6 px-4 py-3 w-max">
+        <nav className="flex md:hidden items-center justify-between flex-1 min-w-0" aria-label="Primary">
           {navLinks.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className="text-xs font-medium uppercase tracking-wide whitespace-nowrap text-cream/70 hover:text-cream transition-colors"
+              className="flex flex-col items-center justify-center text-center px-0.5 text-[8px] font-medium uppercase leading-[1.15] text-cream/70 hover:text-cream transition-colors"
             >
-              {l.label}
+              {l.label.split(" ").map((word, i) => (
+                <span key={i} className="block">{word}</span>
+              ))}
             </Link>
           ))}
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
   );
 }
