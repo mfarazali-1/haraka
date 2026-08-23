@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Counter from "@/components/Counter";
 import TestimonialsMarquee from "@/components/TestimonialsMarquee";
+import TextMarquee from "@/components/TextMarquee";
 import { testimonials } from "@/lib/testimonials";
 
 const marqueeRow1 = testimonials.filter((_, i) => i % 2 === 0);
@@ -68,6 +69,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <TextMarquee text="Providing Top Candidates Faster Than A New York Minute." />
 
       <section className="bg-paper-deep border-y border-line-strong">
         <div className="container-x py-20 md:py-28">
