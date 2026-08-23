@@ -39,23 +39,27 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "ngozi",
     "img": "/about/ngozi.png",
-    "alt": "Ngozi, Business Development Associate at Haraka Headhunters",
+    "alt": "Ngozi, Business Development Manager at Haraka Headhunters",
     "name": "Ngozi",
-    "role": "Business Development Associate",
+    "role": "Business Development Manager",
     "paras": [
-      "Ngozi is a Business Development Associate at Haraka Headhunters, helping grow the relationships that connect top legal talent with the firms that need them.",
-      "A full bio is coming soon."
+      "Ngozi is a law graduate of the University of East Anglia in the United Kingdom and is currently enrolled at the Nigerian Law School, where she is pursuing qualification as a Barrister and Solicitor, with an anticipated call to the Nigerian Bar in July 2027.",
+      "She began her journey with Haraka Headhunters LLC as a part-time team member and now serves as a Business Development Manager, where she plays an integral role in driving business development, cultivating relationships, and supporting the continued growth of our attorney-recruitment practice.",
+      "At Haraka, Ngozi has had the privilege of working closely with our CEO and Founder, Tiffany Meikle, whose leadership, work ethic, and wonderfully sociable spirit she greatly admires. For Ngozi, the experience has been an invaluable opportunity to learn, grow, and contribute within an ambitious and people-focused organization.",
+      "Outside of work and law, Ngozi enjoys spending time with family and friends, embracing new experiences, and, naturally, indulging in a little good entertainment. Her current all-time favorite read is After: The Series on Wattpad, while XO, Kitty holds the crown as her favorite series. And when it comes to movies, High School Musical 3 has her heart—because some classics simply cannot be topped."
     ]
   },
   {
     "id": "mariano",
     "img": "/about/mariano.png",
-    "alt": "Mariano, Business Development Manager at Haraka Headhunters",
-    "name": "Mariano",
+    "alt": "Mariano Rudolf, Business Development Manager at Haraka Headhunters",
+    "name": "Mariano Rudolf",
     "role": "Business Development Manager",
     "paras": [
-      "Mariano is the Business Development Manager at Haraka Headhunters, leading the firm’s efforts to build and strengthen relationships with law firms and in-house legal teams.",
-      "A full bio is coming soon."
+      "Mariano Rudolf is a bilingual Argentine attorney and Business Development Manager at Haraka Headhunters LLC, where he helps connect U.S.-based law firms with skilled legal professionals and supports the development of strategic relationships within the legal industry. His background as a practicing lawyer in Argentina, combined with his experience supporting U.S. law firms, gives him a unique understanding of both legal systems and the demands of modern legal practice.",
+      "Mariano earned his Law Degree from Universidad Nacional del Sur in Argentina and completed a Postgraduate Program in Criminal Law. He further pursued postgraduate studies in Corporate Compliance and Corporate Criminal Responsibility at Universidad Católica Argentina and earned a Diploma in Judicial Innovation and Technology Management from the Council of the Judiciary.",
+      "His professional experience spans the Argentine judicial system and U.S. legal practice. Before transitioning into his current role in business development, Mariano worked as a Judicial Assistant in a Criminal Court in Argentina, gaining firsthand insight into judicial procedure, litigation, and the inner workings of the court system. He later brought that legal foundation to the United States, working as a Paralegal and Legal Assistant supporting U.S. law firms, including matters involving personal injury and first-party property insurance litigation.",
+      "Outside of work, Mariano is passionate about sports. He plays soccer and trains in boxing, two pursuits that reflect his appreciation for discipline, persistence, and continuous improvement. He also enjoys relaxing with a good television series—currently, How I Met Your Mother—and counts Luis Ángel Firpo, Soy Yo, the story of legendary Argentine heavyweight Luis Ángel Firpo, among his favorite books."
     ]
   },
   {
