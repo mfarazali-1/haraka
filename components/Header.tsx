@@ -39,6 +39,34 @@ function PinIcon() {
 export default function Header() {
   return (
     <header className="sticky top-0 z-40 bg-charcoal text-cream backdrop-blur-md shadow-[0_1px_0_rgba(0,0,0,0.4)]">
+      <div className="hidden md:block border-b border-cream/10 bg-charcoal-deep">
+        <div className="container-x px-10 flex items-center justify-end gap-6 py-1.5">
+          <a
+            href="tel:+19293195922"
+            className="inline-flex items-center gap-1.5 text-xs text-cream/70 hover:text-cream transition-colors whitespace-nowrap"
+          >
+            <PhoneIcon />
+            +1 (929) 319-5922
+          </a>
+          <a
+            href="mailto:info@harakaheadhunters.com"
+            className="inline-flex items-center gap-1.5 text-xs text-cream/70 hover:text-cream transition-colors whitespace-nowrap"
+          >
+            <MailIcon />
+            info@harakaheadhunters.com
+          </a>
+          <a
+            href={directionsHref}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="inline-flex items-center gap-1.5 text-xs text-cream/70 hover:text-cream transition-colors whitespace-nowrap"
+          >
+            <PinIcon />
+            250 Park Avenue, New York, NY 10016
+          </a>
+        </div>
+      </div>
+
       <div className="container-x px-4 md:px-10 flex items-center justify-between gap-2 h-16 md:h-20">
         <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0" aria-label="Haraka Headhunters home">
           <Logo className="w-[60px] h-[60px] md:w-[76px] md:h-[76px] shrink-0 transition-transform duration-500 group-hover:rotate-[8deg]" />
@@ -54,13 +82,6 @@ export default function Header() {
               {l.label}
             </Link>
           ))}
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 text-sm font-medium border border-cream/40 text-cream px-4 py-2 hover:bg-cream hover:text-charcoal-deep hover:border-cream transition-colors"
-          >
-            Get in touch
-            <span aria-hidden="true">→</span>
-          </Link>
         </nav>
 
         <div className="flex md:hidden flex-col items-end gap-1 min-w-0">
