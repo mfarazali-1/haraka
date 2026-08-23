@@ -41,7 +41,7 @@ export default function Header() {
             <Link
               key={l.href}
               href={l.href}
-              className="flex flex-col items-center justify-center text-center px-0.5 text-[8px] font-medium uppercase leading-[1.15] text-cream/70 hover:text-cream transition-colors"
+              className="flex flex-col items-center justify-center text-center px-0.5 text-[10px] font-bold uppercase leading-[1.15] text-cream/80 hover:text-cream transition-colors"
             >
               {l.label.split(" ").map((word, i) => (
                 <span key={i} className="block">{word}</span>
