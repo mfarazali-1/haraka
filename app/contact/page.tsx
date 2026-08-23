@@ -109,18 +109,18 @@ export default function ContactPage() {
 
             <aside className="order-1 lg:order-2 lg:col-span-5 border border-line-strong bg-paper p-8 md:p-10 space-y-8">
               {infoItems.map((item) => (
-                <div key={item.label} className="flex items-start gap-4">
-                  <span className="mt-0.5 shrink-0 w-9 h-9 inline-flex items-center justify-center border border-line-strong text-slate-deep">
+                <div key={item.label} className="flex flex-col sm:flex-row items-start gap-1.5 sm:gap-3">
+                  <span className="mt-0.5 shrink-0 w-8 h-8 inline-flex items-center justify-center border border-line-strong text-slate-deep">
                     {item.icon}
                   </span>
-                  <div>
+                  <div className="min-w-0">
                     <p className="eyebrow">{item.label}</p>
-                    <p className="mt-1.5 text-base md:text-lg">
+                    <p className="mt-1.5 text-xs sm:text-sm md:text-base whitespace-nowrap overflow-hidden text-ellipsis">
                       <a
                         href={item.href}
                         target={item.external ? "_blank" : undefined}
                         rel={item.external ? "noreferrer noopener" : undefined}
-                        className="link-underline text-charcoal-deep break-all"
+                        className="link-underline text-charcoal-deep"
                       >
                         {item.text}
                       </a>
