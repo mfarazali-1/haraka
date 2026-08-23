@@ -1,6 +1,6 @@
 export interface TeamMember {
   id: string;
-  img: string;
+  img?: string;
   alt: string;
   name: string;
   role: string;
@@ -37,13 +37,33 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
+    "id": "ngozi",
+    "alt": "Ngozi, Business Development Associate at Haraka Headhunters",
+    "name": "Ngozi",
+    "role": "Business Development Associate",
+    "paras": [
+      "Ngozi is a Business Development Associate at Haraka Headhunters, helping grow the relationships that connect top legal talent with the firms that need them.",
+      "A full bio is coming soon."
+    ]
+  },
+  {
+    "id": "mariano",
+    "alt": "Mariano, Business Development Manager at Haraka Headhunters",
+    "name": "Mariano",
+    "role": "Business Development Manager",
+    "paras": [
+      "Mariano is the Business Development Manager at Haraka Headhunters, leading the firm’s efforts to build and strengthen relationships with law firms and in-house legal teams.",
+      "A full bio is coming soon."
+    ]
+  },
+  {
     "id": "kingsley",
     "img": "/about/kingsley.jpg",
-    "alt": "Kingsley, Virtual Assistant &#38; Attorney Recruiter at Haraka Headhunters",
+    "alt": "Kingsley, Business Development Associate at Haraka Headhunters",
     "name": "Kingsley",
-    "role": "Virtual Assistant & Attorney Recruiter",
+    "role": "Business Development Associate",
     "paras": [
-      "Kingsley is a Virtual Assistant and Attorney Recruiter at Haraka Headhunters LLC, with over 9 years of experience in administration and a proven track record in virtual staff recruitment and human resources. He holds a Bachelor’s degree in Civil Engineering from the Federal University of Technology, Owerri, Imo State, Nigeria, and possesses two certifications in Virtual Assistance and Data Analysis. Kingsley is at home at Haraka Headhunters and is confident in the leadership of the ever competent, patient, and resourceful CEO, Tiffany.",
+      "Kingsley is a Business Development Associate at Haraka Headhunters LLC, with over 9 years of experience in administration and a proven track record in virtual staff recruitment and human resources. He holds a Bachelor’s degree in Civil Engineering from the Federal University of Technology, Owerri, Imo State, Nigeria, and possesses two certifications in Virtual Assistance and Data Analysis. Kingsley is at home at Haraka Headhunters and is confident in the leadership of the ever competent, patient, and resourceful CEO, Tiffany.",
       "His career includes serving as Head of Staff for Tasktide Virtual Staffing Agency, UK, where he managed staff operations and conducted end-to-end recruitment, as well as serving as Lead Virtual Assistant for Yogi Group Massachusetts. Kingsley also has years of experience as an Executive Assistant to the Chief Technical Officer of Enugu Electricity Distribution Company, the power distribution company in Nigeria, which makes him well-rounded and resourceful.",
       "Outside of work, Kingsley enjoys singing and playing the guitar in addition to watching and playing football on the weekends. He is an ardent supporter of Chelsea F.C. He is also a fan of all the series in the Power Universe, the Game of Thrones Universe, and the Vampire Diaries Universe.",
       "With a knack for general administration and a penchant for proactivity and problem-solving, Kingsley is poised to be a great asset for Haraka Headhunters."
@@ -59,6 +79,16 @@ export const teamMembers: TeamMember[] = [
       "Eric is an Attorney Recruiter at Haraka Headhunters LLC and a current student at CUNY Queens College, pursuing a Bachelor’s degree in Applied Mathematics. His professional background spans multiple industries — from real estate sales at the largest brokerage firm in the U.S. by sales volume, to hands-on technical work in his university’s 3D printing lab, where he developed proficiency in 3D prototyping. He also holds professional certificates in cybersecurity and finance.",
       "In his current role at Haraka, Eric focuses on placing attorneys with top law firms, bringing sharp communication and a meticulous eye for detail to every search. Working directly under CEO Tiffany Meikle, Eric credits her mentorship with actively shaping how he thinks and communicates — she pushes him to approach every placement with greater precision, reinforcing that the smallest details are often the ones that matter most.",
       "Outside of work, Eric stays active at the gym and on the yoga mat, and unwinds with a good novel — the kind with the scope and depth of The Count of Monte Cristo. When it comes to screen time, you’ll likely find him rewatching Breaking Bad."
+    ]
+  },
+  {
+    "id": "victor",
+    "alt": "Victor, Attorney Recruiter at Haraka Headhunters",
+    "name": "Victor",
+    "role": "Attorney Recruiter",
+    "paras": [
+      "Victor is an Attorney Recruiter at Haraka Headhunters, helping match talented attorneys with the roles where they’ll do their best work.",
+      "A full bio is coming soon."
     ]
   }
 ];

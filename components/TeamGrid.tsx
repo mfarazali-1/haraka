@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useRef } from "react";
 import type { TeamMember } from "@/lib/team";
+import PlaceholderPortrait from "./PlaceholderPortrait";
 
 function ArrowIcon({ className = "" }: { className?: string }) {
   return (
@@ -38,13 +39,17 @@ export default function TeamGrid({ members }: { members: TeamMember[] }) {
               className="member-card group w-full text-left bg-paper border border-line-strong hover:border-slate-deep transition-all duration-300 hover:shadow-[0_16px_40px_rgba(26,29,30,0.09)] flex flex-col h-full"
             >
               <div className="relative aspect-[4/5] overflow-hidden bg-paper-deep">
-                <Image
-                  src={m.img}
-                  alt={m.alt}
-                  width={640}
-                  height={800}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                {m.img ? (
+                  <Image
+                    src={m.img}
+                    alt={m.alt}
+                    width={640}
+                    height={800}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <PlaceholderPortrait className="w-full h-full" />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal-deep/80 via-charcoal-deep/0 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <span className="absolute bottom-4 left-5 flex items-center gap-1.5 text-xs font-medium text-cream opacity-0 translate-y-1.5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                   Read full bio
@@ -83,13 +88,17 @@ export default function TeamGrid({ members }: { members: TeamMember[] }) {
             </button>
             <div className="grid grid-cols-1 md:grid-cols-12">
               <div className="md:col-span-5 bg-paper-deep md:flex md:items-stretch">
-                <Image
-                  src={m.img}
-                  alt={m.alt}
-                  width={640}
-                  height={800}
-                  className="w-full aspect-[4/5] md:aspect-auto md:h-full object-cover object-top"
-                />
+                {m.img ? (
+                  <Image
+                    src={m.img}
+                    alt={m.alt}
+                    width={640}
+                    height={800}
+                    className="w-full aspect-[4/5] md:aspect-auto md:h-full object-cover object-top"
+                  />
+                ) : (
+                  <PlaceholderPortrait className="w-full aspect-[4/5] md:aspect-auto md:h-full" />
+                )}
               </div>
               <div className="md:col-span-7 p-7 md:p-9">
                 <header>
