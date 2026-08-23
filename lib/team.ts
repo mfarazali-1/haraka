@@ -90,11 +90,11 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "victor",
     "img": "/about/victor.jpg",
-    "alt": "Victor, Attorney Recruiter at Haraka Headhunters",
-    "name": "Victor",
+    "alt": "Victor Hussain, Attorney Recruiter at Haraka Headhunters",
+    "name": "Victor Hussain",
     "role": "Attorney Recruiter",
     "paras": [
-      "Victor is an Attorney Recruiter at Haraka Headhunters LLC, bringing five years of experience in talent acquisition and human resources across the United States, EMEA, and Southeast Asia. His international perspective, combined with a strong understanding of recruitment and talent strategy, enables him to identify exceptional legal professionals and connect them with opportunities aligned with their experience, ambitions, and long-term career objectives.",
+      "Victor Hussain is an Attorney Recruiter at Haraka Headhunters LLC, bringing five years of experience in talent acquisition and human resources across the United States, EMEA, and Southeast Asia. His international perspective, combined with a strong understanding of recruitment and talent strategy, enables him to identify exceptional legal professionals and connect them with opportunities aligned with their experience, ambitions, and long-term career objectives.",
       "Victor holds a Bachelor’s degree in Animal Health and Production from Ladoke Akintola University of Technology in Nigeria and is a Certified Human Resource Professional (CHRP) through the Rahn Wesley Institute of Management in the United Kingdom. He has also earned certifications in Health & Social Care and First Aid at Work from Lead Academy and Inspire College of London. He is an active member of the Chartered Institute of Personnel Management (CIPM), Nigeria.",
       "Throughout his career, Victor has worked across diverse industries and international markets, developing expertise in talent acquisition, business development, and relationship management. At Haraka Headhunters LLC, he focuses on attorney recruitment and business development, partnering with law firms and corporate legal departments throughout the United States to identify and attract highly qualified legal talent.",
       "Victor approaches every search with a combination of diligence, discernment, and genuine curiosity about people. He understands that successful legal recruitment is about more than matching credentials to a job description; it is about understanding the needs of an organization, the strengths of a candidate, and the intersection between the two.",
