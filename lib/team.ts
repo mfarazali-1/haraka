@@ -38,6 +38,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     "id": "ngozi",
+    "img": "/about/ngozi.png",
     "alt": "Ngozi, Business Development Associate at Haraka Headhunters",
     "name": "Ngozi",
     "role": "Business Development Associate",
@@ -48,6 +49,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     "id": "mariano",
+    "img": "/about/mariano.png",
     "alt": "Mariano, Business Development Manager at Haraka Headhunters",
     "name": "Mariano",
     "role": "Business Development Manager",
