@@ -141,8 +141,8 @@ export default function AboutUsPage() {
                 </a>
               </div>
               <div>
-                <a href="tel:+19293195922" className="mt-3 inline-flex link-underline text-charcoal-deep text-sm">
-                  +1 (929) 319-5922
+                <a href="tel:+12122224265" className="mt-3 inline-flex link-underline text-charcoal-deep text-sm">
+                  +1 (212) 222-4265
                 </a>
               </div>
               <div>

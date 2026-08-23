@@ -42,18 +42,18 @@ export default function Header() {
       <div className="hidden md:block border-b border-cream/10 bg-charcoal-deep">
         <div className="container-x px-10 flex items-center justify-end gap-6 py-1.5">
           <a
-            href="tel:+19293195922"
+            href="tel:+12122224265"
             className="inline-flex items-center gap-1.5 text-xs text-cream/70 hover:text-cream transition-colors whitespace-nowrap"
           >
             <PhoneIcon />
-            +1 (929) 319-5922
+            +1 (212) 222-4265
           </a>
           <a
-            href="mailto:info@harakaheadhunters.com"
+            href="mailto:info@HarakaHeadhunters.com"
             className="inline-flex items-center gap-1.5 text-xs text-cream/70 hover:text-cream transition-colors whitespace-nowrap"
           >
             <MailIcon />
-            info@harakaheadhunters.com
+            info@HarakaHeadhunters.com
           </a>
           <a
             href={directionsHref}
@@ -67,7 +67,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="container-x px-4 md:px-10 flex items-center justify-between gap-2 h-16 md:h-20">
+      <div className="container-x pl-[2px] pr-4 md:px-10 flex items-center justify-between gap-2 h-16 md:h-20">
         <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0" aria-label="Haraka Headhunters home">
           <Logo className="w-[60px] h-[60px] md:w-[76px] md:h-[76px] shrink-0 transition-transform duration-500 group-hover:rotate-[8deg]" />
           <span className="flex flex-col leading-tight">
@@ -86,18 +86,18 @@ export default function Header() {
 
         <div className="flex md:hidden flex-col items-end gap-1 min-w-0">
           <a
-            href="tel:+19293195922"
+            href="tel:+12122224265"
             className="inline-flex items-center gap-1 text-[10px] font-semibold text-cream/90 hover:text-cream transition-colors whitespace-nowrap"
           >
             <PhoneIcon />
-            +1 (929) 319-5922
+            +1 (212) 222-4265
           </a>
           <a
-            href="mailto:info@harakaheadhunters.com"
+            href="mailto:info@HarakaHeadhunters.com"
             className="inline-flex items-center gap-1 text-[8px] text-cream/70 hover:text-cream transition-colors whitespace-nowrap"
           >
             <MailIcon />
-            info@harakaheadhunters.com
+            info@HarakaHeadhunters.com
           </a>
           <a
             href={directionsHref}
