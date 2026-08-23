@@ -19,6 +19,14 @@ function PhoneIcon() {
   );
 }
 
+function MailIcon() {
+  return (
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true" className="shrink-0">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l9 7 9-7M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" />
+    </svg>
+  );
+}
+
 function PinIcon() {
   return (
     <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true" className="shrink-0">
@@ -62,6 +70,13 @@ export default function Header() {
           >
             <PhoneIcon />
             +1 (929) 319-5922
+          </a>
+          <a
+            href="mailto:info@harakaheadhunters.com"
+            className="inline-flex items-center gap-1 text-[8px] text-cream/70 hover:text-cream transition-colors whitespace-nowrap"
+          >
+            <MailIcon />
+            info@harakaheadhunters.com
           </a>
           <a
             href={directionsHref}
