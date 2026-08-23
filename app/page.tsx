@@ -8,7 +8,7 @@ import { testimonials } from "@/lib/testimonials";
 const marqueeRow1 = testimonials.filter((_, i) => i % 2 === 0);
 const marqueeRow2 = testimonials.filter((_, i) => i % 2 !== 0);
 
-const carouselNames = ["Colleen Canning", "Henry Achiron", "Richard M. Hunter", "Stuart B. Wolfe", "Jean Francois Bahier"];
+const carouselNames = ["Glenn Dopf", "Mario I. Molina, Esq.", "Robert Gonzalez"];
 const carouselItems = carouselNames
   .map((name) => testimonials.find((t) => t.name === name))
   .filter((t): t is (typeof testimonials)[number] => Boolean(t));

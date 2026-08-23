@@ -57,7 +57,7 @@ export default function TestimonialCard({
           &ldquo;{t.quote.replace(/\n+/g, " ")}&rdquo;
         </p>
         <div className="mt-8 flex items-center gap-3 text-xs text-muted">
-          <span>{t.date}</span>
+          <span className="font-bold text-charcoal-deep">{t.date}</span>
           <span aria-hidden="true">·</span>
           <span className="inline-flex items-center gap-1.5 font-medium text-[#0A66C2]">
             <LinkedInIcon className="text-[#0A66C2] opacity-100" />
