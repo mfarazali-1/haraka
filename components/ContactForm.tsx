@@ -99,11 +99,11 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <label className="flex flex-col gap-2">
             <span className="text-xs uppercase tracking-[0.18em] text-charcoal-deep">Name</span>
-            <input type="text" name="name" required autoComplete="name" placeholder="Jane Doe" className={inputClass} />
+            <input type="text" name="name" required autoComplete="name" placeholder="Jane Doe" className={inputClass} suppressHydrationWarning />
           </label>
           <label className="flex flex-col gap-2">
             <span className="text-xs uppercase tracking-[0.18em] text-charcoal-deep">Email</span>
-            <input type="email" name="email" required autoComplete="email" placeholder="jane@yourfirm.com" className={inputClass} />
+            <input type="email" name="email" required autoComplete="email" placeholder="jane@yourfirm.com" className={inputClass} suppressHydrationWarning />
           </label>
         </div>
 
@@ -134,6 +134,7 @@ export default function ContactForm() {
             required
             placeholder="Tell us about the role, the timeline, or what you're looking for…"
             className={`${inputClass} resize-y`}
+            suppressHydrationWarning
           />
         </label>
 
