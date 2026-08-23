@@ -100,7 +100,7 @@ export default function TeamGrid({ members }: { members: TeamMember[] }) {
                   <PlaceholderPortrait className="w-full aspect-[4/5]" />
                 )}
               </div>
-              <div className="md:col-span-7 p-7 md:p-9">
+              <div className="md:col-span-7 md:max-h-[90vh] md:overflow-y-auto p-7 md:p-9">
                 <header>
                   <h3 id={`member-${m.id}-heading`} className="font-serif text-2xl md:text-3xl text-charcoal-deep">{m.name}</h3>
                   <p className="mt-1 text-xs uppercase tracking-[0.18em] text-slate-deep">{m.role}</p>
