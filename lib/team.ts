@@ -87,8 +87,11 @@ export const teamMembers: TeamMember[] = [
     "name": "Victor",
     "role": "Attorney Recruiter",
     "paras": [
-      "Victor is an Attorney Recruiter at Haraka Headhunters, helping match talented attorneys with the roles where they’ll do their best work.",
-      "A full bio is coming soon."
+      "Victor is an Attorney Recruiter at Haraka Headhunters LLC, bringing five years of experience in talent acquisition and human resources across the United States, EMEA, and Southeast Asia. His international perspective, combined with a strong understanding of recruitment and talent strategy, enables him to identify exceptional legal professionals and connect them with opportunities aligned with their experience, ambitions, and long-term career objectives.",
+      "Victor holds a Bachelor’s degree in Animal Health and Production from Ladoke Akintola University of Technology in Nigeria and is a Certified Human Resource Professional (CHRP) through the Rahn Wesley Institute of Management in the United Kingdom. He has also earned certifications in Health & Social Care and First Aid at Work from Lead Academy and Inspire College of London. He is an active member of the Chartered Institute of Personnel Management (CIPM), Nigeria.",
+      "Throughout his career, Victor has worked across diverse industries and international markets, developing expertise in talent acquisition, business development, and relationship management. At Haraka Headhunters LLC, he focuses on attorney recruitment and business development, partnering with law firms and corporate legal departments throughout the United States to identify and attract highly qualified legal talent.",
+      "Victor approaches every search with a combination of diligence, discernment, and genuine curiosity about people. He understands that successful legal recruitment is about more than matching credentials to a job description; it is about understanding the needs of an organization, the strengths of a candidate, and the intersection between the two.",
+      "Outside of work, Victor enjoys staying active through football, both playing and following the sport, and appreciates a compelling story in any form. His favorite book, The 48 Laws of Power by Robert Greene, reflects his interest in strategy, human behavior, and leadership, while Black Panther remains one of his favorite films for its compelling themes of identity, leadership, and purpose."
     ]
   }
 ];
