@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </section>
 
-      <TextMarquee text="Providing Top Candidates Faster Than A New York Minute." />
+      <TextMarquee text="Providing Top Candidates Faster Than A New York Minute." bg="bg-charcoal-deep" />
 
       <section className="bg-paper-deep border-y border-line-strong">
         <div className="container-x py-20 md:py-28">
