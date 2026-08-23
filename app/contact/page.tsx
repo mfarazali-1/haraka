@@ -103,11 +103,11 @@ export default function ContactPage() {
       <section className="bg-paper-deep border-y border-line-strong">
         <div className="container-x py-16 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
-            <div className="lg:col-span-7">
+            <div className="order-2 lg:order-1 lg:col-span-7">
               <ContactForm />
             </div>
 
-            <aside className="lg:col-span-5 border border-line-strong bg-paper p-8 md:p-10 space-y-8">
+            <aside className="order-1 lg:order-2 lg:col-span-5 border border-line-strong bg-paper p-8 md:p-10 space-y-8">
               {infoItems.map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
                   <span className="mt-0.5 shrink-0 w-9 h-9 inline-flex items-center justify-center border border-line-strong text-slate-deep">
