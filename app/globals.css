@@ -130,20 +130,22 @@ details.role[open] .role-caret {
 }
 
 /* Team member bio dialog (native <dialog>) */
-.member-dialog {
-  border: 1px solid var(--color-line-strong);
-  background: var(--color-paper);
-  padding: 0;
-  width: min(56rem, 92vw);
-  max-height: 90vh;
-  overflow: auto;
-  color: var(--color-charcoal-deep);
-  margin: auto;
-  inset: 0;
-}
-.member-dialog::backdrop {
-  background: #1a1d1eb3;
-  backdrop-filter: blur(4px);
+@layer components {
+  .member-dialog {
+    border: 1px solid var(--color-line-strong);
+    background: var(--color-paper);
+    padding: 0;
+    width: min(56rem, 92vw);
+    max-height: 90vh;
+    overflow: auto;
+    color: var(--color-charcoal-deep);
+    margin: auto;
+    inset: 0;
+  }
+  .member-dialog::backdrop {
+    background: #1a1d1eb3;
+    backdrop-filter: blur(4px);
+  }
 }
 html:has(dialog.member-dialog[open]) {
   overflow: hidden;

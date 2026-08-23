@@ -71,7 +71,7 @@ export default function TeamGrid({ members }: { members: TeamMember[] }) {
           ref={(el) => {
             dialogRefs.current[m.id] = el;
           }}
-          className="member-dialog"
+          className="member-dialog md:overflow-hidden"
           aria-labelledby={`member-${m.id}-heading`}
           onClick={(e) => {
             if (e.target === e.currentTarget) close(m.id);
