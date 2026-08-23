@@ -169,3 +169,12 @@ html:has(dialog.member-dialog[open]) {
     animation: none;
   }
 }
+
+/* Hide scrollbar on the mobile nav strip while keeping it scrollable */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

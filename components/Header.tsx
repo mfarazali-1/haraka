@@ -1,7 +1,4 @@
-"use client";
-
 import Link from "next/link";
-import { useState } from "react";
 import Logo from "./Logo";
 
 const navLinks = [
@@ -13,8 +10,6 @@ const navLinks = [
 ];
 
 export default function Header() {
-  const [open, setOpen] = useState(false);
-
   return (
     <header className="sticky top-0 z-40 bg-charcoal text-cream backdrop-blur-md shadow-[0_1px_0_rgba(0,0,0,0.4)]">
       <div className="container-x px-4 md:px-10 flex items-center justify-between h-16 md:h-20">
@@ -41,46 +36,28 @@ export default function Header() {
           </Link>
         </nav>
 
-        <div className="flex md:hidden items-center gap-3">
-          <nav className="flex items-center gap-3" aria-label="Quick links">
-            {navLinks.filter((l) => l.href !== "/about-us").map((l) => (
-              <Link key={l.href} href={l.href} className="text-xs whitespace-nowrap transition-colors text-cream/65 hover:text-cream">
-                {l.label}
-              </Link>
-            ))}
-          </nav>
-          <button
-            type="button"
-            className="inline-flex items-center justify-center w-9 h-10 -mr-1 text-cream"
-            aria-controls="mobile-nav"
-            aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
-          >
-            <span className="sr-only">Toggle navigation</span>
-            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" aria-hidden="true">
-              <line x1="0" y1="1" x2="22" y2="1" stroke="currentColor" strokeWidth="1.5" />
-              <line x1="0" y1="7" x2="22" y2="7" stroke="currentColor" strokeWidth="1.5" />
-              <line x1="0" y1="13" x2="22" y2="13" stroke="currentColor" strokeWidth="1.5" />
-            </svg>
-          </button>
-        </div>
+        <Link
+          href="/contact"
+          className="md:hidden inline-flex items-center gap-1.5 text-xs font-medium border border-cream/40 text-cream px-3 py-2 hover:bg-cream hover:text-charcoal-deep hover:border-cream transition-colors shrink-0"
+        >
+          Get in touch
+          <span aria-hidden="true">→</span>
+        </Link>
       </div>
 
-      <div id="mobile-nav" className={`md:hidden ${open ? "" : "hidden"} border-t border-cream/15 bg-charcoal`}>
-        <nav className="container-x py-4 flex flex-col gap-1" aria-label="Mobile">
+      <nav className="md:hidden no-scrollbar overflow-x-auto border-t border-cream/15 bg-charcoal" aria-label="Primary">
+        <div className="flex items-center gap-6 px-4 py-3 w-max">
           {navLinks.map((l) => (
-            <Link key={l.href} href={l.href} className="py-2 text-base text-cream/85 hover:text-cream transition-colors">
+            <Link
+              key={l.href}
+              href={l.href}
+              className="text-xs font-medium uppercase tracking-wide whitespace-nowrap text-cream/70 hover:text-cream transition-colors"
+            >
               {l.label}
             </Link>
           ))}
-          <Link
-            href="/contact"
-            className="mt-2 inline-flex items-center justify-center gap-2 text-sm font-medium border border-cream/40 text-cream hover:bg-cream hover:text-charcoal-deep transition-colors px-4 py-2.5"
-          >
-            Get in touch <span aria-hidden="true">→</span>
-          </Link>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   );
 }
