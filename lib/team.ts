@@ -12,11 +12,11 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "emmanuel-ojo",
     "img": "/about/emmanuel-ojo.jpg",
-    "alt": "Emmanuel Ojo, Attorney Recruitment Manager at Haraka Headhunters",
+    "alt": "Emmanuel Ojo, Regional Recruitment & Business Development Manager at Haraka Headhunters",
     "name": "Emmanuel Ojo",
-    "role": "Attorney Recruitment Manager",
+    "role": "Regional Recruitment & Business Development Manager",
     "paras": [
-      "Emmanuel (Abimbola) Ojo is the Attorney Recruitment Manager at Haraka Headhunters LLC, where he connects top legal talent with law firms across the United States. He holds a Master’s degree in Political Science from Kwara State University.",
+      "Emmanuel (Abimbola) Ojo is the Regional Recruitment & Business Development Manager at Haraka Headhunters LLC, where he connects top legal talent with law firms across the United States. He holds a Master’s degree in Political Science from Kwara State University.",
       "Emmanuel is passionate about helping attorneys find roles that truly align with their goals while supporting law firms in building strong, high-performing teams. He is known for his thoughtful approach, strong relationship-building skills, and a keen eye for identifying the right fit for both candidates and clients.",
       "Outside of work, he enjoys jogging, swimming, and playing football. He also unwinds with great stories — whether it’s watching series like Six Flying Dragons or reading impactful books such as The 5 AM Club and Master Your Time — and values spending quality time with his family."
     ],
