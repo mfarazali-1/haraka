@@ -11,7 +11,7 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     "id": "emmanuel-ojo",
-    "img": "/about/emmanuel-ojo.jpg",
+    "img": "/about/emmanuel-ojo.png",
     "alt": "Emmanuel Ojo, Regional Recruitment & Business Development Manager at Haraka Headhunters",
     "name": "Emmanuel Ojo",
     "role": "Regional Recruitment & Business Development Manager",
@@ -24,7 +24,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     "id": "abdullah-ashfaq",
-    "img": "/about/abdullah-ashfaq.jpg",
+    "img": "/about/abdullah-ashfaq.png",
     "alt": "Abdullah Ashfaq, Attorney Recruiter at Haraka Headhunters",
     "name": "Abdullah Ashfaq",
     "role": "Attorney Recruiter",
