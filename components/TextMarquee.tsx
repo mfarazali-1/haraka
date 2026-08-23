@@ -1,6 +1,4 @@
-function DiamondDot() {
-  return <span aria-hidden="true" className="mx-6 inline-block w-2 h-2 rotate-45 border border-current opacity-60 shrink-0" />;
-}
+import Logo from "./Logo";
 
 export default function TextMarquee({
   text,
@@ -25,10 +23,10 @@ export default function TextMarquee({
       >
         {items.map((_, i) => (
           <span key={i} className="flex items-center shrink-0">
-            <span className="text-xs md:text-sm font-medium uppercase tracking-[0.2em] whitespace-nowrap">
+            <span className="italic text-xs md:text-sm font-medium uppercase tracking-[0.2em] whitespace-nowrap">
               {text}
             </span>
-            <DiamondDot />
+            <Logo className="mx-6 w-4 h-4 shrink-0 opacity-90" />
           </span>
         ))}
       </div>
