@@ -83,6 +83,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     "id": "victor",
+    "img": "/about/victor.jpg",
     "alt": "Victor, Attorney Recruiter at Haraka Headhunters",
     "name": "Victor",
     "role": "Attorney Recruiter",
