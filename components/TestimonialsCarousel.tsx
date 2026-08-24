@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import TestimonialCard from "./TestimonialCard";
 import type { Testimonial } from "@/lib/testimonials";
 
@@ -12,6 +12,8 @@ function ChevronIcon({ direction }: { direction: "left" | "right" }) {
   );
 }
 
+const SLIDE_DURATION_MS = 6000;
+
 export default function TestimonialsCarousel({ items }: { items: Testimonial[] }) {
   const [index, setIndex] = useState(0);
   const pausedRef = useRef(false);
@@ -22,7 +24,7 @@ export default function TestimonialsCarousel({ items }: { items: Testimonial[] }
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const id = setInterval(() => {
       if (!pausedRef.current) setIndex((i) => (i + 1) % items.length);
-    }, 6000);
+    }, SLIDE_DURATION_MS);
     return () => clearInterval(id);
   }, [items.length]);
 
@@ -36,14 +38,11 @@ export default function TestimonialsCarousel({ items }: { items: Testimonial[] }
     >
       <div className="overflow-hidden">
         <div
-          className="flex transition-transform duration-500 ease-out"
-          style={{ transform: `translateX(-${index * 100}%)` }}
+          key={index}
+          className="testimonial-slide"
+          style={{ "--slide-duration": `${SLIDE_DURATION_MS}ms` } as CSSProperties}
         >
-          {items.map((t) => (
-            <div key={t.name} className="w-full shrink-0 px-0.5">
-              <TestimonialCard t={t} variant="carousel" />
-            </div>
-          ))}
+          <TestimonialCard t={items[index]} variant="carousel" />
         </div>
       </div>
 
