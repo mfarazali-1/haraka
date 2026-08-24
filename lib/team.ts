@@ -65,11 +65,11 @@ export const teamMembers: TeamMember[] = [
   {
     "id": "kingsley",
     "img": "/about/kingsley.jpg",
-    "alt": "Kingsley, Business Development Associate at Haraka Headhunters LLC",
-    "name": "Kingsley",
+    "alt": "Kingsley Barrah, Business Development Associate at Haraka Headhunters LLC",
+    "name": "Kingsley Barrah",
     "role": "Business Development Associate",
     "paras": [
-      "Kingsley is a Business Development Associate at Haraka Headhunters LLC, with over 9 years of experience in administration and a proven track record in virtual staff recruitment and human resources. He holds a Bachelor’s degree in Civil Engineering from the Federal University of Technology, Owerri, Imo State, Nigeria, and possesses two certifications in Virtual Assistance and Data Analysis. Kingsley is at home at Haraka Headhunters LLC and is confident in the leadership of the ever competent, patient, and resourceful CEO, Tiffany.",
+      "Kingsley Barrah is a Business Development Associate at Haraka Headhunters LLC, with over 9 years of experience in administration and a proven track record in virtual staff recruitment and human resources. He holds a Bachelor’s degree in Civil Engineering from the Federal University of Technology, Owerri, Imo State, Nigeria, and possesses two certifications in Virtual Assistance and Data Analysis. Kingsley is at home at Haraka Headhunters LLC and is confident in the leadership of the ever competent, patient, and resourceful CEO, Tiffany.",
       "His career includes serving as Head of Staff for Tasktide Virtual Staffing Agency, UK, where he managed staff operations and conducted end-to-end recruitment, as well as serving as Lead Virtual Assistant for Yogi Group Massachusetts. Kingsley also has years of experience as an Executive Assistant to the Chief Technical Officer of Enugu Electricity Distribution Company, the power distribution company in Nigeria, which makes him well-rounded and resourceful.",
       "Outside of work, Kingsley enjoys singing and playing the guitar in addition to watching and playing football on the weekends. He is an ardent supporter of Chelsea F.C. He is also a fan of all the series in the Power Universe, the Game of Thrones Universe, and the Vampire Diaries Universe.",
       "With a knack for general administration and a penchant for proactivity and problem-solving, Kingsley is poised to be a great asset for Haraka Headhunters LLC."

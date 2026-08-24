@@ -127,73 +127,10 @@ export const testimonials: Testimonial[] = [
     "date": "Jul 2023"
   },
   {
-    "avatar": "/testimonials/avatars/sherwin-primo.jpg",
-    "name": "Sherwin Primo",
-    "title": "President at Primo Arch Drafting + Design, Inc.",
-    "quote": "Tiffany is probably one of the best sources for attorneys of all kinds to find their place in the world.",
-    "date": "Jun 2025"
-  },
-  {
-    "avatar": "/testimonials/avatars/christina-davis.jpg",
-    "name": "CHRISTINA DAVIS",
-    "title": "With God all things are possible 🙏",
-    "quote": "Tiffany and her team have played a vital role in helping our firm secure an outstanding litigation attorney. Tiffany consistently demonstrated her commitment by personally contacting us to answer our questions, even after hours. Tiffany and her team are devoted to finding top-notch candidates who are not only highly qualified and motivated but also an excellent cultural fit. We appreciate your efforts, Tiffany and Haraka HeadHunters.",
-    "date": "Apr 2025"
-  },
-  {
-    "avatar": "/testimonials/avatars/lisa-marie-elliott.jpg",
-    "name": "Lisa-Marie Elliott",
-    "title": "Civil Trial Attorney at Insurance Coverage Lawyers",
-    "quote": "Tiffany was amazing - she reached out to me and based on her outline of a job opportunity, I was persuaded to connect with her immediately. Not only was she extremely professional throughout the entire process, she also worked swiftly and was readily available to connect with me about any issues or concerns I was having during the recruitment process. Tiffany gave excellent pre-interview and post-interview information, which was always on point! Overall, Tiffany and the Haraka Headhunters Team helped me out tremendously. I highly recommend her and them for your own recruitment efforts and for your job hunt. Thanks Tiffany!",
-    "date": "Mar 2025"
-  },
-  {
     "avatar": "/testimonials/avatars/u-nkechi-nwachukwu.jpg",
     "name": "U. Nkechi Nwachukwu, Esq.",
     "title": "Municipal &amp; Land Use Attorney",
     "quote": "I don't even know how Tiffany and her team found me! I was literally minding my own business, doing work for my own solo practice when I received a direct message from LinkedIn. I usually don't respond to such solicitations, but this opportunity was RIGHT up my alley, so I responded …and Tiffany's machine went to work! Before I knew it, I was interviewing with the partners of a law firm, and not long after that, we structured a deal that allowed me to maintain my own practice AND be of service to the firm. Total time from first contact to closing the deal? 29 days. Haraka Headhunters really does work \"Faster than a New York Minute!\"",
     "date": "Dec 2024"
-  },
-  {
-    "avatar": "/testimonials/avatars/tressie-george.jpg",
-    "name": "Tressie George",
-    "title": "Homeowners Insurance and Property Damage Attorney",
-    "quote": "I had the pleasure of working with Tiffany from Haraka Headhunters during my recent job search, and I couldn't be more grateful for her exceptional support and expertise. As a legal recruiter, Tiffany demonstrated an impressive understanding of the legal industry and took the time to understand my career aspirations and strengths.\n\nIn just a matter of days, Tiffany not only secured me an interview but also an offer for an attorney position at a prestigious law firm. Her dedication, professionalism, and keen insight into the job market were evident throughout the entire process.\n\nI highly recommend Tiffany and Haraka Headhunters to anyone in the legal field seeking new opportunities. Thank you, Tiffany, for your outstanding work and for helping me take the next step in my career!",
-    "date": "Aug 2024"
-  },
-  {
-    "avatar": "/testimonials/avatars/julia-knoll.jpg",
-    "name": "Julia Knoll",
-    "title": "Tax Attorney",
-    "quote": "Tiff is absolutely fantastic, I cannot recommend her enough! She was a strong advocate on my behalf, provided clear and direct communication, kept me updated in a timely fashion, and truly helped elevate my overall appeal to potential employers. She helped me every step of the way and I am grateful for her services! Highly recommended!",
-    "date": "Jul 2024"
-  },
-  {
-    "avatar": "/testimonials/avatars/jeffery-walker.jpg",
-    "name": "Jeffery Walker",
-    "title": "Associate Attorney",
-    "quote": "I highly recommend Haraka Headhunters! Tiffany Meikle is an exceptional recruiter who secured my role as an Associate Attorney with impressive speed and efficiency. From our first conversation, her deep industry knowledge and genuine interest in my career goals stood out. Tiffany expertly guided me through resume refinement, interview preparation, and the entire application process, making it smooth and stress-free.\n\nWhat truly sets Tiffany apart is her dedication to ensuring fair compensation and her quick turnaround. She negotiated on my behalf, securing a package that exceeded my expectations in record time. Her prompt communication and proactive approach made me feel supported and confident throughout my job search.\n\nI highly recommend Tiffany and her team at Haraka Headhunters to any legal professional seeking a recruiter who combines expertise with a personal touch and delivers fast, outstanding results.",
-    "date": "Jul 2024"
-  },
-  {
-    "avatar": "/testimonials/avatars/kimesha-smith.jpg",
-    "name": "Kimesha Smith, Esq.",
-    "title": "Attorney",
-    "quote": "Tiffany was friendly, understanding, supportive, and very quick to respond. The turnaround time was for the books and she landed me a great position with good pay and benefits. I highly recommend her services.",
-    "date": "Oct 2023"
-  },
-  {
-    "avatar": "/testimonials/avatars/carla-gannon.jpg",
-    "name": "Carla L. Gannon",
-    "title": "Intellectual Property / Patent Attorney",
-    "quote": "Big thumbs up on working with Tiffany. She was very professional, quick to follow up, and connected me with an opportunity that is an excellent fit. Her client, with whom I accepted a position, also has very positive things to say about working with Tiffany. I recommend her without reservation.",
-    "date": "Feb 2023"
-  },
-  {
-    "avatar": "/testimonials/avatars/chandra-eugene.jpg",
-    "name": "Chandra Eugene, MHA",
-    "title": "Revenue Cycle Management",
-    "quote": "Efficient is the word that comes to mind when I think about Tiffany! I had the pleasure of working with Tiffany who placed me in my current role. One of the things that impressed me most was the fact that she got me my first interview on a Monday and a second interview on Friday of the same week. I was hired right after the second interview! I highly recommend her skills and expertise as a recruiter.",
-    "date": "Jan 2023"
   }
 ];
