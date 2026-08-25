@@ -77,7 +77,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     "id": "eric-adams",
-    "img": "/about/eric.jpg",
+    "img": "/about/eric.png",
     "alt": "Eric Adams, Attorney Recruiter at Haraka Headhunters LLC",
     "name": "Eric Adams",
     "role": "Attorney Recruiter",
@@ -89,7 +89,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     "id": "victor",
-    "img": "/about/victor.jpg",
+    "img": "/about/victor.png",
     "alt": "Victor Hussain, Attorney Recruiter at Haraka Headhunters LLC",
     "name": "Victor Hussain",
     "role": "Attorney Recruiter",
