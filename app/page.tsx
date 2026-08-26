@@ -23,7 +23,7 @@ export default function Home() {
             <div className="lg:col-span-7">
               <p className="eyebrow">Legal Recruiting · New York</p>
               <h1 className="mt-6 font-serif text-[clamp(2.6rem,6.5vw,5.5rem)] leading-[1.02] tracking-tight text-charcoal-deep">
-                Top legal talent.
+                Providing top legal talent —
                 <br />
                 <span className="italic text-slate-deep">Faster</span> than a
                 <br />
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </section>
 
-      <TextMarquee text="Providing Top Candidates Faster Than A New York Minute!" bg="bg-charcoal-deep" />
+      <TextMarquee text="Providing Top Legal Talent — Faster Than A New York Minute!" bg="bg-charcoal-deep" />
 
       <section className="bg-paper-deep border-y border-line-strong">
         <div className="container-x py-20 md:py-28">
