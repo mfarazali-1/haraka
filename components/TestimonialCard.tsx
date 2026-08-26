@@ -103,11 +103,8 @@ export default function TestimonialCard({
           </div>
         </header>
 
-        <div className="mt-6 relative">
-          <span aria-hidden="true" className="absolute -top-3 -left-1 font-serif text-6xl leading-none text-line-strong select-none">
-            &ldquo;
-          </span>
-          <p className="relative text-base md:text-[17px] leading-relaxed text-charcoal-deep whitespace-pre-line">
+        <div className="mt-6">
+          <p className="text-base md:text-[17px] leading-relaxed text-charcoal-deep whitespace-pre-line">
             &ldquo;{t.quote}&rdquo;
           </p>
         </div>
