@@ -23,6 +23,21 @@ export const teamMembers: TeamMember[] = [
     "email": "Emmanuel.Ojo@HarakaHeadhunters.com"
   },
   {
+    "id": "jane-wanjira",
+    "img": "/about/jane.png",
+    "alt": "Jane Wanjira, Administrative & Personal Assistant to the CEO at Haraka Headhunters LLC",
+    "name": "Jane Wanjira",
+    "role": "Administrative & Personal Assistant to the CEO",
+    "paras": [
+      "Jane Wanjira is the kind of person who makes everything look effortless as an Administrative Assistant and Personal Assistant to Tiffany, CEO of Haraka Headhunters LLC, an attorney search firm. She holds an MBA in Business Administration – Management from Berkeley College. Jane is the behind-the-scenes force who keeps the moving pieces connected, organized, and running seamlessly.",
+      "While she may not always be the person tackling the biggest or most visible tasks, Jane has a remarkable talent for managing the many small details that make a big difference. From keeping schedules and communications organized to staying on top of details, coordinating priorities, and making sure nothing falls through the cracks, she is often the steady hand behind a smooth day.",
+      "Jane understands that in a fast-paced environment, the little things matter. A timely reminder, a well-organized calendar, a thoughtful follow-up, or simply knowing what needs to happen next can make all the difference. Her attention to detail, discretion, reliability, and natural organizational skills help keep Tiffany focused on leading the firm while ensuring clients receive the responsive, polished experience they deserve.",
+      "In many ways, Jane is the glue that holds everything together. She brings structure to the busy moments, calm to the unexpected ones, and a thoughtful, can-do attitude to everything she takes on. Her ability to anticipate needs, juggle priorities, and quietly keep operations moving is an invaluable part of what makes Haraka Headhunters LLC run so seamlessly.",
+      "Beyond her professional life, Jane has a creative and adventurous spirit. She is passionate about fashion and modeling, enjoys expressing her creativity, and is a newly published author following the release of her first book. She also loves to travel, discover new places, and experience different cultures.",
+      "Organized, dependable, creative, and always ready to make things happen, Jane is much more than an assistant—she is an essential part of the rhythm, energy, and success behind the scenes at Haraka Headhunters LLC."
+    ]
+  },
+  {
     "id": "abdullah-ashfaq",
     "img": "/about/abdullah-ashfaq.png",
     "alt": "Abdullah Ashfaq, Attorney Recruiter at Haraka Headhunters LLC",
