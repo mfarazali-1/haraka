@@ -78,6 +78,18 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
+    "id": "kainat",
+    "img": "/about/kainat.png",
+    "alt": "Kainat, Business Development Manager at Haraka Headhunters LLC",
+    "name": "Kainat",
+    "role": "Business Development Manager",
+    "paras": [
+      "Kainat is a Business Development Manager at Haraka Headhunters LLC, where building relationships is both her expertise and her favorite part of the job. She partners with law firms across the United States, as well as companies seeking exceptional in-house counsel, to understand their hiring goals and connect them with top-tier legal talent. Whether she’s opening new doors or strengthening long-standing partnerships, Kainat is driven by the belief that the best placements begin with genuine connections.",
+      "Before launching her career in business development, Kainat earned a Master’s degree in Molecular Biology and Biotechnology from the University of Veterinary and Animal Sciences (UVAS) in Lahore. Her scientific background sharpened her analytical thinking and curiosity—qualities that now help her understand clients’ needs, ask the right questions, and deliver thoughtful solutions.",
+      "A self-proclaimed Libra, she enjoys finding balance through pottery and knitting, and she’s always up for a compelling story. Whether she’s revisiting Gone Girl or watching Suits, she’s drawn to sharp characters, clever strategy, and memorable conversations."
+    ]
+  },
+  {
     "id": "kingsley",
     "img": "/about/kingsley.jpg",
     "alt": "Kingsley Barrah, Business Development Associate at Haraka Headhunters LLC",
