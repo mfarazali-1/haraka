@@ -1,8 +1,8 @@
 "use client";
 
 import { useRef } from "react";
-import GoogleBadge from "./GoogleBadge";
 import GoogleIcon from "./GoogleIcon";
+import GoogleWordmark from "./GoogleWordmark";
 import StarRating from "./StarRating";
 import type { Testimonial } from "@/lib/testimonials";
 
@@ -21,10 +21,12 @@ export default function GoogleReviewCard({ t }: { t: Testimonial }) {
   return (
     <>
       <article className="group relative bg-paper border border-line-strong p-7 md:p-8 flex flex-col h-[340px] transition-colors duration-300 hover:border-slate">
-        <GoogleBadge className="absolute top-6 right-6 md:top-7 md:right-7" />
-        <header className="pr-10">
-          <p className="text-sm font-medium text-charcoal-deep leading-tight">{t.name}</p>
-          <StarRating className="mt-1.5" />
+        <header className="flex items-start justify-between gap-3">
+          <div>
+            <p className="text-sm font-medium text-charcoal-deep leading-tight">{t.name}</p>
+            <StarRating className="mt-1.5" />
+          </div>
+          <GoogleIcon className="w-5 h-5 mt-0.5 shrink-0" />
         </header>
 
         <p className="mt-5 flex-1 overflow-hidden text-sm leading-relaxed text-charcoal-deep line-clamp-6">
@@ -32,11 +34,15 @@ export default function GoogleReviewCard({ t }: { t: Testimonial }) {
         </p>
 
         <footer className="mt-4 pt-4 border-t border-line-strong flex items-center justify-between gap-4">
-          <span className="text-xs text-muted">{t.date}</span>
+          <span className="inline-flex items-center gap-1.5 text-xs text-muted">
+            <span className="font-medium text-charcoal-deep">Review on Google</span>
+            <span aria-hidden="true">·</span>
+            <span>{t.date}</span>
+          </span>
           <button
             type="button"
             onClick={() => dialogRef.current?.showModal()}
-            className="text-xs font-medium text-charcoal-deep link-underline"
+            className="text-xs font-medium text-charcoal-deep link-underline shrink-0"
           >
             View more
           </button>
@@ -61,22 +67,30 @@ export default function GoogleReviewCard({ t }: { t: Testimonial }) {
             <CloseIcon />
           </button>
 
-          <header className="pr-12">
+          <div className="inline-flex items-center gap-2 border border-line-strong px-3 py-1.5">
+            <GoogleIcon className="w-4 h-4" />
+            <span className="text-sm">
+              <GoogleWordmark />
+              <span className="ml-1 font-semibold text-charcoal-deep">review</span>
+            </span>
+          </div>
+
+          <header className="mt-5 pr-12">
             <h3 id={headingId} className="font-serif text-xl md:text-2xl text-charcoal-deep leading-tight">
               {t.name}
             </h3>
             <StarRating className="mt-2" size={16} />
           </header>
 
-          <p className="mt-6 text-[15px] md:text-base leading-relaxed text-charcoal-deep whitespace-pre-line">
+          <p className="mt-5 text-[15px] md:text-base leading-relaxed text-charcoal-deep whitespace-pre-line">
             {t.quote}
           </p>
 
           <div className="mt-7 pt-5 border-t border-line-strong flex items-center justify-between gap-4 text-xs text-muted">
             <span>{t.date}</span>
             <span className="inline-flex items-center gap-1.5">
-              <span>via Google</span>
-              <GoogleIcon />
+              <GoogleIcon className="w-3.5 h-3.5" />
+              <span>Posted on Google</span>
             </span>
           </div>
         </div>

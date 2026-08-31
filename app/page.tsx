@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Counter from "@/components/Counter";
 import GoogleReviewCard from "@/components/GoogleReviewCard";
+import GoogleIcon from "@/components/GoogleIcon";
+import GoogleWordmark from "@/components/GoogleWordmark";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import TextMarquee from "@/components/TextMarquee";
 import { testimonials, googleReviews } from "@/lib/testimonials";
@@ -78,11 +80,10 @@ export default function Home() {
       <section className="bg-paper-deep border-y border-line-strong">
         <div className="container-x py-20 md:py-28">
           <div className="text-center mb-12 md:mb-16">
-            <p className="eyebrow">Recommendations · Option A</p>
+            <p className="eyebrow">Recommendations</p>
             <h2 className="mt-5 font-serif text-3xl md:text-4xl text-charcoal-deep leading-tight">
               In their own words.
             </h2>
-            <p className="mt-3 text-sm text-muted">A carousel, click-through — for comparison against the auto-scroll version below.</p>
           </div>
           <TestimonialsCarousel items={carouselItems} />
         </div>
@@ -96,6 +97,16 @@ export default function Home() {
             <h2 className="mt-5 font-serif text-3xl md:text-4xl text-charcoal-deep leading-tight">
               What they say on Google.
             </h2>
+            <div className="mt-6 inline-flex items-center gap-2.5 border border-line-strong bg-paper px-4 py-2.5">
+              <GoogleIcon className="w-[18px] h-[18px]" />
+              <span className="text-lg">
+                <GoogleWordmark />
+                <span className="ml-1.5 font-semibold text-charcoal-deep">Reviews</span>
+              </span>
+            </div>
+            <p className="mt-4 text-sm text-muted">
+              Left by our clients and candidates on Google Maps.
+            </p>
           </div>
           <div className="flex flex-wrap justify-center gap-6">
             {googleReviews.map((t) => (
