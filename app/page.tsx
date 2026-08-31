@@ -1,12 +1,9 @@
 import Link from "next/link";
 import Counter from "@/components/Counter";
-import TestimonialsMarquee from "@/components/TestimonialsMarquee";
+import GoogleReviewCard from "@/components/GoogleReviewCard";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import TextMarquee from "@/components/TextMarquee";
-import { testimonials } from "@/lib/testimonials";
-
-const marqueeRow1 = testimonials.filter((_, i) => i % 2 === 0);
-const marqueeRow2 = testimonials.filter((_, i) => i % 2 !== 0);
+import { testimonials, googleReviews } from "@/lib/testimonials";
 
 const carouselNames = ["Glenn Dopf", "Mario I. Molina, Esq.", "Robert Gonzalez"];
 const carouselItems = carouselNames
@@ -91,31 +88,25 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-paper overflow-hidden">
-        <div className="container-x pt-20 md:pt-28">
-          <div className="flex items-end justify-between flex-wrap gap-6 mb-8 md:mb-10">
-            <div>
-              <p className="eyebrow">Recommendations · Option B</p>
-              <h2 className="mt-5 font-serif text-3xl md:text-4xl text-charcoal-deep leading-tight max-w-2xl">
-                Trusted by the candidates and clients we&rsquo;ve placed.
-              </h2>
-            </div>
+      {/* Google reviews — static grid */}
+      <section className="bg-paper border-t border-line-strong">
+        <div className="container-x py-20 md:py-28">
+          <div className="text-center mb-12 md:mb-16">
+            <p className="eyebrow">Google Reviews</p>
+            <h2 className="mt-5 font-serif text-3xl md:text-4xl text-charcoal-deep leading-tight">
+              What they say on Google.
+            </h2>
           </div>
-        </div>
-
-        <div className="space-y-6">
-          <TestimonialsMarquee items={marqueeRow1} direction="forward" duration={70} />
-          <TestimonialsMarquee items={marqueeRow2} direction="reverse" duration={80} />
-        </div>
-
-        <div className="container-x pb-20 md:pb-28 mt-14 md:mt-16 flex justify-center">
-          <Link
-            href="/testimonials"
-            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium tracking-wide transition-all duration-300 border border-charcoal-deep text-charcoal-deep hover:bg-charcoal-deep hover:text-cream group"
-          >
-            View all testimonials
-            <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
-          </Link>
+          <div className="flex flex-wrap justify-center gap-6">
+            {googleReviews.map((t) => (
+              <div
+                key={t.name}
+                className="w-full md:w-[calc((100%-1.5rem)/2)] lg:w-[calc((100%-3rem)/3)]"
+              >
+                <GoogleReviewCard t={t} />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

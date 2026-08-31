@@ -1,9 +1,10 @@
 export interface Testimonial {
   avatar?: string;
   name: string;
-  title: string;
+  title?: string;
   quote: string;
   date: string;
+  source?: "linkedin" | "google";
 }
 
 export const testimonials: Testimonial[] = [
@@ -132,5 +133,38 @@ export const testimonials: Testimonial[] = [
     "title": "Municipal &amp; Land Use Attorney",
     "quote": "I don't even know how Tiffany and her team found me! I was literally minding my own business, doing work for my own solo practice when I received a direct message from LinkedIn. I usually don't respond to such solicitations, but this opportunity was RIGHT up my alley, so I responded …and Tiffany's machine went to work! Before I knew it, I was interviewing with the partners of a law firm, and not long after that, we structured a deal that allowed me to maintain my own practice AND be of service to the firm. Total time from first contact to closing the deal? 29 days. Haraka Headhunters really does work \"Faster than a New York Minute!\"",
     "date": "Dec 2024"
+  },
+  {
+    "name": "Donald Scott",
+    "quote": "I had a fantastic experience with Tiffany Meikle. She is incredibly responsive, always returning calls and emails promptly and was incredibly efficient at handling all of the scheduling logistics, which made the entire process seamless. Beyond her communication, she is great listener who truly understood my career goals and acted as a strong advocate on my behalf. Whether you are a job seeker looking for your next role, or a company looking to fill a key position, I cannot recommend Tiffany and her team highly enough.",
+    "date": "May 2026",
+    "source": "google"
+  },
+  {
+    "name": "Clemente Gonzalez",
+    "quote": "Had a great experience working with Tiffany and Samuel at Haraka Headhunters. I'm a civil litigation attorney and they took the time to understand what I was looking for and helped me find a position that was the right fit for me. They were incredibly professional and responsive throughout. Definitely recommend.",
+    "date": "Oct 2025",
+    "source": "google"
+  },
+  {
+    "name": "TJ Finley",
+    "quote": "I worked closely with Tiffany Meikle on my most recent job search. She was amazing at identifying potential fits for me and communicating with law firms on my behalf. She is very professional and I would recommend any lawyer looking for a new gig to work with Haraka to find their perfect landing spot.\n\nI am a civil litigator and Haraka helped me to get several interviews quickly and efficiently and the turn around time between interviews and offers was very fast.",
+    "date": "Oct 2025",
+    "source": "google"
+  },
+  {
+    "name": "Robert Weissman",
+    "quote": "We recently hired an associate attorney through Haraka Headhunters LLC. Tiffany was a pleasure to deal with and they worked very hard to find the right person for our opening. I highly recommend them and would use them again.",
+    "date": "Nov 2025",
+    "source": "google"
+  },
+  {
+    "name": "Ethan Clarke",
+    "quote": "Tiffany and Haraka Headhunters were great! They paired me with a perfect employer and facilitated everything from the initial interview to the final offer. They work quickly, efficiently, and are genuine. There aren't many other recruiters who rise to their level.\n\nIt was great to work with Tiffany and her colleague.",
+    "date": "Aug 2025",
+    "source": "google"
   }
 ];
+
+export const googleReviews = testimonials.filter((t) => t.source === "google");
+export const linkedInTestimonials = testimonials.filter((t) => t.source !== "google");
