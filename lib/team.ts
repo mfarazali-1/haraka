@@ -52,16 +52,15 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
-    "id": "ngozi",
-    "img": "/about/ngozi.png",
-    "alt": "Ngozi Bosah, Business Development Manager at Haraka Headhunters LLC",
-    "name": "Ngozi Bosah",
+    "id": "kainat",
+    "img": "/about/kainat.png",
+    "alt": "Kainat Ali, Business Development Manager at Haraka Headhunters LLC",
+    "name": "Kainat Ali",
     "role": "Business Development Manager",
     "paras": [
-      "Ngozi Bosah is a law graduate of the University of East Anglia in the United Kingdom and is currently enrolled at the Nigerian Law School, where she is pursuing qualification as a Barrister and Solicitor, with an anticipated call to the Nigerian Bar in July 2027.",
-      "She began her journey with Haraka Headhunters LLC as a part-time team member and now serves as a Business Development Manager, where she plays an integral role in driving business development, cultivating relationships, and supporting the continued growth of our attorney-recruitment practice.",
-      "At Haraka, Ngozi has had the privilege of working closely with our CEO and Founder, Tiffany Meikle, whose leadership, work ethic, and wonderfully sociable spirit she greatly admires. For Ngozi, the experience has been an invaluable opportunity to learn, grow, and contribute within an ambitious and people-focused organization.",
-      "Outside of work and law, Ngozi enjoys spending time with family and friends, embracing new experiences, and, naturally, indulging in a little good entertainment. Her current all-time favorite read is After: The Series on Wattpad, while XO, Kitty holds the crown as her favorite series. And when it comes to movies, High School Musical 3 has her heart—because some classics simply cannot be topped."
+      "Kainat Ali is a Business Development Manager at Haraka Headhunters LLC, where building relationships is both her expertise and her favorite part of the job. She partners with law firms across the United States, as well as companies seeking exceptional in-house counsel, to understand their hiring goals and connect them with top-tier legal talent. Whether she’s opening new doors or strengthening long-standing partnerships, Kainat is driven by the belief that the best placements begin with genuine connections.",
+      "Before launching her career in business development, Kainat earned a Master’s degree in Molecular Biology and Biotechnology from the University of Veterinary and Animal Sciences (UVAS) in Lahore. Her scientific background sharpened her analytical thinking and curiosity—qualities that now help her understand clients’ needs, ask the right questions, and deliver thoughtful solutions.",
+      "A self-proclaimed Libra, she enjoys finding balance through pottery and knitting, and she’s always up for a compelling story. Whether she’s revisiting Gone Girl or watching Suits, she’s drawn to sharp characters, clever strategy, and memorable conversations."
     ]
   },
   {
@@ -78,15 +77,16 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
-    "id": "kainat",
-    "img": "/about/kainat.png",
-    "alt": "Kainat Ali, Business Development Manager at Haraka Headhunters LLC",
-    "name": "Kainat Ali",
-    "role": "Business Development Manager",
+    "id": "ngozi",
+    "img": "/about/ngozi.png",
+    "alt": "Ngozi Bosah, Fractional Business Development Associate at Haraka Headhunters LLC",
+    "name": "Ngozi Bosah",
+    "role": "Fractional Business Development Associate",
     "paras": [
-      "Kainat Ali is a Business Development Manager at Haraka Headhunters LLC, where building relationships is both her expertise and her favorite part of the job. She partners with law firms across the United States, as well as companies seeking exceptional in-house counsel, to understand their hiring goals and connect them with top-tier legal talent. Whether she’s opening new doors or strengthening long-standing partnerships, Kainat is driven by the belief that the best placements begin with genuine connections.",
-      "Before launching her career in business development, Kainat earned a Master’s degree in Molecular Biology and Biotechnology from the University of Veterinary and Animal Sciences (UVAS) in Lahore. Her scientific background sharpened her analytical thinking and curiosity—qualities that now help her understand clients’ needs, ask the right questions, and deliver thoughtful solutions.",
-      "A self-proclaimed Libra, she enjoys finding balance through pottery and knitting, and she’s always up for a compelling story. Whether she’s revisiting Gone Girl or watching Suits, she’s drawn to sharp characters, clever strategy, and memorable conversations."
+      "Ngozi Bosah is a law graduate of the University of East Anglia in the United Kingdom and is currently enrolled at the Nigerian Law School, where she is pursuing qualification as a Barrister and Solicitor, with an anticipated call to the Nigerian Bar in July 2027.",
+      "She began her journey with Haraka Headhunters LLC as a part-time team member and now serves as a Fractional Business Development Associate, where she plays an integral role in driving business development, cultivating relationships, and supporting the continued growth of our attorney-recruitment practice.",
+      "At Haraka, Ngozi has had the privilege of working closely with our CEO and Founder, Tiffany Meikle, whose leadership, work ethic, and wonderfully sociable spirit she greatly admires. For Ngozi, the experience has been an invaluable opportunity to learn, grow, and contribute within an ambitious and people-focused organization.",
+      "Outside of work and law, Ngozi enjoys spending time with family and friends, embracing new experiences, and, naturally, indulging in a little good entertainment. Her current all-time favorite read is After: The Series on Wattpad, while XO, Kitty holds the crown as her favorite series. And when it comes to movies, High School Musical 3 has her heart—because some classics simply cannot be topped."
     ]
   },
   {
