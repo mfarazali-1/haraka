@@ -23,18 +23,16 @@ export const teamMembers: TeamMember[] = [
     "email": "Emmanuel.Ojo@HarakaHeadhunters.com"
   },
   {
-    "id": "jane-wanjira",
-    "img": "/about/jane.png",
-    "alt": "Jane Wanjira, Administrative & Personal Assistant to the CEO at Haraka Headhunters LLC",
-    "name": "Jane Wanjira",
-    "role": "Administrative & Personal Assistant to the CEO",
+    "id": "elizabeth-ojo",
+    "img": "/about/elizebeth.jpeg",
+    "alt": "Elizabeth Ojo, Attorney Recruiter at Haraka Headhunters LLC",
+    "name": "Elizabeth Ojo",
+    "role": "Attorney Recruiter",
     "paras": [
-      "Jane Wanjira is the kind of person who makes everything look effortless as an Administrative Assistant and Personal Assistant to Tiffany, CEO of Haraka Headhunters LLC, an attorney search firm. She holds an MBA in Business Administration – Management from Berkeley College. Jane is the behind-the-scenes force who keeps the moving pieces connected, organized, and running seamlessly.",
-      "While she may not always be the person tackling the biggest or most visible tasks, Jane has a remarkable talent for managing the many small details that make a big difference. From keeping schedules and communications organized to staying on top of details, coordinating priorities, and making sure nothing falls through the cracks, she is often the steady hand behind a smooth day.",
-      "Jane understands that in a fast-paced environment, the little things matter. A timely reminder, a well-organized calendar, a thoughtful follow-up, or simply knowing what needs to happen next can make all the difference. Her attention to detail, discretion, reliability, and natural organizational skills help keep Tiffany focused on leading the firm while ensuring clients receive the responsive, polished experience they deserve.",
-      "In many ways, Jane is the glue that holds everything together. She brings structure to the busy moments, calm to the unexpected ones, and a thoughtful, can-do attitude to everything she takes on. Her ability to anticipate needs, juggle priorities, and quietly keep operations moving is an invaluable part of what makes Haraka Headhunters LLC run so seamlessly.",
-      "Beyond her professional life, Jane has a creative and adventurous spirit. She is passionate about fashion and modeling, enjoys expressing her creativity, and is a newly published author following the release of her first book. She also loves to travel, discover new places, and experience different cultures.",
-      "Organized, dependable, creative, and always ready to make things happen, Jane is much more than an assistant—she is an essential part of the rhythm, energy, and success behind the scenes at Haraka Headhunters LLC."
+      "Elizabeth Ojo is an Attorney Recruiter at Haraka Headhunters LLC, bringing five years of experience in Talent Acquisition and Human Resources across Africa, APAC, and the United States. She holds a Bachelor’s degree in Anthropology and a Master’s degree in Employment Relations and Human Resource Management from the University of Ibadan, Nigeria, alongside professional certifications in HR and Recruitment.",
+      "At Haraka, Elizabeth enjoys the fast-paced environment, learning from Tiffany’s wealth of knowledge and experience, and constantly discovering new ways to grow professionally.",
+      "When she’s not recruiting, Elizabeth is probably watching a K-drama (Crash Landing on You is a favorite) or serving in church, exploring fun places, and enjoying good company with her loved ones.",
+      "She believes there’s always room to learn, grow, and have fun along the way."
     ]
   },
   {
@@ -49,6 +47,18 @@ export const teamMembers: TeamMember[] = [
       "Abdullah’s recruitment experience includes attorney recruiting for U.S.-based law firms at Haraka Headhunters LLC and full-cycle technical recruitment at WADIC, where he managed sourcing, screening, interview coordination, and onboarding across a variety of roles. His experience extends across the U.S., Pakistan, and Bangladesh markets, giving him a strong understanding of cross-border hiring dynamics and talent acquisition strategies.",
       "Known for his communication skills, active headhunting techniques, and relationship-driven recruiting style, Abdullah focuses on building strong candidate networks and streamlining hiring processes to help organizations secure top-tier professionals efficiently.",
       "Outside of recruiting, Abdullah enjoys traveling, networking, combat sports, and engaging in conversations around career growth, hiring trends, and professional development."
+    ]
+  },
+  {
+    "id": "marvellous-ajayi",
+    "img": "/about/ajayi.png",
+    "alt": "Marvellous Ajayi, Business Development Manager at Haraka Headhunters LLC",
+    "name": "Marvellous Ajayi",
+    "role": "Business Development Manager",
+    "paras": [
+      "Marvellous Ajayi is a Business Development Manager at Haraka Headhunters LLC, where she helps connect talented legal professionals with opportunities that align with their experience, goals, and interests. She enjoys getting to know people, learning about their career journeys, and building genuine relationships throughout the recruitment process. Her interest in law, research, and business development allows her to approach recruitment with curiosity, attention to detail, and a people-focused mindset.",
+      "Before joining Haraka Headhunters, Marvellous earned her law degree from Redeemer’s University. Her legal background strengthened her research, writing, communication, and critical-thinking skills, while her leadership experience taught her how to work effectively with different people and perspectives. She brings these skills into her role by staying organized, asking thoughtful questions, and helping candidates and clients navigate the recruitment process with clarity and confidence.",
+      "Marvellous is naturally curious and enjoys learning about the legal industry, discovering new opportunities, and having conversations that lead to meaningful connections. Outside of work, she enjoys reading, solving puzzles, listening to music, and watching movies, especially Mamma Mia!. She believes recruitment is about more than filling a position; it is about understanding people and creating connections that make sense for everyone involved."
     ]
   },
   {
@@ -77,29 +87,16 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
-    "id": "ngozi",
-    "img": "/about/ngozi.png",
-    "alt": "Ngozi Bosah, Fractional Business Development Associate at Haraka Headhunters LLC",
-    "name": "Ngozi Bosah",
-    "role": "Fractional Business Development Associate",
+    "id": "saba-nisar",
+    "img": "/about/saba.png",
+    "alt": "Saba Nisar, Attorney Recruiter at Haraka Headhunters LLC",
+    "name": "Saba Nisar",
+    "role": "Attorney Recruiter",
     "paras": [
-      "Ngozi Bosah is a law graduate of the University of East Anglia in the United Kingdom and is currently enrolled at the Nigerian Law School, where she is pursuing qualification as a Barrister and Solicitor, with an anticipated call to the Nigerian Bar in July 2027.",
-      "She began her journey with Haraka Headhunters LLC as a part-time team member and now serves as a Fractional Business Development Associate, where she plays an integral role in driving business development, cultivating relationships, and supporting the continued growth of our attorney-recruitment practice.",
-      "At Haraka, Ngozi has had the privilege of working closely with our CEO and Founder, Tiffany Meikle, whose leadership, work ethic, and wonderfully sociable spirit she greatly admires. For Ngozi, the experience has been an invaluable opportunity to learn, grow, and contribute within an ambitious and people-focused organization.",
-      "Outside of work and law, Ngozi enjoys spending time with family and friends, embracing new experiences, and, naturally, indulging in a little good entertainment. Her current all-time favorite read is After: The Series on Wattpad, while XO, Kitty holds the crown as her favorite series. And when it comes to movies, High School Musical 3 has her heart—because some classics simply cannot be topped."
-    ]
-  },
-  {
-    "id": "kingsley",
-    "img": "/about/kingsley.jpg",
-    "alt": "Kingsley Barrah, Business Development Associate at Haraka Headhunters LLC",
-    "name": "Kingsley Barrah",
-    "role": "Business Development Associate",
-    "paras": [
-      "Kingsley Barrah is a Business Development Associate at Haraka Headhunters LLC, with over 9 years of experience in administration and a proven track record in virtual staff recruitment and human resources. He holds a Bachelor’s degree in Civil Engineering from the Federal University of Technology, Owerri, Imo State, Nigeria, and possesses two certifications in Virtual Assistance and Data Analysis. Kingsley is at home at Haraka Headhunters LLC and is confident in the leadership of the ever competent, patient, and resourceful CEO, Tiffany.",
-      "His career includes serving as Head of Staff for Tasktide Virtual Staffing Agency, UK, where he managed staff operations and conducted end-to-end recruitment, as well as serving as Lead Virtual Assistant for Yogi Group Massachusetts. Kingsley also has years of experience as an Executive Assistant to the Chief Technical Officer of Enugu Electricity Distribution Company, the power distribution company in Nigeria, which makes him well-rounded and resourceful.",
-      "Outside of work, Kingsley enjoys singing and playing the guitar in addition to watching and playing football on the weekends. He is an ardent supporter of Chelsea F.C. He is also a fan of all the series in the Power Universe, the Game of Thrones Universe, and the Vampire Diaries Universe.",
-      "With a knack for general administration and a penchant for proactivity and problem-solving, Kingsley is poised to be a great asset for Haraka Headhunters LLC."
+      "Saba Nisar is an Attorney Recruiter at Haraka Headhunters LLC, connecting qualified U.S.-based attorneys with law firms across the United States. She holds a Master’s degree in Human Resource Management.",
+      "Saba is passionate about identifying the right legal talent for the right opportunities and helping law firms find qualified attorneys who align with their hiring needs. She specializes in sourcing attorneys through LinkedIn and other recruiting channels, researching law-firm clients and hiring opportunities, and developing targeted outreach and professional communications to support Haraka’s recruiting services.",
+      "She values Haraka’s collaborative, structured approach and enjoys being part of a team where everyone supports one another and leadership is always available for guidance.",
+      "Outside of work, Saba enjoys sketching, reading, and sports. She also loves meaningful stories through film and literature, with A Walk to Remember among her favorite movies and Atomic Habits by James Clear among her favorite books."
     ]
   },
   {
@@ -126,6 +123,32 @@ export const teamMembers: TeamMember[] = [
       "Throughout his career, Victor has worked across diverse industries and international markets, developing expertise in talent acquisition, business development, and relationship management. At Haraka Headhunters LLC, he focuses on attorney recruitment and business development, partnering with law firms and corporate legal departments throughout the United States to identify and attract highly qualified legal talent.",
       "Victor approaches every search with a combination of diligence, discernment, and genuine curiosity about people. He understands that successful legal recruitment is about more than matching credentials to a job description; it is about understanding the needs of an organization, the strengths of a candidate, and the intersection between the two.",
       "Outside of work, Victor enjoys staying active through football, both playing and following the sport, and appreciates a compelling story in any form. His favorite book, The 48 Laws of Power by Robert Greene, reflects his interest in strategy, human behavior, and leadership, while Black Panther remains one of his favorite films for its compelling themes of identity, leadership, and purpose."
+    ]
+  },
+  {
+    "id": "sheema-malik",
+    "img": "/about/sheeba.jpg",
+    "alt": "Sheema Malik, Business Development Manager & Legal Recruiter at Haraka Headhunters LLC",
+    "name": "Sheema Malik",
+    "role": "Business Development Manager & Legal Recruiter",
+    "paras": [
+      "Currently pursuing a degree at the University of Engineering and Technology (UET) in Lahore, Sheema combines technical precision with strategic communication, bringing both directly to executive talent sourcing and recruitment operations.",
+      "At Haraka Headhunters, Sheema serves as a Business Development Manager and Legal Recruiter, driving high-level candidate outreach, lead verification, and client communications to connect top-tier legal talent with the right opportunities.",
+      "What stands out most about working at Haraka is Tiff’s encouraging, direct, and clear leadership style that pushes the team to grow, the high-energy and collaborative environment, and the reward of placing exceptional legal professionals in key roles!",
+      "Outside of work, Sheema enjoys cycling and reading. Favorite book: The Fault in Our Stars. Favorite movie: The Fast and the Furious!"
+    ]
+  },
+  {
+    "id": "haris-faheem",
+    "img": "/about/haris.png",
+    "alt": "Haris Faheem, Business Development Manager at Haraka Headhunters LLC",
+    "name": "Haris Faheem",
+    "role": "Business Development Manager",
+    "paras": [
+      "Haris Faheem is a Business Development Manager at Haraka Headhunters, where he develops partnerships with boutique U.S. law firms and connects them with exceptional legal talent. Drawing on more than four years of recruitment and client management experience, he brings a thoughtful, commercially informed approach to every search.",
+      "Haris holds a BSc (Hons) in Accounting and Finance from Queen’s University Belfast. His studies gave him a strong grounding in how organizations make decisions, which he draws on when learning about a client’s business and shaping a search around its priorities.",
+      "Before joining Haraka, Haris held recruitment management positions at Global Talent Connect LLC and GTC Tech. He led searches across technical and business functions, built candidate pipelines, and guided hiring processes from the first conversation through onboarding. He also worked directly with clients on staffing plans and supported recruiters delivering on complex requirements, including roles in cybersecurity, AI, and data.",
+      "Away from work, Haris makes time for the gym, enjoys experimenting in the kitchen, and travels whenever he gets the chance. He likes discovering new places and trying their local food, then coming home to unwind with a film or series. His favorites include Hannibal, Loki, Iron Man, and The Shawshank Redemption."
     ]
   }
 ];
