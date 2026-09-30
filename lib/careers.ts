@@ -19,6 +19,299 @@ export interface Role {
 
 export const roles: Role[] = [
   {
+    "title": "Executive Assistant & Payroll Operations Coordinator",
+    "subtitle": null,
+    "category": "Executive Support",
+    "location": "250 Park Avenue, New York, NY 10016",
+    "salary": "$65/hour ($135,200 annually) + EOY Bonus of Up to $10,000",
+    "intro": "Haraka Headhunters is seeking a highly organized, resourceful, discreet, and tech-savvy Executive Assistant & Payroll Operations Coordinator to work directly with the Founder & CEO of our legal staffing agency.\n\nThis is a unique role for someone who enjoys wearing multiple hats. The ideal candidate will be equally comfortable working with payroll spreadsheets, coordinating recruiting activities, managing a calendar, assisting with social media initiatives, organizing business operations, and handling personal administrative matters for the CEO.\n\nHaraka Headhunters specializes in recruiting legal professionals, particularly attorneys, for law firms. Accordingly, an interest in law, legal staffing, recruiting, business operations, technology, and social media is highly desirable.\n\nThe successful candidate should be someone who sees a problem and thinks, “I can figure that out.”",
+    "sections": [
+      {
+        "heading": "Schedule & work arrangement",
+        "para": "Four days per week. Primarily in-office during the first 90 days, with the opportunity to transition to 100% remote work thereafter.",
+        "items": [
+          "Option 1 — Sunday: 8:00 AM – 12:00 PM; Monday: 8:00 AM – 8:00 PM; Tuesday: 8:00 AM – 8:00 PM; Wednesday: 8:00 AM – 8:00 PM",
+          "Option 2 — Wednesday: 8:00 AM – 8:00 PM; Thursday: 8:00 AM – 8:00 PM; Friday: 8:00 AM – 8:00 PM; Saturday: 8:00 AM – 12:00 PM"
+        ]
+      },
+      {
+        "heading": "Payroll & financial administration",
+        "para": null,
+        "items": [
+          "Assist with the preparation, review, and administration of company payroll",
+          "Utilize ADP for payroll processing and related payroll administration",
+          "Assist with preparation and organization of expense reports",
+          "Assist with tax-filing preparation by organizing financial documents and information for the company’s tax professionals",
+          "Assist with setting up and maintaining automatic payments for approved business and personal expenses",
+          "Coordinate with accountants, bookkeepers, payroll providers, and other professional service providers as needed"
+        ]
+      },
+      {
+        "heading": "Executive & business operations",
+        "para": null,
+        "items": [
+          "Manage the CEO’s calendar, appointments, meetings, reminders, and scheduling priorities",
+          "Coordinate business and personal appointments, including medical and dental appointments",
+          "Arrange travel, transportation, accommodations, itineraries, and other travel logistics",
+          "Assist with scheduling and coordinating",
+          "Handle confidential and sensitive information with a high degree of discretion",
+          "Assist with purchasing and ordering merchandise, supplies, gifts, promotional materials, and other items for both the company and the CEO personally"
+        ]
+      },
+      {
+        "heading": "Recruiting & legal staffing support",
+        "para": null,
+        "items": [
+          "Assist with recruiting lawyers and other legal professionals for law firm clients",
+          "Utilize LinkedIn Recruiter to identify, research, contact, and organize prospective candidates",
+          "Assist with recruiting-related research and administrative projects",
+          "Communicate professionally with attorneys, law firms, candidates, vendors, and other business contacts"
+        ]
+      },
+      {
+        "heading": "Social media, marketing & AI content",
+        "para": null,
+        "items": [
+          "Assist with management of the company’s Instagram and other social media platforms",
+          "Assist with recruiting AI cartoonists, illustrators, graphic designers, and other creative professionals to develop original social media content",
+          "Develop an interest in and working knowledge of Google Ads, paid social media advertising, algorithms, audience targeting, and digital marketing",
+          "Assist with researching and testing strategies for growing the company’s online presence"
+        ]
+      },
+      {
+        "heading": "Personal executive assistance",
+        "para": "This position will also provide confidential personal administrative support to the CEO, including:",
+        "items": [
+          "Paying and organizing parking tickets and other personal administrative obligations",
+          "Scheduling doctors, dentists, hair, makeup, and other personal appointments",
+          "Coordinating personal travel arrangements",
+          "Researching and hiring household service providers, including cleaning professionals and vegan chefs",
+          "Ordering personal merchandise and other approved purchases",
+          "Coordinating personal appointments, errands, and administrative matters",
+          "Researching vendors and service providers and managing scheduling and follow-up",
+          "Assisting with other personal and professional matters that help the CEO operate efficiently"
+        ]
+      },
+      {
+        "heading": "Technology & software",
+        "para": "The ideal candidate should be comfortable learning and using a variety of technology platforms, including:",
+        "items": [
+          "ADP — payroll administration",
+          "Microsoft Excel — spreadsheets, tracking, reporting, and financial organization",
+          "Microsoft Office Suite — including Outlook, Word, Excel, and related applications",
+          "Google Workspace — Gmail, Google Calendar, Google Drive, Google Docs, Google Sheets, etc.",
+          "LinkedIn Recruiter — candidate sourcing and recruiting",
+          "Social media platforms, particularly Instagram",
+          "Google Ads and digital advertising platforms",
+          "AI-powered productivity and content-creation tools",
+          "The candidate should be technologically curious and comfortable learning new software quickly"
+        ]
+      },
+      {
+        "heading": "Education",
+        "para": null,
+        "items": [
+          "Bachelor’s degree in Business, Political Science, or a related field preferred, but not required",
+          "Paralegal certification is a plus",
+          "Notary Public commission is a plus",
+          "Experience working in a family office or providing high-level executive/personal assistance is a plus",
+          "Experience in legal recruiting, staffing, law firms, professional services, payroll, accounting, or executive administration is highly desirable",
+          "Equivalent professional experience may substitute for formal educational credentials"
+        ]
+      },
+      {
+        "heading": "What we’re looking for",
+        "para": "The ideal candidate is:",
+        "items": [
+          "Exceptionally organized and detail-oriented",
+          "Highly trustworthy and discreet",
+          "Comfortable handling confidential financial, business, and personal information",
+          "Proactive rather than reactive",
+          "A strong communicator, both verbally and in writing",
+          "Resourceful and excellent at problem-solving",
+          "Comfortable managing competing priorities",
+          "Technologically savvy and eager to learn new tools",
+          "Interested in law, recruiting, staffing, business, technology, and social media",
+          "Comfortable interacting with attorneys, executives, vendors, candidates, and other professionals",
+          "Someone who takes ownership rather than waiting to be told what to do",
+          "Most importantly, we’re looking for someone who understands that being an executive assistant is not simply about managing a calendar. It’s about anticipating needs, solving problems, protecting the executive’s time, and keeping the business moving."
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "$65 per hour / $135,200 annualized compensation",
+          "End-of-year bonus of up to $10,000, contingent upon individual and overall company performance",
+          "Four-day workweek",
+          "Two schedule options designed to provide meaningful consecutive days off",
+          "Opportunity to work 100% remotely after 90 days, based on successful performance and the needs of the business",
+          "Opportunity to work directly with the Founder & CEO",
+          "Exposure to legal recruiting, staffing, business operations, payroll, marketing, social media, and entrepreneurship",
+          "Opportunity to develop a diverse and highly transferable professional skill set"
+        ]
+      },
+      {
+        "heading": "Our philosophy on work-life balance",
+        "para": "At Haraka Headhunters, we believe productivity should be measured by results — not by how many days someone can sit at a desk. Our Founder & CEO has a simple philosophy: five-day workweeks are not a badge of honor. We believe great people deserve time to work hard, recharge, have a life, and come back ready to perform at their best. We don’t believe in glorifying burnout. We believe in working smarter, getting the job done, and leaving enough life outside of work to actually enjoy it. Because at Haraka Headhunters, we’re in the business of finding exceptional people — and we intend to treat exceptional people exceptionally well.",
+        "items": []
+      }
+    ],
+    "applyHref": "mailto:Tiffany.Meikle@HarakaHeadhunters.com?subject=Application%3A%20Executive%20Assistant%20%26%20Payroll%20Operations%20Coordinator&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Executive%20Assistant%20%26%20Payroll%20Operations%20Coordinator%20role%20(250%20Park%20Avenue%2C%20New%20York%2C%20NY%2010016).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany.Meikle@HarakaHeadhunters.com"
+    ],
+    "referral": "$500 referral bonus if you refer an attorney who is hired by our client."
+  },
+  {
+    "title": "Estate Planning Associate",
+    "subtitle": null,
+    "category": "Trusts & Estates",
+    "location": "San Jose, CA · Downtown",
+    "salary": "$160k–$220k + Bonus & Benefits",
+    "intro": "Haraka Headhunters LLC is a legal search firm specializing in attorney placements. We are currently working with an established boutique law firm specializing in estate planning, complex trust administration, probate, and wealth transfer tax strategy. Our client serves ultra-high-net-worth individuals, tech executives, multi-generational families, and business owners throughout Silicon Valley and the United States, and is looking to add a talented Associate Attorney to its team!",
+    "sections": [
+      {
+        "heading": "What we’re looking for",
+        "para": "Must have a minimum of 5+ years of dedicated legal experience in trusts, estates, probate, and tax planning within a law firm setting, including:",
+        "items": [
+          "Drafting and structuring estate plans, including revocable trusts, irrevocable gift/grantor trusts (ILITs, QPRTs, GRATs), family LLCs, and advance directives",
+          "Advising trustees, executors, and beneficiaries through trust administration and probate court proceedings in Santa Clara County and surrounding Bay Area jurisdictions",
+          "Counseling clients on federal transfer tax issues and California property tax rules (Prop 19)",
+          "Deep working knowledge of the California Probate Code, California Revenue and Taxation Code, and federal transfer tax regulations",
+          "Familiarity with Santa Clara County Superior Court local procedures"
+        ]
+      },
+      {
+        "heading": "Education & licensing",
+        "para": null,
+        "items": [
+          "JD from a US ABA-accredited law school",
+          "An LL.M. in Taxation or Estate Planning, or a Certified Specialist designation in Estate Planning, Trust & Probate Law, is preferred but not required",
+          "Active license and in good standing with the State Bar of California"
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "Marquee clientele — ultra-high-net-worth individuals, tech executives, and multi-generational families",
+          "Direct engagement working alongside firm partners and attorneys",
+          "Medical, dental, and vision coverage",
+          "401(k)",
+          "10 days of vacation, increasing to 15 days after five years, plus 5 days of paid sick leave annually",
+          "Annual discretionary bonus",
+          "Fully stocked kitchen, Bagel Wednesdays, Fruit Mondays, and frequent catered lunches",
+          "Relaxed and collaborative work environment in a vibrant downtown San Jose location, close to restaurants, bars, and evening entertainment",
+          "Strong job security and low employee turnover"
+        ]
+      }
+    ],
+    "applyHref": "mailto:Tiffany@HarakaHeadhunters.com,Nadezda.Kuzhuget@HarakaHeadhunters.com?subject=Application%3A%20Estate%20Planning%20Associate&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Estate%20Planning%20Associate%20role%20(San%20Jose%2C%20CA%20%C2%B7%20Downtown).%0A%0AMy%20resume%20and%20writing%20sample(s)%20are%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany@HarakaHeadhunters.com",
+      "Nadezda.Kuzhuget@HarakaHeadhunters.com"
+    ],
+    "referral": "$500 referral bonus if you refer an attorney who is hired by our client."
+  },
+  {
+    "title": "Family Law Attorney (Open to Partnership Track)",
+    "subtitle": null,
+    "category": "Family Law",
+    "location": "Seattle, WA · Remote",
+    "salary": "$150k–$220k Base + Quarterly Bonuses (Up to 10% of Quarterly Salary) & Benefits",
+    "intro": "Haraka Headhunters LLC is a legal search firm specializing in attorney placements. We are currently partnered with a well-established and growing family law firm in Seattle, Washington, founded in 2015.",
+    "sections": [
+      {
+        "heading": "What we’re looking for",
+        "para": "Ideally, a minimum of 5 years of family law experience, primarily handling divorces, with the following:",
+        "items": [
+          "Active Washington Bar state license",
+          "Ability to attend court in person, if needed",
+          "Cannot be from the following states: NY, CA, and MT",
+          "Familiarity with King/Snohomish/Pierce local rules is a plus",
+          "Experience with surrogacy, equitable distribution, adoption, guardianship, and other family law matters is a plus"
+        ]
+      },
+      {
+        "heading": "Education & licensing",
+        "para": null,
+        "items": [
+          "JD or LLM from a US ABA-accredited law school",
+          "Admitted to and in good standing with the Washington State Bar Association"
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "9 paid holidays",
+          "4 weeks of PTO",
+          "Paid/unpaid bonding leave",
+          "Paid sick leave and personal days",
+          "Monthly wellness stipends and culture gifts",
+          "100% coverage for basic medical & dental insurance",
+          "Matching 401(k) after 7 months, life insurance, and long-term disability",
+          "Rentable firm-owned RV and personal concierge service for employee usage",
+          "In-person firm events, including an annual potluck at a cabin, for bonding and culture building",
+          "Full-time employees who meet KPIs within 30 weeks can apply the 30–40 benefit — getting paid for 40 hours while working 30"
+        ]
+      }
+    ],
+    "applyHref": "mailto:Tiffany@HarakaHeadhunters.com?subject=Application%3A%20Family%20Law%20Attorney%20(Open%20to%20Partnership%20Track)&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Family%20Law%20Attorney%20(Open%20to%20Partnership%20Track)%20role%20(Seattle%2C%20WA%20%C2%B7%20Remote).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany@HarakaHeadhunters.com"
+    ],
+    "referral": "$500 referral bonus if you refer an attorney who is hired by our client."
+  },
+  {
+    "title": "Insurance Defense Attorney (NYLL, Auto Accidents, Premise, and Dram Shop Liability)",
+    "subtitle": null,
+    "category": "Insurance Defense",
+    "location": "New York, NY · Hybrid",
+    "salary": "$175k–$215k",
+    "intro": "Haraka Headhunters LLC is a legal search firm specializing in attorney placements. We are currently working with a top-tier boutique law firm specializing in insurance defense that is experiencing exponential growth and is looking to add a few more attorneys to its team! Our client has offices in Tampa, Florida; Pittsburgh, Pennsylvania; New York City; and New Jersey.",
+    "sections": [
+      {
+        "heading": "What we’re looking for",
+        "para": "Must have at least 1 year of insurance defense experience, handling at least 1 of the following types of cases:",
+        "items": [
+          "Car accidents",
+          "Premise liability",
+          "Dram shop liability",
+          "Security negligence",
+          "Recent and significant trial experience is a plus!"
+        ]
+      },
+      {
+        "heading": "Education & licensing",
+        "para": null,
+        "items": [
+          "JD or LLM degree from a US ABA-accredited law school",
+          "Admitted and in good standing with the New York and New Jersey State Bar Associations"
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "Marquee clientele",
+          "WFH 2–3 days a week",
+          "Direct client engagement, as this is a boutique law firm",
+          "Retirement plan: 401(k) plan is included to help you plan for the future",
+          "Comprehensive medical coverage is fully paid for employees by the company",
+          "Time off: Generous paid time off (PTO) policy, allowing you the flexibility to recharge and attend to personal matters"
+        ]
+      }
+    ],
+    "applyHref": "mailto:Tiffany@HarakaHeadhunters.com,Nadezda.Kuzhuget@HarakaHeadhunters.com?subject=Application%3A%20Insurance%20Defense%20Attorney%20(NYLL%2C%20Auto%20Accidents%2C%20Premise%2C%20and%20Dram%20Shop%20Liability)&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Insurance%20Defense%20Attorney%20(NYLL%2C%20Auto%20Accidents%2C%20Premise%2C%20and%20Dram%20Shop%20Liability)%20role%20(New%20York%2C%20NY%20%C2%B7%20Hybrid).%0A%0AMy%20resume%20and%20writing%20sample(s)%20are%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany@HarakaHeadhunters.com",
+      "Nadezda.Kuzhuget@HarakaHeadhunters.com"
+    ],
+    "referral": null
+  },
+  {
     "title": "Insurance Defense Attorney (Auto Accidents, Premise, and Dram Shop Liability)",
     "subtitle": null,
     "category": "Insurance Defense",
@@ -28,13 +321,13 @@ export const roles: Role[] = [
     "sections": [
       {
         "heading": "What we’re looking for",
-        "para": "Must have at least 1 year of insurance defense experience, handling at least one of the following types of cases:",
+        "para": "Must have at least 1 year of insurance defense experience, handling at least 1 of the following types of cases:",
         "items": [
           "Car accidents",
           "Premise liability",
           "Dram shop liability",
           "Security negligence",
-          "Recent and significant trial experience is a plus"
+          "Recent and significant trial experience is a plus!"
         ]
       },
       {
@@ -52,16 +345,257 @@ export const roles: Role[] = [
           "Marquee clientele",
           "WFH 2–3 days a week",
           "Direct client engagement, as this is a boutique law firm",
-          "401(k) plan to help you plan for the future",
-          "Comprehensive medical coverage fully paid for employees by the company",
-          "Generous paid time off (PTO) policy, allowing flexibility to recharge and attend to personal matters"
+          "Retirement plan: 401(k) plan is included to help you plan for the future",
+          "Comprehensive medical coverage is fully paid for employees by the company",
+          "Time off: Generous paid time off (PTO) policy, allowing you the flexibility to recharge and attend to personal matters"
         ]
       }
     ],
-    "applyHref": "mailto:Tiffany@HarakaHeadhunters.com,Nadezda.Kuzhuget@HarakaHeadhunters.com?subject=Application%3A%20Insurance%20Defense%20Attorney%20(Auto%20Accidents%2C%20Premise%2C%20and%20Dram%20Shop%20Liability)&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Insurance%20Defense%20Attorney%20(Auto%20Accidents%2C%20Premise%2C%20and%20Dram%20Shop%20Liability)%20role%20(Pittsburgh%2C%20PA%20%C2%B7%20Remote).%0A%0AMy%20resume%20and%20writing%20sample(s)%20are%20attached.%0A%0ABest%2C",
+    "applyHref": "mailto:Tiffany@HarakaHeadhunters.com?subject=Application%3A%20Insurance%20Defense%20Attorney%20(Auto%20Accidents%2C%20Premise%2C%20and%20Dram%20Shop%20Liability)&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Insurance%20Defense%20Attorney%20(Auto%20Accidents%2C%20Premise%2C%20and%20Dram%20Shop%20Liability)%20role%20(Pittsburgh%2C%20PA%20%C2%B7%20Remote).%0A%0AMy%20resume%20and%20writing%20sample(s)%20are%20attached.%0A%0ABest%2C",
     "sendTo": [
-      "Tiffany@HarakaHeadhunters.com",
-      "Nadezda.Kuzhuget@HarakaHeadhunters.com"
+      "Tiffany@HarakaHeadhunters.com"
+    ],
+    "referral": "$500 referral bonus if you refer an attorney who is hired by our client."
+  },
+  {
+    "title": "First-Party Property Damage Litigation Associate",
+    "subtitle": null,
+    "category": "Litigation",
+    "location": "Connecticut · Open to Remote",
+    "salary": "$125k–$165k + Quarterly Bonuses (Typically $15k–$50k per Quarter) & Benefits",
+    "intro": "Haraka Headhunters LLC is a New York City-based attorney search firm that connects qualified attorneys with leading law firms across the United States. We are partnering with a fast-growing Texas-based firm seeking a litigation associate to join its first-party property damage team.",
+    "sections": [
+      {
+        "heading": "What we’re looking for",
+        "para": "Ideally, a minimum of one year of first-party property damage experience, or experience handling at least one of the following types of cases:",
+        "items": [
+          "Asbestos",
+          "Toxic mold",
+          "Construction defect",
+          "Habitability litigation",
+          "Bad faith insurance claims"
+        ]
+      },
+      {
+        "heading": "Education & licensing",
+        "para": null,
+        "items": [
+          "Juris Doctor from an ABA-accredited U.S. law school",
+          "Admitted and in good standing with the Connecticut State Bar"
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "Opportunity to first-chair or second-chair trials",
+          "Work alongside a collaborative and supportive team",
+          "5% of settlement fees paid quarterly (typically $15k–$50k per quarter)",
+          "Direct and frequent client interaction within a boutique practice setting",
+          "Join a fast-growing, sustainable firm with expansion underway across the U.S."
+        ]
+      }
+    ],
+    "applyHref": "mailto:Tiffany.Meikle@HarakaHeadhunters.com?subject=Application%3A%20First-Party%20Property%20Damage%20Litigation%20Associate&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20First-Party%20Property%20Damage%20Litigation%20Associate%20role%20(Connecticut%20%C2%B7%20Open%20to%20Remote).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany.Meikle@HarakaHeadhunters.com"
+    ],
+    "referral": "$500 referral bonus if you refer an attorney who is hired by our client."
+  },
+  {
+    "title": "Employment Litigation Attorney",
+    "subtitle": null,
+    "category": "Employment Litigation",
+    "location": "El Segundo, CA · Open to Remote",
+    "salary": "$225k–$350k + Bonus & Benefits",
+    "intro": "Haraka Headhunters is a NYC-based attorney search firm. We are currently partnered with an AV-rated, boutique employment defense firm based in El Segundo, California that has been defending California employers for nearly a decade and has assisted 500+ employers across the state. The firm carries a combined attorney experience of over 70 years and has built a strong reputation serving major employers across the restaurant, tech, hotel, and trucking industries. Due to exponential growth, they are looking to add a mid-level as well as a senior-level Employment Litigation Associate to their thriving practice.",
+    "sections": [
+      {
+        "heading": "What we’re looking for",
+        "para": "Ideally, a minimum of 7 years of experience defending a wide range of clients on class action and PAGA claims within the California employment litigation space. Experience with the following is also a plus:",
+        "items": [
+          "Sexual harassment defense",
+          "Whistleblower retaliation",
+          "Severance and separation disputes",
+          "Wage and hour claims",
+          "Title VII and discrimination claims"
+        ]
+      },
+      {
+        "heading": "Education & licensing",
+        "para": null,
+        "items": [
+          "JD from an ABA-accredited law school",
+          "Admission to the California State Bar and in good standing"
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "100% Remote option for the right candidate — court appearances are primarily virtual",
+          "Work-life balance — low billing requirement of just 1,800 hours annually",
+          "Generous bonus structure — hit your billing target and earn a guaranteed end-of-year bonus between $30,000 and $40,000, plus a discretionary bonus based on firm performance",
+          "Origination bonus — earn 15% of all billed revenue on any business you bring in",
+          "Bar dues and CLEs fully covered by the firm — plus support for marketing associations to help grow your book of business",
+          "Medical health benefits covered at 75% by the firm, with plan options available from day one",
+          "Podcast studio access — actively used weekly, ideal for attorneys looking to build their personal brand and become rainmakers",
+          "Direct and frequent client engagement from day one — this is a boutique practice where every attorney, including first-years, works directly with clients",
+          "Prime LA location — a stone’s throw from LAX Airport and right next door to the Lakers training facility (catch G League games and practices)",
+          "Collaborative team environment — every case is staffed with at least two attorneys; you are never working in isolation",
+          "Growth-oriented firm — these roles are open due to expansion, not backfill"
+        ]
+      }
+    ],
+    "applyHref": "mailto:Tiffany.Meikle@HarakaHeadhunters.com?subject=Application%3A%20Employment%20Litigation%20Attorney&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Employment%20Litigation%20Attorney%20role%20(El%20Segundo%2C%20CA%20%C2%B7%20Open%20to%20Remote).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany.Meikle@HarakaHeadhunters.com"
+    ],
+    "referral": "$750 referral bonus if you refer an attorney who is hired by our client."
+  },
+  {
+    "title": "Commercial Litigation Associate (Collections and Bankruptcy)",
+    "subtitle": null,
+    "category": "Commercial Litigation",
+    "location": "Queens, NY · Hybrid",
+    "salary": "$135k–$175k + Quarterly Bonuses & Benefits",
+    "intro": "Haraka Headhunters LLC is a New York-based attorney search firm that has successfully placed several candidates at top-tier boutique law firms. We are currently partnered with an energetic boutique commercial litigation law firm in Queens, New York, that serves clients in the alternative finance funding space. Their focus is on commercial collections and judgment enforcement. The firm maintains a collaborative, high-performance culture emphasizing accountability, self-reliance, and strong teamwork. Our client is currently experiencing exponential growth and is seeking to add a few commercial litigation associates with collections and/or bankruptcy experience to their team.",
+    "sections": [
+      {
+        "heading": "What we’re looking for",
+        "para": "Ideally, a minimum of 2 years of experience handling commercial litigation collection matters that involve or are adjacent to at least two of the following:",
+        "items": [
+          "Collections",
+          "Judgment enforcement",
+          "Bankruptcy (Chapters 7, 11, and 13)",
+          "Property damage (utility/construction defect) is a plus",
+          "Significant experience in commercial litigation collection matters, researching and drafting legal documents, court appearances, and managing caseloads"
+        ]
+      },
+      {
+        "heading": "Additional requirements",
+        "para": "Additionally, the incoming attorney will need to have significant experience researching and drafting legal memoranda and motions, appearing and arguing at hearings in court and in arbitration, drafting and responding to written discovery, taking and defending depositions, managing smaller matters with limited supervision, and working successfully as part of a team on larger matters. Recent experience managing complex caseloads, client interaction, or mentoring junior associates is a plus. The role involves direct client engagement with prestigious New York-based and national clients expecting high-level, responsive service.",
+        "items": []
+      },
+      {
+        "heading": "Education & licensing",
+        "para": null,
+        "items": [
+          "JD or LLM degree from a US ABA-accredited law school",
+          "Admitted and in good standing with any U.S. State Bar (New York Bar preferred)"
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "Talk of the Town holiday party!",
+          "Direct client engagement in a collaborative, boutique environment",
+          "Discretionary quarterly and end-of-year bonuses contingent on the overall profitability of the firm, seniority, merit, and performance (for example, a paralegal recently received a $15,000 EOY bonus)",
+          "Supportive team structure/adequate support staff: The firm has fewer than 4 lawyers and 30 support staff that consist of highly skilled paralegals and legal secretaries",
+          "Positive culture/work-life balance: Kind, collaborative team; most attorneys work 40 hours a week, rarely exceeding 50 hours per week",
+          "Comprehensive health benefits, including 401(k) with 3% match (fully paid confidential teletherapy services)",
+          "No strict billable requirements or KPIs (soft billing goals used for workload distribution and salary support)"
+        ]
+      }
+    ],
+    "applyHref": "mailto:Tiffany@HarakaHeadhunters.com?subject=Application%3A%20Commercial%20Litigation%20Associate%20(Collections%20and%20Bankruptcy)&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Commercial%20Litigation%20Associate%20(Collections%20and%20Bankruptcy)%20role%20(Queens%2C%20NY%20%C2%B7%20Hybrid).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany@HarakaHeadhunters.com"
+    ],
+    "referral": "$500 referral bonus if you refer an attorney who is hired by our client."
+  },
+  {
+    "title": "Litigation Paralegal",
+    "subtitle": null,
+    "category": "Paralegal",
+    "location": "Long Island, NY",
+    "salary": "Up to $90k + Benefits",
+    "intro": "Haraka Headhunters LLC is a New York City-based attorney search firm that connects qualified legal professionals with leading law firms across the United States. We are partnering with one of the top bankruptcy firms in the Eastern District of New York that is seeking an experienced litigation paralegal to join its growing team.",
+    "sections": [
+      {
+        "heading": "What we’re looking for",
+        "para": "Ideally, a candidate with a minimum of 5+ years of litigation experience as a paralegal within a law firm setting, performing the following responsibilities:",
+        "items": [
+          "Assisting foreclosure defense attorneys with litigation matters",
+          "Assisting bankruptcy attorneys with court proceedings, filings, and case preparation",
+          "Assisting landlord-tenant defense attorneys with litigation matters",
+          "Assisting attorneys with commercial litigation matters",
+          "Preparing, organizing, and filing legal documents with state and federal courts",
+          "Managing case files, exhibits, and discovery materials",
+          "Coordinating with clients, courts, and opposing counsel regarding case-related matters",
+          "Strong written and verbal communication skills",
+          "Thrives in a fast-paced, professional law firm environment"
+        ]
+      },
+      {
+        "heading": "Education",
+        "para": null,
+        "items": [
+          "Paralegal certificate or equivalent legal experience preferred"
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "Free on-site parking",
+          "Company potluck every other month",
+          "Work alongside a collaborative and supportive team",
+          "Talk of the Town holiday and employee birthday celebrations",
+          "Opportunity to work at the number one bankruptcy firm in the Eastern District"
+        ]
+      }
+    ],
+    "applyHref": "mailto:Tiffany.Meikle@HarakaHeadhunters.com?subject=Application%3A%20Litigation%20Paralegal&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Litigation%20Paralegal%20role%20(Long%20Island%2C%20NY).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany.Meikle@HarakaHeadhunters.com"
+    ],
+    "referral": null
+  },
+  {
+    "title": "Patent Attorney (Entrepreneurial-Minded w/ a Portable Book of Business)",
+    "subtitle": null,
+    "category": "Intellectual Property",
+    "location": "United States · 100% Remote",
+    "salary": "$150k–$700k+ (Uncapped Earning Potential)",
+    "intro": "Haraka Headhunters LLC is an attorney search firm specializing in attorney placements. We are currently working with a top-tier boutique law firm that is experiencing exponential growth and is looking to add a few more entrepreneurial-minded patent attorneys to their team.",
+    "sections": [
+      {
+        "heading": "What we’re looking for",
+        "para": null,
+        "items": [
+          "Keen interest in business development",
+          "Registered and in good standing with the USPTO",
+          "Must be able to leverage book of business upon hire",
+          "At least 5+ years of experience in filing and preparing both local and foreign patent and trademark applications",
+          "Must have a portable book of business with a total annual net worth of $150k minimum",
+          "Electrical engineering background preferred (we are open to computer engineering, computer science, or chemistry disciplines)"
+        ]
+      },
+      {
+        "heading": "Education & licensing",
+        "para": null,
+        "items": [
+          "JD or LLM from a US ABA-accredited law school"
+        ]
+      },
+      {
+        "heading": "What we offer",
+        "para": null,
+        "items": [
+          "Specialized support staff",
+          "Highly skilled marketing team",
+          "Flexibility to work 100% remotely",
+          "Advantageous marketing budget for your brand/practice",
+          "Overall support and camaraderie from industry specialists",
+          "Unparalleled work/life balance as well as the luxury of time to conduct business development"
+        ]
+      }
+    ],
+    "applyHref": "mailto:Tiffany.Meikle@HarakaHeadhunters.com?subject=Application%3A%20Patent%20Attorney%20(Entrepreneurial-Minded%20w%2F%20a%20Portable%20Book%20of%20Business)&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Patent%20Attorney%20(Entrepreneurial-Minded%20w%2F%20a%20Portable%20Book%20of%20Business)%20role%20(United%20States%20%C2%B7%20100%25%20Remote).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
+    "sendTo": [
+      "Tiffany.Meikle@HarakaHeadhunters.com"
     ],
     "referral": "$500 referral bonus if you refer an attorney who is hired by our client."
   },
@@ -120,107 +654,6 @@ export const roles: Role[] = [
       "Tiffany.Meikle@HarakaHeadhunters.com"
     ],
     "referral": "$350 referral bonus if you refer an attorney who is hired by our client."
-  },
-  {
-    "title": "Employment Litigation Attorney",
-    "subtitle": null,
-    "category": "Employment Litigation",
-    "location": "El Segundo, CA · Open to Remote",
-    "salary": "$225k–$350k + Bonus & Benefits",
-    "intro": "Haraka Headhunters is a NYC-based attorney search firm. We are currently partnered with an AV-rated, boutique employment defense firm based in El Segundo, California that has been defending California employers for nearly a decade and has assisted 500+ employers across the state. The firm carries a combined attorney experience of over 70 years and has built a strong reputation serving major employers across the restaurant, tech, hotel, and trucking industries. Due to exponential growth, they are looking to add a mid-level as well as a senior-level Employment Litigation Associate to their thriving practice.",
-    "sections": [
-      {
-        "heading": "What we’re looking for",
-        "para": "Ideally, a minimum of 7 years of experience defending a wide range of clients on class action and PAGA claims within the California employment litigation space. Experience with the following is also a plus:",
-        "items": [
-          "Sexual harassment defense",
-          "Whistleblower retaliation",
-          "Severance and separation disputes",
-          "Wage and hour claims",
-          "Title VII and discrimination claims"
-        ]
-      },
-      {
-        "heading": "Education & licensing",
-        "para": null,
-        "items": [
-          "JD from an ABA-accredited law school",
-          "Admission to the California State Bar and in good standing"
-        ]
-      },
-      {
-        "heading": "What we offer",
-        "para": null,
-        "items": [
-          "100% Remote option for the right candidate — court appearances are primarily virtual",
-          "Work-life balance — low billing requirement of just 1,800 hours annually",
-          "Generous bonus structure — hit your billing target and earn a guaranteed end-of-year bonus between $30,000 and $40,000, plus a discretionary bonus based on firm performance",
-          "Origination bonus — earn 15% of all billed revenue on any business you bring in",
-          "Bar dues and CLEs fully covered by the firm — plus support for marketing associations to help grow your book of business",
-          "Medical health benefits covered at 75% by the firm, with plan options available from day one",
-          "Podcast studio access — actively used weekly, ideal for attorneys looking to build their personal brand and become rainmakers",
-          "Direct and frequent client engagement from day one — this is a boutique practice where every attorney, including first-years, works directly with clients",
-          "Prime LA location — a stone’s throw from LAX Airport and right next door to the Lakers training facility (catch G League games and practices)",
-          "Collaborative team environment — every case is staffed with at least two attorneys; you are never working in isolation",
-          "Growth-oriented firm — these roles are open due to expansion, not backfill"
-        ]
-      }
-    ],
-    "applyHref": "mailto:Tiffany.Meikle@HarakaHeadhunters.com?subject=Application%3A%20Employment%20Litigation%20Attorney&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Employment%20Litigation%20Attorney%20role%20(El%20Segundo%2C%20CA%20%C2%B7%20Open%20to%20Remote).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
-    "sendTo": [
-      "Tiffany.Meikle@HarakaHeadhunters.com"
-    ],
-    "referral": "$750 referral bonus if you refer an attorney who is hired by our client."
-  },
-  {
-    "title": "Family Law Attorney (Open to Partnership Track)",
-    "subtitle": null,
-    "category": "Family Law",
-    "location": "Seattle, WA · Remote",
-    "salary": "$150k–$220k Base + Quarterly Bonuses & Benefits",
-    "intro": "Haraka Headhunters LLC is a legal search firm specializing in attorney placements. We are currently partnered with a well-established and growing family law firm in Seattle, Washington, founded in 2015.",
-    "sections": [
-      {
-        "heading": "What we’re looking for",
-        "para": "Ideally, a minimum of 5 years of family law experience, primarily handling divorces, with the following:",
-        "items": [
-          "Active Washington Bar state license",
-          "Ability to attend Court in-person, if needed",
-          "Cannot be from the following states: NY, CA, and MT",
-          "Familiarity with King/Snohomish/Pierce local rules is a plus",
-          "Experience with surrogacy, equitable distribution, adoption, guardianship, and other family law matters is a plus"
-        ]
-      },
-      {
-        "heading": "Education & licensing",
-        "para": null,
-        "items": [
-          "JD or LLM from a US ABA-accredited law school",
-          "Admitted to and in good standing with the Washington State Bar Association"
-        ]
-      },
-      {
-        "heading": "What we offer",
-        "para": null,
-        "items": [
-          "9 paid holidays",
-          "4 weeks of PTO",
-          "Paid/unpaid bonding leave",
-          "Paid sick leave and personal days",
-          "Monthly wellness stipends and culture gifts",
-          "100% coverage for basic medical & dental insurance",
-          "Matching 401(k) after 7 months, life insurance, and long-term disability",
-          "Rentable firm-owned RV and personal concierge service for employee usage",
-          "In-person firm events, including annual potluck at a cabin, for bonding and culture building",
-          "Full-time employees who meet KPIs within 30 weeks can apply the 30–40 benefit — getting paid for 40 hours while working 30"
-        ]
-      }
-    ],
-    "applyHref": "mailto:Tiffany@HarakaHeadhunters.com?subject=Application%3A%20Family%20Law%20Attorney%20(Open%20to%20Partnership%20Track)&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Family%20Law%20Attorney%20(Open%20to%20Partnership%20Track)%20role%20(Seattle%2C%20WA%20%C2%B7%20Remote).%0A%0AMy%20resume%20is%20attached.%0A%0ABest%2C",
-    "sendTo": [
-      "Tiffany@HarakaHeadhunters.com"
-    ],
-    "referral": "$500 referral bonus if you refer an attorney who is hired by our client."
   },
   {
     "title": "Litigation Associate (Class Actions)",
@@ -384,52 +817,6 @@ export const roles: Role[] = [
       "Tiffany.Meikle@HarakaHeadhunters.com"
     ],
     "referral": "$300 referral bonus if you refer an attorney who is hired by our client."
-  },
-  {
-    "title": "Insurance Defense Attorney (NYLL, Auto Accidents, Premise & Dram Shop Liability)",
-    "subtitle": null,
-    "category": "Insurance Defense",
-    "location": "New York, NY · Hybrid",
-    "salary": "$175k–$225k",
-    "intro": "Haraka Headhunters LLC is a legal search firm specializing in attorney placements. We are currently working with a top-tier boutique law firm specializing in insurance defense that is experiencing exponential growth and is looking to add a few more attorneys to its team! Our client has offices in Tampa, Florida; Pittsburgh, Pennsylvania; New York City; and New Jersey.",
-    "sections": [
-      {
-        "heading": "What we’re looking for",
-        "para": "Must have at least 1 year of insurance defense experience, handling at least one of the following types of cases:",
-        "items": [
-          "Car accidents",
-          "Premise liability",
-          "Dram shop liability",
-          "Security negligence",
-          "Recent and significant trial experience is a plus"
-        ]
-      },
-      {
-        "heading": "Education & licensing",
-        "para": null,
-        "items": [
-          "JD or LLM from a US ABA-accredited law school",
-          "Admitted and in good standing with the New York and New Jersey State Bar Associations"
-        ]
-      },
-      {
-        "heading": "What we offer",
-        "para": null,
-        "items": [
-          "Marquee clientele",
-          "WFH 2–3 days a week",
-          "Direct client engagement, as this is a boutique law firm",
-          "401(k) plan to help you plan for the future",
-          "Comprehensive medical coverage fully paid for employees by the company",
-          "Generous paid time off (PTO) policy, allowing flexibility to recharge and attend to personal matters"
-        ]
-      }
-    ],
-    "applyHref": "mailto:Tiffany@HarakaHeadhunters.com?subject=Application%3A%20Insurance%20Defense%20Attorney%20(NYLL%2C%20Auto%20Accidents%2C%20Premise%20%26%20Dram%20Shop%20Liability)&body=Hi%20Tiffany%2C%0A%0AI'm%20interested%20in%20the%20Insurance%20Defense%20Attorney%20(NYLL%2C%20Auto%20Accidents%2C%20Premise%20%26%20Dram%20Shop%20Liability)%20role%20(New%20York%2C%20NY%20%C2%B7%20Hybrid).%0A%0AMy%20resume%20and%20writing%20sample(s)%20are%20attached.%0A%0ABest%2C",
-    "sendTo": [
-      "Tiffany@HarakaHeadhunters.com"
-    ],
-    "referral": null
   },
   {
     "title": "Foreclosure Defense Attorney",
