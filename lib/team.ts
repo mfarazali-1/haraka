@@ -50,6 +50,19 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
+    "id": "muhammad-dawood",
+    "img": "/about/abdullah.png",
+    "alt": "Muhammad Dawood, Attorney Recruiter at Haraka Headhunters LLC",
+    "name": "Muhammad Dawood",
+    "role": "Attorney Recruiter",
+    "paras": [
+      "With a Bachelor’s degree in Management Sciences, specializing in Marketing, from the University of the Punjab, Lahore, Muhammad has developed a strong foundation in business development, relationship management, and recruitment. At Haraka Headhunters, Muhammad works in business development and legal recruitment, helping identify potential clients, explore new opportunities, and support the team in connecting organizations with the right legal talent. His role allows him to combine his business development skills with his interest in people, relationships, and professional growth.",
+      "What Muhammad values most about working at Haraka is the opportunity to learn something new every day, along with the supportive and collaborative environment. The trust, guidance, and encouragement he receives from management have created a space where he can take on new responsibilities, build confidence, and continue growing both personally and professionally.",
+      "Abdullah’s recruitment experience includes attorney recruiting for U.S.-based law firms at Haraka Headhunters LLC and full-cycle technical recruitment at WADIC, where he managed sourcing, screening, interview coordination, and onboarding across a variety of roles. His experience extends across the U.S., Pakistan, and Bangladesh markets, giving him a strong understanding of cross-border hiring dynamics and talent acquisition strategies.",
+      "Outside of work, Muhammad enjoys playing badminton and visiting agricultural fields, with a particular fondness for spending time around cows and buffaloes. He is also a fan of Atomic Habits, The Godfather, and Breaking Bad—reflecting his appreciation for personal growth, compelling storytelling, and memorable characters."
+    ]
+  },
+  {
     "id": "marvellous-ajayi",
     "img": "/about/ajayi.png",
     "alt": "Marvellous Ajayi, Business Development Manager at Haraka Headhunters LLC",
