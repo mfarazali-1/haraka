@@ -113,18 +113,6 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
-    "id": "eric-adams",
-    "img": "/about/eric.png",
-    "alt": "Eric Adams, Attorney Recruiter at Haraka Headhunters LLC",
-    "name": "Eric Adams",
-    "role": "Attorney Recruiter",
-    "paras": [
-      "Eric is an Attorney Recruiter at Haraka Headhunters LLC and a current student at CUNY Queens College, pursuing a Bachelor’s degree in Applied Mathematics. His professional background spans multiple industries — from real estate sales at the largest brokerage firm in the U.S. by sales volume, to hands-on technical work in his university’s 3D printing lab, where he developed proficiency in 3D prototyping. He also holds professional certificates in cybersecurity and finance.",
-      "In his current role at Haraka, Eric focuses on placing attorneys with top law firms, bringing sharp communication and a meticulous eye for detail to every search. Working directly under CEO Tiffany Meikle, Eric credits her mentorship with actively shaping how he thinks and communicates — she pushes him to approach every placement with greater precision, reinforcing that the smallest details are often the ones that matter most.",
-      "Outside of work, Eric stays active at the gym and on the yoga mat, and unwinds with a good novel — the kind with the scope and depth of The Count of Monte Cristo. When it comes to screen time, you’ll likely find him rewatching Breaking Bad."
-    ]
-  },
-  {
     "id": "victor",
     "img": "/about/victor.png",
     "alt": "Victor Hussain, Attorney Recruiter at Haraka Headhunters LLC",
