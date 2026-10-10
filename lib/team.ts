@@ -23,6 +23,20 @@ export const teamMembers: TeamMember[] = [
     "email": "Emmanuel.Ojo@HarakaHeadhunters.com"
   },
   {
+    "id": "melissa",
+    "img": "/about/Melissa.jpeg",
+    "alt": "Melissa Dorlean, Strategic Operations Lead at Haraka Headhunters LLC",
+    "name": "Melissa Dorlean",
+    "role": "Strategic Operations Lead",
+    "paras": [
+      "Melissa Dorlean holds a Bachelor of Science degree in Psychology from Brooklyn College, an educational foundation that has shaped her strong interest in understanding people, building meaningful relationships, and navigating different perspectives with empathy and professionalism. Her background has contributed to her naturally curious, adaptable, and thoughtful approach to both her work and personal life.",
+      "At Haraka Headhunters, Melissa serves as a key member of the team, working closely with Founder and CEO Tiffany to support both the professional and personal responsibilities that keep each day running smoothly. In this capacity, she provides comprehensive executive and home office management support, assisting with tasks ranging from payroll coordination and calendar management to travel arrangements, scheduling, organization, and other day-to-day administrative and personal matters. Her ability to anticipate needs, manage competing priorities, and handle details with discretion allows Tiffany and the broader team to remain focused on their highest priorities. Melissa brings a dependable, solutions-oriented presence to her role and takes pride in creating structure, efficiency, and ease behind the scenes.",
+      "Outside of work, Melissa is a naturally creative and social individual who enjoys DJing, dancing, discovering new restaurants, taking walks, listening to music, and spending quality time with friends and family. Music and dance are particularly meaningful creative outlets for her, giving her opportunities to express herself, connect with others, and explore new experiences.",
+      "Her favorite book is An Inconvenient Cop: My Fight to Change Policing in America, reflecting her interest in meaningful conversations surrounding society, perspective, and change. Her favorite movie is The Lion King, a timeless classic she appreciates for its memorable music, humor, and powerful lessons about growth, courage, and finding one's purpose."
+    ],
+    "email": "Melissa.Dorlean@HarakaHeadhunters.com"
+  },
+  {
     "id": "elizabeth-ojo",
     "img": "/about/elizebeth.jpeg",
     "alt": "Elizabeth Ojo, Attorney Recruiter at Haraka Headhunters LLC",
