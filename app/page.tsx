@@ -7,7 +7,7 @@ import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import TextMarquee from "@/components/TextMarquee";
 import { testimonials, googleReviews } from "@/lib/testimonials";
 
-const carouselNames = ["Glenn Dopf", "Mario I. Molina, Esq.", "Robert Gonzalez"];
+const carouselNames = ["George Sciarrino", "Glenn Dopf", "Mario I. Molina, Esq.", "Robert Gonzalez"];
 const carouselItems = carouselNames
   .map((name) => testimonials.find((t) => t.name === name))
   .filter((t): t is (typeof testimonials)[number] => Boolean(t));

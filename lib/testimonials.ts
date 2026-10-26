@@ -9,6 +9,13 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
+    "avatar": "/testimonials/avatars/georgee.jpg",
+    "name": "George Sciarrino",
+    "title": "Founder & Attorney of SCIO LAW",
+    "quote": "Tiffany Meikle was professional, responsive, and a pleasure to work with throughout the recruitment process. She kept the process moving efficiently and made the experience straightforward from start to finish.",
+    "date": "Sept 2026"
+  },
+  {
     "avatar": "/testimonials/avatars/stuart.jpg",
     "name": "Stuart B. Wolfe",
     "title": "Chair, Financial Services & Real Property Practice Group at Wolfe & Wyman LLP",
