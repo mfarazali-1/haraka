@@ -23,6 +23,16 @@ export const teamMembers: TeamMember[] = [
     "email": "Emmanuel.Ojo@HarakaHeadhunters.com"
   },
   {
+    "id": "talha",
+    "img": "/about/talha.png",
+    "alt": "Talha, AI Animator at Haraka Headhunters LLC",
+    "name": "Talha",
+    "role": "AI Animator",
+    "paras": [
+      "Talha is an AI Animator at Haraka Headhunters LLC, where he creates animated and video content for the firm's campaigns and brand. With a Bachelor of Architecture, he has worked in animation, design and visualization since 2021, building video campaigns around strong storytelling. What he values most about Haraka is its small, tight-knit team, where everyone is actively engaged and even junior members get real opportunities in business development. He admires the leadership of Tiffany Meikle, who keeps Haraka a focused, niche team even though it could easily grow much larger. Outside work, Talha enjoys cycling. His favorite movie is The Batman (2022), his favorite TV show is Breaking Bad, and his favorite book is Zero to One.",
+    ],
+  },
+  {
     "id": "elizabeth-ojo",
     "img": "/about/elizebeth.jpeg",
     "alt": "Elizabeth Ojo, Attorney Recruiter at Haraka Headhunters LLC",
