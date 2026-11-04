@@ -23,6 +23,18 @@ export const teamMembers: TeamMember[] = [
     "email": "Emmanuel.Ojo@HarakaHeadhunters.com"
   },
   {
+    "id": "arman",
+    "img": "/about/arman.jpg",
+    "alt": "Arman Eisemann, Executive Assistant to the Chief Executive Officer at Haraka Headhunters LLC",
+    "name": "Arman Eisemann",
+    "role": "Executive Assistant to the Chief Executive Officer",
+    "paras": [
+      "Arman Eisemann is the Executive Assistant to the CEO at Haraka Headhunters, where he supports executive leadership, streamlines daily operations, and helps ambitious teams excel. He holds a degree in Cinema and Media Studies from the University of Southern California. Arman has worked in operations and service support, frequently assisting company founders, entertainment executives, and private clients.",
+      "At Haraka, he enjoys collaborating with leadership and is known for his thoughtful service, clear communication, and proactive problem-solving. Outside of work, Arman loves traveling, discovering new food, football, poker, comedy, electronic music, and creating new things. He enjoys unwinding with great films—most recently Cloud (2024), A Serious Man (2009), and Obsession (2025)—and values spending quality time with friends and family.",
+    ],
+    "email": "Arman.Eisemann@HarakaHeadhunters.com"
+  },
+  {
     "id": "talha",
     "img": "/about/talha.png",
     "alt": "Talha, AI Animator at Haraka Headhunters LLC",
