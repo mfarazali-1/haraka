@@ -109,16 +109,16 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
-    "id": "muhammad-dawood",
-    "img": "/about/abdullah.png",
-    "alt": "Muhammad Dawood, Attorney Recruiter at Haraka Headhunters LLC",
-    "name": "Muhammad Dawood",
-    "role": "Attorney Recruiter",
+    "id": "haris-faheem",
+    "img": "/about/haris.png",
+    "alt": "Haris Faheem, Business Development Manager at Haraka Headhunters LLC",
+    "name": "Haris Faheem",
+    "role": "Business Development Manager",
     "paras": [
-      "With a Bachelor’s degree in Management Sciences, specializing in Marketing, from the University of the Punjab, Lahore, Muhammad has developed a strong foundation in business development, relationship management, and recruitment. At Haraka Headhunters, Muhammad works in business development and legal recruitment, helping identify potential clients, explore new opportunities, and support the team in connecting organizations with the right legal talent. His role allows him to combine his business development skills with his interest in people, relationships, and professional growth.",
-      "What Muhammad values most about working at Haraka is the opportunity to learn something new every day, along with the supportive and collaborative environment. The trust, guidance, and encouragement he receives from management have created a space where he can take on new responsibilities, build confidence, and continue growing both personally and professionally.",
-      "Abdullah’s recruitment experience includes attorney recruiting for U.S.-based law firms at Haraka Headhunters LLC and full-cycle technical recruitment at WADIC, where he managed sourcing, screening, interview coordination, and onboarding across a variety of roles. His experience extends across the U.S., Pakistan, and Bangladesh markets, giving him a strong understanding of cross-border hiring dynamics and talent acquisition strategies.",
-      "Outside of work, Muhammad enjoys playing badminton and visiting agricultural fields, with a particular fondness for spending time around cows and buffaloes. He is also a fan of Atomic Habits, The Godfather, and Breaking Bad—reflecting his appreciation for personal growth, compelling storytelling, and memorable characters."
+      "Haris Faheem is a Business Development Manager at Haraka Headhunters, where he develops partnerships with boutique U.S. law firms and connects them with exceptional legal talent. Drawing on more than four years of recruitment and client management experience, he brings a thoughtful, commercially informed approach to every search.",
+      "Haris holds a BSc (Hons) in Accounting and Finance from Queen’s University Belfast. His studies gave him a strong grounding in how organizations make decisions, which he draws on when learning about a client’s business and shaping a search around its priorities.",
+      "Before joining Haraka, Haris held recruitment management positions at Global Talent Connect LLC and GTC Tech. He led searches across technical and business functions, built candidate pipelines, and guided hiring processes from the first conversation through onboarding. He also worked directly with clients on staffing plans and supported recruiters delivering on complex requirements, including roles in cybersecurity, AI, and data.",
+      "Away from work, Haris makes time for the gym, enjoys experimenting in the kitchen, and travels whenever he gets the chance. He likes discovering new places and trying their local food, then coming home to unwind with a film or series. His favorites include Hannibal, Loki, Iron Man, and The Shawshank Redemption."
     ]
   },
   {
@@ -135,20 +135,6 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
-    "id": "victor",
-    "img": "/about/victor.png",
-    "alt": "Victor Hussain, Attorney Recruiter at Haraka Headhunters LLC",
-    "name": "Victor Hussain",
-    "role": "Attorney Recruiter",
-    "paras": [
-      "Victor Hussain is an Attorney Recruiter at Haraka Headhunters LLC, bringing five years of experience in talent acquisition and human resources across the United States, EMEA, and Southeast Asia. His international perspective, combined with a strong understanding of recruitment and talent strategy, enables him to identify exceptional legal professionals and connect them with opportunities aligned with their experience, ambitions, and long-term career objectives.",
-      "Victor holds a Bachelor’s degree in Animal Health and Production from Ladoke Akintola University of Technology in Nigeria and is a Certified Human Resource Professional (CHRP) through the Rahn Wesley Institute of Management in the United Kingdom. He has also earned certifications in Health & Social Care and First Aid at Work from Lead Academy and Inspire College of London. He is an active member of the Chartered Institute of Personnel Management (CIPM), Nigeria.",
-      "Throughout his career, Victor has worked across diverse industries and international markets, developing expertise in talent acquisition, business development, and relationship management. At Haraka Headhunters LLC, he focuses on attorney recruitment and business development, partnering with law firms and corporate legal departments throughout the United States to identify and attract highly qualified legal talent.",
-      "Victor approaches every search with a combination of diligence, discernment, and genuine curiosity about people. He understands that successful legal recruitment is about more than matching credentials to a job description; it is about understanding the needs of an organization, the strengths of a candidate, and the intersection between the two.",
-      "Outside of work, Victor enjoys staying active through football, both playing and following the sport, and appreciates a compelling story in any form. His favorite book, The 48 Laws of Power by Robert Greene, reflects his interest in strategy, human behavior, and leadership, while Black Panther remains one of his favorite films for its compelling themes of identity, leadership, and purpose."
-    ]
-  },
-  {
     "id": "sheema-malik",
     "img": "/about/sheeba.jpg",
     "alt": "Sheema Malik, Business Development Manager & Legal Recruiter at Haraka Headhunters LLC",
@@ -162,16 +148,16 @@ export const teamMembers: TeamMember[] = [
     ]
   },
   {
-    "id": "haris-faheem",
-    "img": "/about/haris.png",
-    "alt": "Haris Faheem, Business Development Manager at Haraka Headhunters LLC",
-    "name": "Haris Faheem",
-    "role": "Business Development Manager",
+    "id": "muhammad-dawood",
+    "img": "/about/abdullah.png",
+    "alt": "Muhammad Dawood, Attorney Recruiter at Haraka Headhunters LLC",
+    "name": "Muhammad Dawood",
+    "role": "Attorney Recruiter",
     "paras": [
-      "Haris Faheem is a Business Development Manager at Haraka Headhunters, where he develops partnerships with boutique U.S. law firms and connects them with exceptional legal talent. Drawing on more than four years of recruitment and client management experience, he brings a thoughtful, commercially informed approach to every search.",
-      "Haris holds a BSc (Hons) in Accounting and Finance from Queen’s University Belfast. His studies gave him a strong grounding in how organizations make decisions, which he draws on when learning about a client’s business and shaping a search around its priorities.",
-      "Before joining Haraka, Haris held recruitment management positions at Global Talent Connect LLC and GTC Tech. He led searches across technical and business functions, built candidate pipelines, and guided hiring processes from the first conversation through onboarding. He also worked directly with clients on staffing plans and supported recruiters delivering on complex requirements, including roles in cybersecurity, AI, and data.",
-      "Away from work, Haris makes time for the gym, enjoys experimenting in the kitchen, and travels whenever he gets the chance. He likes discovering new places and trying their local food, then coming home to unwind with a film or series. His favorites include Hannibal, Loki, Iron Man, and The Shawshank Redemption."
+      "With a Bachelor’s degree in Management Sciences, specializing in Marketing, from the University of the Punjab, Lahore, Muhammad has developed a strong foundation in business development, relationship management, and recruitment. At Haraka Headhunters, Muhammad works in business development and legal recruitment, helping identify potential clients, explore new opportunities, and support the team in connecting organizations with the right legal talent. His role allows him to combine his business development skills with his interest in people, relationships, and professional growth.",
+      "What Muhammad values most about working at Haraka is the opportunity to learn something new every day, along with the supportive and collaborative environment. The trust, guidance, and encouragement he receives from management have created a space where he can take on new responsibilities, build confidence, and continue growing both personally and professionally.",
+      "Abdullah’s recruitment experience includes attorney recruiting for U.S.-based law firms at Haraka Headhunters LLC and full-cycle technical recruitment at WADIC, where he managed sourcing, screening, interview coordination, and onboarding across a variety of roles. His experience extends across the U.S., Pakistan, and Bangladesh markets, giving him a strong understanding of cross-border hiring dynamics and talent acquisition strategies.",
+      "Outside of work, Muhammad enjoys playing badminton and visiting agricultural fields, with a particular fondness for spending time around cows and buffaloes. He is also a fan of Atomic Habits, The Godfather, and Breaking Bad—reflecting his appreciation for personal growth, compelling storytelling, and memorable characters."
     ]
   }
 ];
