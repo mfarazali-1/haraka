@@ -48,8 +48,8 @@ export const teamMembers: TeamMember[] = [
     "id": "elizabeth-ojo",
     "img": "/about/elizebeth.jpeg",
     "alt": "Elizabeth Ojo, Attorney Recruiter at Haraka Headhunters LLC",
-    "name": "Elizabeth Ojo",
-    "role": "Attorney Recruiter",
+    "name": "Elizabeth Ojo, Esq.",
+    "role": "Attorney Recruiter and Business Development Manager",
     "paras": [
       "Elizabeth Ojo is an Attorney Recruiter at Haraka Headhunters LLC, bringing five years of experience in Talent Acquisition and Human Resources across Africa, APAC, and the United States. She holds a Bachelor’s degree in Anthropology and a Master’s degree in Employment Relations and Human Resource Management from the University of Ibadan, Nigeria, alongside professional certifications in HR and Recruitment.",
       "At Haraka, Elizabeth enjoys the fast-paced environment, learning from Tiffany’s wealth of knowledge and experience, and constantly discovering new ways to grow professionally.",
@@ -100,7 +100,7 @@ export const teamMembers: TeamMember[] = [
     "img": "/about/mariano.png",
     "alt": "Mariano Rudolf, Business Development Manager at Haraka Headhunters LLC",
     "name": "Mariano Rudolf",
-    "role": "Business Development Manager",
+    "role": "Fractional Business Development Associate",
     "paras": [
       "Mariano Rudolf is a bilingual Argentine attorney and Business Development Manager at Haraka Headhunters LLC, where he helps connect U.S.-based law firms with skilled legal professionals and supports the development of strategic relationships within the legal industry. His background as a practicing lawyer in Argentina, combined with his experience supporting U.S. law firms, gives him a unique understanding of both legal systems and the demands of modern legal practice.",
       "Mariano earned his Law Degree from Universidad Nacional del Sur in Argentina and completed a Postgraduate Program in Criminal Law. He further pursued postgraduate studies in Corporate Compliance and Corporate Criminal Responsibility at Universidad Católica Argentina and earned a Diploma in Judicial Innovation and Technology Management from the Council of the Judiciary.",
