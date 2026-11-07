@@ -9,6 +9,13 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
+    "avatar": "/testimonials/avatars/kali2.jpg",
+    "name": "Ruth D. Orange, Esq., LL.M.",
+    "title": "Staff Counsel at Allstate",
+    "quote": "Tiffany Meikle is not just GOOD at what she does—she is EXCEPTIONAL! Her responsiveness, attention to detail, consistent follow-through, and remarkable efficiency truly set her apart in the recruiting industry.\n\nWhat makes Tiffany extraordinary is that she doesn't simply fill vacancies; she matches people with opportunities where they genuinely belong and can thrive. She has an incredible ability to evaluate your credentials, recognize your strengths, understand your professional goals, and connect you with what could very well be your forever professional home.\n\nI especially admire her drive, dedication, and unmatched work ethic. Tiffany goes above and beyond for both candidates and clients, working evenings and even weekends to make things happen. She is dependable, proactive, personable, and genuinely invested in your success.\n\nMy experience speaks for itself: Tiffany reached out to me on a Saturday, and less than THREE DAYS later, I was hired! She even took the time to prepare me for my interview, ensuring I walked in confident and ready.\n\nIt's no wonder she's a leading name in the recruiting industry. Tiffany doesn't just open doors; she makes sure they're the RIGHT doors!\n\nPhenomenal is an understatement. Beyond her professional excellence, her warmth and genuine spirit make it clear that she's just as amazing outside of work.\n\nThank you, Tiffany, for your dedication, professionalism, and for making what can often be a stressful process feel absolutely seamless. You are truly in a league of your own! I cannot recommend you highly enough!",
+    "date": "Nov 2026"
+  },
+  {
     "avatar": "/testimonials/avatars/georgee.jpg",
     "name": "George Sciarrino",
     "title": "Founder & Attorney of SCIO LAW",
